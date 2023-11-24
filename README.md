@@ -1,6 +1,6 @@
 # Fortnite Offsets
 
-The latest Fortnite Offsets (v27.10 11-16-23)
+The latest Fortnite Offsets (v27.11 11-16-23)
 
 # Credits
 
