@@ -1,10 +1,10 @@
-#define GWorld 0x10AEC0B8
+#define GWorld 0x1123AF78
 #define VIEW_POINT 0xE49C7E0
 
 
 namespace OFFSETS
 {
-    uintptr_t UWORLD = 0x10AEC0B8;
+    uintptr_t UWORLD = 0x1123AF78;
     uintptr_t Viewpoint = 0xE49C7E0;
 
     uintptr_t Gameinstance = 0x1b8;
