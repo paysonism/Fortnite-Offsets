@@ -4,6 +4,7 @@
 
 namespace OFFSETS
 {
+// payson1337
     uintptr_t UWORLD = 0x1123AF78;
     uintptr_t Viewpoint = 0xE49C7E0;
 
@@ -26,7 +27,7 @@ namespace OFFSETS
     uintptr_t Revivefromdbnotime = 0x4b68;
     uintptr_t TeamId = 0x10e0;
     uintptr_t ActorTeamId = 0x10e0;
-
+// payson1337
     uintptr_t IsDBNO = 0x872;
     uintptr_t LocalActorPos = 0x128;
     uintptr_t ComponetToWorld = 0x240;
@@ -40,7 +41,7 @@ namespace OFFSETS
     uintptr_t entity_actor = 0x310;
     uintptr_t bIsReloadingWeapon = 0x358;
     uintptr_t GlobalAnimRateScale = 0xA80;
-    uintptr_t CurrentWeapon = 0x948;
+    uintptr_t CurrentWeapon = 0xa20;
     uintptr_t Wireframe = 0x194;
     uintptr_t SkeletalMeshes = 0x56e;
     uintptr_t PawnMaterials_ALL = 0x5A60;
