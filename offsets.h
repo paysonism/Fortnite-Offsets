@@ -1,4 +1,4 @@
-#define GWorld 0x1123AF78
+#define GWorld 0x117392A8
 #define VIEW_POINT 0xE49C7E0
 
 
