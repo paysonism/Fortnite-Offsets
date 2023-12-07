@@ -5,7 +5,7 @@
 namespace OFFSETS
 {
 // payson1337
-    uintptr_t UWORLD = 0x1123AF78;
+    uintptr_t UWORLD = 0x117392A8; // updated for v28.10
     uintptr_t Viewpoint = 0xE49C7E0;
 
     uintptr_t Gameinstance = 0x1D0;
