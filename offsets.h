@@ -32,7 +32,7 @@ namespace OFFSETS
     uintptr_t LocalActorPos = 0x120;
     uintptr_t ComponetToWorld = 0x240;
     uintptr_t BoneArray = 0x608;
-    uintptr_t Bonecache = 0x648;
+    uintptr_t BoneCache = 0x650;
     uintptr_t Velocity = 0x168;
     uintptr_t Private = 0x308; //PawnPrivate
     uintptr_t PlayerArray = 0x2A8;
