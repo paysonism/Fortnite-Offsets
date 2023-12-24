@@ -1,12 +1,12 @@
 #define GWorld 0x11781328
-#define VIEW_POINT 0xE49C7E0
+#define VIEW_POINT 0x10F90A10
 
 
 namespace OFFSETS
 {
 // payson1337
     uintptr_t UWORLD = 0x11781328; // updated
-    uintptr_t Viewpoint = 0xE49C7E0;
+    uintptr_t Viewpoint = 0x10F90A10;
 
     uintptr_t Gameinstance = 0x1D0;
     uintptr_t LocalPlayers = 0x38;
