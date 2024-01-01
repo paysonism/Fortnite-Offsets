@@ -30,7 +30,7 @@ namespace OFFSETS
 // payson1337
     uintptr_t IsDBNO = 0x872;
     uintptr_t LocalActorPos = 0x120;
-    uintptr_t ComponetToWorld = 0x240;
+    uintptr_t ComponetToWorld = 0x230; // updated
     uintptr_t BoneArray = 0x608;
     uintptr_t BoneCache = 0x658; // updated
     uintptr_t Velocity = 0x168;
