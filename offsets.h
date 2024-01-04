@@ -16,8 +16,8 @@ namespace OFFSETS
     uintptr_t RootComponet = 0x198;
     uintptr_t GameState = 0x158;
     uintptr_t PersistentLevel = 0x30;
-    uintptr_t LastSubmitTime = 0x368;
-    uintptr_t LastRenderTimeOnScreen = 0x370;
+    uintptr_t LastSubmitTime = 0x358;
+    uintptr_t LastRenderTimeOnScreen = 0x360;
 
     uintptr_t ActorCount = 0xA8;
     uintptr_t Cameramanager = 0x348;
