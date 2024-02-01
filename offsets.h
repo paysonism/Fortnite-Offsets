@@ -5,7 +5,7 @@
 namespace OFFSETS
 {
 // payson1337
-    uintptr_t UWORLD = 0x1133C4C8; // updated
+    uintptr_t UWORLD = 0x112F14C8; // updated
     uintptr_t Viewpoint = 0x10F90A10;
 
     uintptr_t Gameinstance = 0x1D0;
@@ -46,4 +46,7 @@ namespace OFFSETS
     uintptr_t SkeletalMeshes = 0x56e;
     uintptr_t PawnMaterials_ALL = 0x5A60;
     uintptr_t FNamePool = 0x1150A280;
+    uintptr_t tier = 0x73;
+    uintptr_t DisplayName = 0x90;
+    uintptr_t PrimaryPickupItemEntry = 0x350;
 }
