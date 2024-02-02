@@ -5,5 +5,5 @@ bc I quit comm. Anyways, if u just paste this shit into ur own repo gimmie creds
 
 # Info
 
-[discord.gg/subz](https://discord.gg/subz)
-[t.me/subzerocheats](https://t.me/subzerocheats)
+[Saturn IV](https://t.me/saturncheats)
+[Telegram](https://t.me/payson1337)
