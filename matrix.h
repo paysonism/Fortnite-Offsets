@@ -1,4 +1,3 @@
-//https://discord.gg/h-m
 D3DXMATRIX Matrix(Vector3 rot, Vector3 origin = Vector3(0, 0, 0))
 {
     float radPitch = (rot.x * float(M_PI) / 180.f);
