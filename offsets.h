@@ -1,52 +1,77 @@
-#define GWorld 0x1133C4C8
-#define VIEW_POINT 0x10F90A10
+    "UWorld": "0x1161FE98", // payson1337
+    "FNAME" : "0x11944BC0", // payson1337
+    "STATICFINDOBJECT" : "0x12DD5C0", // payson1337
+    "GOBJECT" : "0x11749AC0", // payson1337
+    "BONEMATRIX" : "0x142900C", // payson1337
+    "tier": "0x73", // payson1337
+    "DisplayName": "0x90", // payson1337
+    "PrimaryPickupItemEntry": "0x350", // payson1337
+    "ItemDefinition": "0x18", // payson1337
+    "ObjectID": "0x18", // payson1337
+    "OwningGameInstance": "0x1d0", // payson1337
+    "Levels": "0x170", // payson1337 
+    "GameState": "0x158", // payson1337 
+    "PersistentLevel": "0x30", // payson1337
+    "AActors": "0xA0", // payson1337
+    "ActorCount": "0xA8", // payson1337
+    "LocalPlayers": "0x38", // payson1337
+    "PlayerController": "0x30", // payson1337
+    "AcknowledgedPawn": "0x338", // payson1337
+    "PlayerCameraManager": "0x348", // payson1337
+    "bHidden": "0x58", // payson1337
+    "RootComponent": "0x198", // payson1337
+    "RelativeLocation": "0x120", // payson1337
+    "RelativeRotation": "0x138", // payson1337
+    "Mesh": "0x318", // payson1337
+    "PlayerState": "0x2b0", // payson1337
+    "TeamIndex": "0x10f1", // payson1337
+    "ReviveFromDBNOTime": "0x4ae8", // payson1337
+    "LocalActorPos": "0x120", // payson1337
+    "ComponentToWorld": "0x230", // payson1337
+    "CurrentWeapon": "0xa20", // payson1337
+    "CurrentVehicle": "0x2840", // payson1337
+    "bIsReloadingWeapon": "0x368", // payson1337
+    "GlobalAnimRateScale": "0xa68", // payson1337
+    "WeaponData": "0x4d0", // payson1337
+    "BoneArray": "0x608", // payson1337
+    "BoneCache": "0x658", // payson1337
+    "Velocity": "0x168", // payson1337
+    "TriggerType": "0xb4c", // payson1337
+    "ReticleDefaultColor": "0x6f8", // payson1337
+    "ReticleEnemyColor": "0x6fc", // payson1337
+    "ReticleBuildingColor": "0x700", // payson1337
+    "ReticleNoTargetColor": "0x704", // payson1337
+    "InputYawScale": "0x538", // payson1337
+    "InputPitchScale": "0x53c", // payson1337
+    "AmmoCount": "0xe1c", // payson1337
+    "bIsParachuteOpen": "0x1fa4", // payson1337
+    "bIsSkydiving": "0x1fa3", // payson1337
+    "bIsDBNO": "0x93a", // payson1337
+    "bIsDying": "0x758", // payson1337
+    "bAlreadySearched": "0xd92", // payson1337
+    "bActive": "0x2c0", // payson1337
+    "bPickedUp": "0x5f1", // payson1337
+    "KillScore": "0x10f4", // payson1337
+    "TeamKillScore": "0x103c", // payson1337
+    "WorldSettings": "0x2a0", // payson1337
+    "WorldGravityZ": "0x310", // payson1337
+    "AimPitchMin": "0x1620", // payson1337
+    "AimPitchMax": "0x1624", // payson1337
+    "JumpStaminaCost": "0x2594", // payson1337
+    "PrimaryFireSound1P": "0x7b8", // payson1337
+    "PrimaryFireSound": "0x7c0", // payson1337
+    "PrimaryFireStopSound1P": "0x7d8", // payson1337
+    "PrimaryFireStopSound": "0x7e0", // payson1337
+    "VehicleAttributes": "0x1228", // payson1337
+    "FrontLateralFrictionScale": "0x00", // payson1337
+    "RearLateralFrictionScale": "0x04", // payson1337
+    "BrakeForceTractionScale": "0x08", // payson1337
+    "ForwardForceTractionScale": "0x0c", // payson1337
+    "SlopeAntigravityScale": "0x10", // payson1337
+    "TopSpeedScale": "0x14", // payson1337
+    "VehicleGravityScale": "0x18", // payson1337
+    "bBrakeBeforeReverse": "0x1c", // payson1337
+    "CachedFuelComponent": "0x1250", // payson1337
+    "ServerFuel": "0xf0" // discord.gg/saturniv
 
-
-namespace OFFSETS
-{
-// payson1337
-    uintptr_t UWORLD = 0x112F14C8; // updated
-    uintptr_t Viewpoint = 0x10F90A10;
-
-    uintptr_t Gameinstance = 0x1D0;
-    uintptr_t LocalPlayers = 0x38;
-    uintptr_t PlayerController = 0x30;
-    uintptr_t LocalPawn = 0x338;
-    uintptr_t PlayerState = 0x2B0;
-    uintptr_t RootComponet = 0x198;
-    uintptr_t GameState = 0x158;
-    uintptr_t PersistentLevel = 0x30;
-    uintptr_t LastSubmitTime = 0x358;
-    uintptr_t LastRenderTimeOnScreen = 0x360;
-
-    uintptr_t ActorCount = 0xA8;
-    uintptr_t Cameramanager = 0x348;
-    uintptr_t AActor = 0xA0;
-    uintptr_t CurrentActor = 0x8;
-    uintptr_t Mesh = 0x318;
-    uintptr_t Revivefromdbnotime = 0x4AE0;
-    uintptr_t TeamId = 0x10E0;
-    uintptr_t ActorTeamId = 0x10e0;
-// payson1337
-    uintptr_t IsDBNO = 0x872;
-    uintptr_t LocalActorPos = 0x120;
-    uintptr_t ComponetToWorld = 0x230; // updated
-    uintptr_t BoneArray = 0x608;
-    uintptr_t BoneCache = 0x658; // updated
-    uintptr_t Velocity = 0x168;
-    uintptr_t Private = 0x308; //PawnPrivate
-    uintptr_t PlayerArray = 0x2A8;
-    uintptr_t relativelocation = 0x120;
-    uintptr_t UCharacterMovementComponent = 0x318;
-    uintptr_t entity_actor = 0x310;
-    uintptr_t bIsReloadingWeapon = 0x360;
-    uintptr_t GlobalAnimRateScale = 0xA80;
-    uintptr_t CurrentWeapon = 0xa20;
-    uintptr_t Wireframe = 0x194;
-    uintptr_t SkeletalMeshes = 0x56e;
-    uintptr_t PawnMaterials_ALL = 0x5A60;
-    uintptr_t FNamePool = 0x1150A280;
-    uintptr_t tier = 0x73;
-    uintptr_t DisplayName = 0x90;
-    uintptr_t PrimaryPickupItemEntry = 0x350;
-}
+        // i changed this to json and its gonna stay this way. Now you guys can just setup auto updating offsets for ur cheats.
