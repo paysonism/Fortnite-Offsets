@@ -1,9 +1,8 @@
 # Fortnite Offsets
 
-These are the latest fortnite offsets. I usually update them every update but sometimes I forget
-bc I quit comm. Anyways, if u just paste this shit into ur own repo gimmie creds lol.
+These are the latest fortnite offsets. These usually update within a few hours of the game updating.
 
 # Info
 
-[Saturn IV](https://t.me/saturncheats)
+[Saturn IV](https://discord.gg/saturniv)
 [Telegram](https://t.me/payson1337)
