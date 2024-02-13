@@ -1,11 +1,11 @@
 #pragma once
 #include <cstdint>
-
+//full sdk root1337 thanks soar
 namespace Addresses
 {
-	uintptr_t GWorld = 0x11770D88;
-	uintptr_t GObjects = 0x11749AC0;
-	uintptr_t GNames = 0x11944BC0;
+	uintptr_t GWorld = 0x117B7E88;
+	uintptr_t GObjects = 0x11790BC0;
+	uintptr_t GNames = 0x1198BD00;
 	uintptr_t StaticFindObject = 0x12DD5C0;
 	uintptr_t GetBoneMatrix = 0x142900C;
 	uintptr_t LineOfSightTo = 0x627FB84;
@@ -70,5 +70,4 @@ namespace Offsets
 
         // PlayerState
         uintptr_t bIsABot = 0x29a;
-
 }
