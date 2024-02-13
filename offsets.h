@@ -34,6 +34,7 @@ namespace Offsets
 	uintptr_t RelativeLocation = 0x120;
 	uintptr_t DisplayName = 0x90;
 	uintptr_t ComponetToWorld = 0x230;
+	uintptr_t PawnPrivate = 0x308;
 
         uintptr_t Last_Render_Time = 0x2E8;
         uintptr_t Last_Render_Time_On_Screen = 0x2F0;
