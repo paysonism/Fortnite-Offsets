@@ -3,11 +3,11 @@
 //full sdk root1337 thanks soar
 namespace Addresses
 {
-	uintptr_t GWorld = 0x117B7E88;
+	uintptr_t GWorld = 0x11791DF8;
 	uintptr_t GObjects = 0x11790BC0;
-	uintptr_t GNames = 0x1198BD00;
-	uintptr_t StaticFindObject = 0x18E7260;
-	uintptr_t GetBoneMatrix = 0x11AA100;
+	uintptr_t GNames = 0x119692C0;
+	uintptr_t StaticFindObject = 0x12933D0;
+	uintptr_t GetBoneMatrix = 0x1889238;
 	uintptr_t LineOfSightTo = 0x627FB84;
 }
 
