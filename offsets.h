@@ -3,11 +3,11 @@
 // payson1337
 namespace Addresses
 {
-	uintptr_t GWorld = 0x11791DF8;
+	uintptr_t GWorld = 0x11791DF8; // updated
 	uintptr_t GObjects = 0x11790BC0;
-	uintptr_t GNames = 0x119692C0;
-	uintptr_t StaticFindObject = 0x12933D0;
-	uintptr_t GetBoneMatrix = 0x1889238;
+	uintptr_t GNames = 0x119692C0; // updated
+	uintptr_t StaticFindObject = 0x12933D0; // updated
+	uintptr_t GetBoneMatrix = 0x1889238; // updated
 	uintptr_t LineOfSightTo = 0x627FB84;
 }
 
@@ -65,7 +65,7 @@ namespace Offsets
 	uintptr_t bIsSliding = 0x75b;
 	uintptr_t bWeaponHolstered = 0x939;
 	uintptr_t bIsDBNO = 0x93a;
-	uintptr_t LastRevivedFromDBNOTime = 0x994;
+	uintptr_t LastRevivedFromDBNOTime = 0x4B80; // updated
 	uintptr_t bIsJumping = 0xa18;
 
         // PlayerState
