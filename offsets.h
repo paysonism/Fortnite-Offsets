@@ -1,6 +1,6 @@
 #pragma once
 #include <cstdint>
-//full sdk root1337 thanks soar
+// payson1337
 namespace Addresses
 {
 	uintptr_t GWorld = 0x11791DF8;
@@ -34,7 +34,7 @@ namespace Offsets
 	uintptr_t RelativeLocation = 0x120;
 	uintptr_t DisplayName = 0x90;
 	uintptr_t ComponetToWorld = 0x230;
-	uintptr_t PawnPrivate = 0x308;
+	uintptr_t PawnPrivate = 0x308; // discord.gg/saturniv
 
         uintptr_t Last_Render_Time = 0x2E8;
         uintptr_t Last_Render_Time_On_Screen = 0x2F0;
@@ -71,3 +71,11 @@ namespace Offsets
         // PlayerState
         uintptr_t bIsABot = 0x29a;
 }
+
+/*
+* I would appreciate if you could join my discord. I work hard on releasing free ud cheats and spoofers,
+* I also have the only working nitro generator (dw its jus a discord bot u dont have to download shit).
+* I would also appreciate if you could star the repo as I work hard on this stuff!
+*
+* discord.gg/saturniv
+*/
