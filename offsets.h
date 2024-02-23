@@ -33,7 +33,7 @@ namespace Offsets
 	uintptr_t PersistentLevel = 0x30;
 	uintptr_t RelativeLocation = 0x120;
 	uintptr_t DisplayName = 0x90;
-	uintptr_t ComponetToWorld = 0x230;
+	uintptr_t ComponetToWorld = 0x1c0;
 	uintptr_t PawnPrivate = 0x308; // discord.gg/saturniv
 
         uintptr_t Last_Render_Time = 0x2E8;
