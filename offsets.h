@@ -9,6 +9,7 @@ namespace Addresses
 	uintptr_t StaticFindObject = 0x12933D0; // updated
 	uintptr_t GetBoneMatrix = 0x1889238; // updated
 	uintptr_t LineOfSightTo = 0x627FB84;
+	uintptr_t Viewpoint = 0x10F90A10; // updated
 }
 
 namespace Offsets
