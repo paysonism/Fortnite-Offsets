@@ -3,11 +3,11 @@
 // payson1337
 namespace Addresses
 {
-	uintptr_t GWorld = 0x11791DF8; // updated
-	uintptr_t GObjects = 0x11790BC0;
-	uintptr_t GNames = 0x119692C0; // updated
-	uintptr_t StaticFindObject = 0x12933D0; // updated
-	uintptr_t GetBoneMatrix = 0x1889238; // updated
+	uintptr_t GWorld = 0x10C628D8; // updated
+	uintptr_t GObjects = 0x10C3AE40; // updated
+	uintptr_t GNames = 0x10E400C0; // updated (same thing as FNAME)
+	uintptr_t StaticFindObject = 0x13FBDEC; // updated
+	uintptr_t GetBoneMatrix = 0x1CDCFD4; // updated
 	uintptr_t LineOfSightTo = 0x627FB84;
 	uintptr_t Viewpoint = 0x10F90A10; // updated
 }
