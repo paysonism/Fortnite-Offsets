@@ -10,7 +10,7 @@ namespace Addresses
 	uintptr_t StaticFindObject = 0x1909800; // updated
 	uintptr_t BoneMatrix = 0x1AD592C; // updated
 	uintptr_t LineOfSightTo = 0x627FB84;
-	uintptr_t Viewpoint = 0x10F90A10; // updated
+	uintptr_t Viewpoint = 0x10F90A10;
 	uintptr_t DrawTransition = 0x71; // updated
 	uintptr_t ProcessEvent = 0x4D;
 }
