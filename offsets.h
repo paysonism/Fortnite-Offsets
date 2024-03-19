@@ -3,18 +3,21 @@
 // payson1337
 namespace Addresses
 {
-	uintptr_t GWorld = 0x10C628D8; // updated
-	uintptr_t GObjects = 0x10C3AE40; // updated
-	uintptr_t GNames = 0x10E400C0; // updated (same thing as FNAME)
-	uintptr_t StaticFindObject = 0x13FBDEC; // updated
-	uintptr_t GetBoneMatrix = 0x1CDCFD4; // updated
+	uintptr_t GWorld = 0x11E88988; // updated
+	uintptr_t GObjects = 0x11E60EC0; // updated
+	uintptr_t GNames = 0x10E400C0; // updated
+	uintptr_t FName = 0x12066800; // updated (NamePoolChunk)
+	uintptr_t StaticFindObject = 0x1909800; // updated
+	uintptr_t BoneMatrix = 0x1AD592C; // updated
 	uintptr_t LineOfSightTo = 0x627FB84;
 	uintptr_t Viewpoint = 0x10F90A10; // updated
+	uintptr_t DrawTransition = 0x71; // updated
+	uintptr_t ProcessEvent = 0x4D;
 }
 
 namespace Offsets
 {
-	// main
+	// discord.gg/saturniv
 	uintptr_t LocalPawn = 0x338;
 	uintptr_t PlayerController = 0x30;
 	uintptr_t LocalPlayers = 0x38;
@@ -36,13 +39,10 @@ namespace Offsets
 	uintptr_t DisplayName = 0x90;
 	uintptr_t ComponetToWorld = 0x1c0;
 	uintptr_t PawnPrivate = 0x308; // discord.gg/saturniv
-
         uintptr_t Last_Render_Time = 0x2E8;
         uintptr_t Last_Render_Time_On_Screen = 0x2F0;
         uintptr_t Velocity = 0x168;
         uintptr_t DefaultFOV = 0x170;
-
-        // Fort Weapon
         uintptr_t CurrentWeapons = 0xa20;
         uintptr_t bIsReloadingWeapon = 0x368; 
         uintptr_t bIsEquippingWeapon = 0x350;
@@ -52,11 +52,7 @@ namespace Offsets
         uintptr_t bIsTargeting = 0x581;
         uintptr_t GunName = 0x98;
         uintptr_t Tier = 0x11b;
-
-        // Engine Character
         uintptr_t bIsCrouched = 0x45c;
-
-        // Fort Pawn
 	uintptr_t bIsDying = 0x758;
 	uintptr_t bIsHiddenForDeath = 0x758;
 	uintptr_t bIsKnockedback = 0x758;
@@ -66,16 +62,13 @@ namespace Offsets
 	uintptr_t bIsSliding = 0x75b;
 	uintptr_t bWeaponHolstered = 0x939;
 	uintptr_t bIsDBNO = 0x93a;
-	uintptr_t LastRevivedFromDBNOTime = 0x4B80; // updated
+	uintptr_t LastRevivedFromDBNOTime = 0x4B80;
 	uintptr_t bIsJumping = 0xa18;
-
-        // PlayerState
         uintptr_t bIsABot = 0x29a;
 }
 
 /*
 * I would appreciate if you could join my discord. I work hard on releasing free ud cheats and spoofers,
-* I also have the only working nitro generator (dw its jus a discord bot u dont have to download shit).
 * I would also appreciate if you could star the repo as I work hard on this stuff!
 *
 * discord.gg/saturniv
