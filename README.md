@@ -1,8 +1,10 @@
 # Fortnite Offsets
 
-These are the latest fortnite offsets. These usually update within a few hours of the game updating.
+These are the latest fortnite offsets. I update these within a few hours of the game update (due to timezones).
+
+Latest Patch: ``v29.01``
 
 # Info
 
 [Saturn IV](https://discord.gg/saturniv)
-[Telegram](https://t.me/payson1337)
+Contact me on [Telegram](https://t.me/payson1337)
