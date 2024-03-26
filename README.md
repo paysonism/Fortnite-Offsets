@@ -2,7 +2,7 @@
 
 These are the latest fortnite offsets. I update these within a few hours of the game update (due to timezones).
 
-Latest Patch: ``v29.110``
+Latest Patch: ``v29.10``
 
 # Info
 
