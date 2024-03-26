@@ -3,12 +3,12 @@
 // payson1337
 namespace Addresses
 {
-	uintptr_t GWorld = 0x11E88988; // updated
-	uintptr_t GObjects = 0x11E60EC0; // updated
+	uintptr_t GWorld = 0x124BF388; // updated (same thing as UWorld)
+	uintptr_t GObjects = 0x12497750; // updated
 	uintptr_t GNames = 0x10E400C0; // updated
-	uintptr_t FName = 0x12066800; // updated (NamePoolChunk)
-	uintptr_t StaticFindObject = 0x1909800; // updated
-	uintptr_t BoneMatrix = 0x1AD592C; // updated
+	uintptr_t FName = 0x126A01C0; // updated (NamePoolChunk)
+	uintptr_t StaticFindObject = 0x17A803C; // updated
+	uintptr_t BoneMatrix = 0x18F2CA8; // updated
 	uintptr_t LineOfSightTo = 0x627FB84;
 	uintptr_t Viewpoint = 0x10F90A10;
 	uintptr_t DrawTransition = 0x71; // updated
@@ -23,13 +23,14 @@ namespace Offsets
 	uintptr_t LocalPlayers = 0x38;
 	uintptr_t PlayerState = 0x2b0;
 	uintptr_t GameState = 0x158;
-	uintptr_t GameInstance = 0x1d0;
+	uintptr_t GameInstance = 0x1d8;
 	uintptr_t PlayerArray = 0x2A8;
 	uintptr_t RootC = 0x198;
 	uintptr_t CachedActor = 0x308;
+	uintptr_t RootComponent = 0x198;
 	uintptr_t ActorCount = 0xA8;
 	uintptr_t TIndex = 0x10f1;
-	uintptr_t BoneArray = 0x598;
+	uintptr_t BoneArray = 0x5B0; // updated
 	uintptr_t C2W = 0x1c0;
 	uintptr_t Actor = 0xA0;
 	uintptr_t ActorMesh = 0x318;
