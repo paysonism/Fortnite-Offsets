@@ -3,15 +3,15 @@
 // payson1337
 namespace Addresses
 {
-	uintptr_t GWorld = 0x124BF388; // updated (same thing as UWorld)
-	uintptr_t GObjects = 0x12497750; // updated
-	uintptr_t GNames = 0x10E400C0; // updated
-	uintptr_t FName = 0x126A01C0; // updated (NamePoolChunk)
-	uintptr_t StaticFindObject = 0x17A803C; // updated
-	uintptr_t BoneMatrix = 0x18F2CA8; // updated
+	uintptr_t GWorld = 0x1216B7B8; // updated (same thing as UWorld)
+	uintptr_t GObjects = 0x12143B20; // updated
+	uintptr_t GNames = 0x10E400C0;
+	uintptr_t FName = 0x12328480; // updated (NamePoolChunk)
+	uintptr_t StaticFindObject = 0x1520080; // updated
+	uintptr_t BoneMatrix = 0x1B6D060; // updated
 	uintptr_t LineOfSightTo = 0x627FB84;
 	uintptr_t Viewpoint = 0x10F90A10;
-	uintptr_t DrawTransition = 0x71; // updated
+	uintptr_t DrawTransition = 0x71;
 	uintptr_t ProcessEvent = 0x4D;
 }
 
