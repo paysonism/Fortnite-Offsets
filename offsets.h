@@ -45,7 +45,7 @@ namespace Offsets
         uintptr_t bIsReloadingWeapon = 0x388;
         uintptr_t bIsEquippingWeapon = 0x350; // payson was here
 	uintptr_t bIsChargingWeapon = 0x369;
-	uintptr_t WeaponData = 0x4f0;
+	uintptr_t WeaponData = 0x500;
         uintptr_t AmmoCount = 0xEBC;
         uintptr_t bIsTargeting = 0x581;
         uintptr_t GunName = 0x98;
