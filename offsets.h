@@ -1,6 +1,6 @@
 namespace Addresses
 {
-	uintptr_t GWorld = 0x126CF528; // (UWorld)
+	uintptr_t GWorld = 0x127A6BD8; // (UWorld)
 	uintptr_t GObjects = 0x1260C5A0;
 	uintptr_t GNames = 0x10E400C0;
 	uintptr_t FName = 0x12894800;
