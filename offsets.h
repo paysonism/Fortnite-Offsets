@@ -4,7 +4,7 @@ namespace Addresses
 	uintptr_t GObjects = 0x1260C5A0;
 	uintptr_t GNames = 0x10E400C0;
 	uintptr_t FName = 0x12894800;
-	uintptr_t StaticFindObject = 0x16E11A4;
+	uintptr_t StaticFindObject = 0x1466A10; // fresh dump
 	uintptr_t BoneMatrix = 0x1AE8AF8;
 	uintptr_t LineOfSightTo = 0x627FB84;
 	uintptr_t Viewpoint = 0x10F90A10;
