@@ -1,11 +1,11 @@
 namespace Addresses
 {
-	uintptr_t GWorld = 0x127A6BD8; // (UWorld)
+	uintptr_t GWorld = 0x127A6BD8; // (UWorld) // fresh dump
 	uintptr_t GObjects = 0x1260C5A0;
 	uintptr_t GNames = 0x10E400C0;
 	uintptr_t FName = 0x12894800;
 	uintptr_t StaticFindObject = 0x1466A10; // fresh dump
-	uintptr_t BoneMatrix = 0x1AE8AF8;
+ uintptr_t GetBoneMatrix = 0x1782D94; // fresh dump
 	uintptr_t LineOfSightTo = 0x627FB84;
 	uintptr_t Viewpoint = 0x10F90A10;
 	uintptr_t DrawTransition = 0x71;
