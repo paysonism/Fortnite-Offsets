@@ -10,6 +10,9 @@ namespace Addresses
 	uintptr_t Viewpoint = 0x10F90A10;
 	uintptr_t DrawTransition = 0x71;
 	uintptr_t ProcessEvent = 0x4D;
+	uintptr_t Fire = 0x285D0DC; // fresh dump
+	uintptr_t Malloc = 0xC378BD; // fresh dump
+	uintptr_t Free = 0xC3790D; // fresh dump
 }
 
 namespace Offsets
@@ -63,4 +66,21 @@ namespace Offsets
 	uintptr_t LastRevivedFromDBNOTime = 0x4C30;
 	uintptr_t bIsJumping = 0xA18;
         uintptr_t bIsABot = 0x29A;
+	uintptr_t bIsReloadingWeapon = 0x388;
+	uintptr_t GlobalAnimRateScale = 0xA18;
+}
+
+namepsace VTables 
+{
+	int DrawTitleSafeArea = 0x388 / 0x8; // fresh dump
+	int ProcessEvent = 0x268 / 0x8; // fresh dump
+	int GetMaterial = 0x2D0 / 0x8; // fresh dump
+	int GetPlayerViewPoint = 0x7F8 / 0x8; // fresh dump
+	int GetCameraViewPoint = 0x2C8 / 0x8; // fresh dump
+	int GetViewPoint = 0x2C8 / 0x8; // fresh dump
+	int IsAllowedToRender = 0x118 / 0x8; // fresh dump
+	int FireSingle = 0x888 / 0x8; // fresh dump
+	int TryToFire = 0x548 / 0x8; // fresh dump
+	int GetDamageStartLocation = 0x7C8 / 0x8; // fresh dump
+	int GetFiringRate = 0x9E0 / 0x8; // fresh dump
 }
