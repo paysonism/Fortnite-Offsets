@@ -8,7 +8,7 @@ ftransform GetBoneIndex(uint64_t mesh, int index)
 Vector3 GetBoneWithRotation(DWORD_PTR mesh, int id)
 {
 	ftransform bone = GetBoneIndex(mesh, id);
-	ftransform ComponentToWorld = read<ftransform>(mesh + 0x1c0);
+	ftransform ComponentToWorld = read<ftransform>(mesh + offsets::componet_to_world);
 
 	D3DMATRIX Matrix;
 	Matrix = MatrixMultiplication(bone.ToMatrixWithScale(), ComponentToWorld.ToMatrixWithScale());
