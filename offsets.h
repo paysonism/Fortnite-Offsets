@@ -1,7 +1,7 @@
 namespace Addresses
 {
 	uintptr_t GWorld = 0x12BC1FD0; // (UWorld) // fresh dump
-	uintptr_t GObjects = 0x1277CEB0;
+	uintptr_t GObjects = 0x12B99C10; // fresh dump
 	uintptr_t GNames = 0x12D85B40; // fresh dump
 	uintptr_t FName = 0x12894800;
 	uintptr_t StaticFindObject = 0x16CC96C; // fresh dump
