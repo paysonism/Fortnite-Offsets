@@ -31,8 +31,8 @@ namespace Offsets
 	uintptr_t RootComponent = 0x198;
 	uintptr_t ActorCount = 0xA8;
 	uintptr_t TIndex = 0x1211;
-	uintptr_t BoneArray = 0x5B0;
-	uintptr_t BoneCache = 0x5E0;
+	uintptr_t BoneArray = 0x5B8; // fresh dump
+	uintptr_t BoneCache = 0x5E8; // fresh dump
 	uintptr_t C2W = 0x1c0;
 	uintptr_t Actor = 0xA0; // discord.gg/saturniv
 	uintptr_t ActorMesh = 0x318;
@@ -74,15 +74,15 @@ namespace Offsets
 
 namepsace VTables 
 {
-	int DrawTitleSafeArea = 0x388 / 0x8; // fresh dump
-	int ProcessEvent = 0x268 / 0x8; // fresh dump
-	int GetMaterial = 0x2D0 / 0x8; // fresh dump
-	int GetPlayerViewPoint = 0x7F8 / 0x8; // fresh dump
-	int GetCameraViewPoint = 0x2C8 / 0x8; // fresh dump
-	int GetViewPoint = 0x2C8 / 0x8; // fresh dump
-	int IsAllowedToRender = 0x118 / 0x8; // fresh dump
-	int FireSingle = 0x888 / 0x8; // fresh dump
-	int TryToFire = 0x548 / 0x8; // fresh dump
-	int GetDamageStartLocation = 0x7C8 / 0x8; // fresh dump
-	int GetFiringRate = 0x9E0 / 0x8; // fresh dump
+	int DrawTitleSafeArea = 0x388 / 0x8;
+	int ProcessEvent = 0x268 / 0x8;
+	int GetMaterial = 0x2D0 / 0x8;
+	int GetPlayerViewPoint = 0x7F8 / 0x8;
+	int GetCameraViewPoint = 0x2C8 / 0x8;
+	int GetViewPoint = 0x2C8 / 0x8;
+	int IsAllowedToRender = 0x118 / 0x8;
+	int FireSingle = 0x888 / 0x8;
+	int TryToFire = 0x548 / 0x8;
+	int GetDamageStartLocation = 0x7C8 / 0x8;
+	int GetFiringRate = 0x9E0 / 0x8;
 }
