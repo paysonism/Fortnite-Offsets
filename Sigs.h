@@ -7,7 +7,7 @@ ProjectWorldToScreen: 40 53 55 56 57 41 56 48 81 EC ? ? ? ? 48 8B 05 ? ? ? ? 48 
 GObjects: 48 8B 05 ? ? ? ? 48 8B 0C C8 48 8B 04 D1 // unkown
 GetNameByIndex: 48 89 5C 24 ? 48 89 6C 24 ? 48 89 74 24 ? 57 48 81 EC ? ? ? ? 48 8B 05 ? ? ? ? 48 33 C4 48 89 84 24 ? ? ? ? 33 ED 48 8B FA 48 89 2A 48 89 6A 08 8B // unkown
 LineOfSightTo: 48 8B C4 48 89 58 20 55 56 57 41 54 41 56 48 8D 68 // unkown
-StaticFindObject: 48 89 5C 24 ? 48 89 74 24 ? 55 41 54 41 55 41 56 41 57 48 8B EC 48 83 EC ? 4C 8B E9 // known working
+StaticFindObject: 48 89 5C 24 ?? 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 70 FC FF FF 48 81 EC ?? ?? ?? ?? 48 8B 05 ?? ?? ?? ?? 48 33 C4 48 89 85 ?? ?? ?? ?? 48 83 FA FF // known working
 
 VTables:
 
