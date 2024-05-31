@@ -1,7 +1,7 @@
 namespace Addresses
 {
-	uintptr_t GWorld = 0x12BC1FD0; // (UWorld) // fresh dump
-	uintptr_t GObjects = 0x12B99C10; // fresh dump
+	uintptr_t GWorld = 0x12BA7050; // (UWorld) // fresh dump
+	uintptr_t GObjects = 0x12B99C10;
 	uintptr_t GNames = 0x12D85B40; // fresh dump
 	uintptr_t FName = 0x12894800;
 	uintptr_t StaticFindObject = 0x16CC96C; // fresh dump
@@ -31,8 +31,8 @@ namespace Offsets
 	uintptr_t RootComponent = 0x198;
 	uintptr_t ActorCount = 0xA8;
 	uintptr_t TIndex = 0x1211;
-	uintptr_t BoneArray = 0x5B8; // fresh dump
-	uintptr_t BoneCache = 0x5E8; // fresh dump
+	uintptr_t BoneArray = 0x5B8;
+	uintptr_t BoneCache = 0x5E8;
 	uintptr_t C2W = 0x1c0;
 	uintptr_t Actor = 0xA0; // discord.gg/saturniv
 	uintptr_t ActorMesh = 0x318;
