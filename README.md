@@ -6,13 +6,13 @@ These are the latest fortnite offsets. I update these within a few hours of the 
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=p-niggerfart&label=Repo%20views&color=0e75b6&style=flat" alt="Repo Views" /> </p>
 
-Latest Patch: ``v30.00``
+Latest Patch: ``v30.01``
 
 # Table of Contents
 
 [Latest Offsets](https://github.com/paysonism/Fortnite-Offsets/blob/main/offsets.h)
 
-[Latest SDK](https://github.com/paysonism/Fortnite-Offsets/blob/main/FortniteClient-Win64-Shipping-V30.00.rar)
+[Latest SDK](https://github.com/paysonism/Fortnite-Offsets/blob/main/FortniteClient-Win64-Shipping-V30.01.rar)
 
 [Latest W2S](https://github.com/paysonism/Fortnite-Offsets/blob/main/ProjectWorldToScreen.h)
 
