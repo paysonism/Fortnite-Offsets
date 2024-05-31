@@ -5,7 +5,7 @@ namespace Addresses
 	uintptr_t GNames = 0x12D85B40; // fresh dump
 	uintptr_t FName = 0x12894800;
 	uintptr_t StaticFindObject = 0x146D58C; // fresh dump
-        uintptr_t GetBoneMatrix = 0x19A205C; // updating soon
+        uintptr_t GetBoneMatrix = 0x1EB8938; // fresh dump
 	uintptr_t LineOfSightTo = 0x627FB84;
 	uintptr_t Viewpoint = 0x10F90A10;
 	uintptr_t DrawTransition = 0x71;
