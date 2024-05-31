@@ -11,8 +11,8 @@ namespace Addresses
 	uintptr_t DrawTransition = 0x71;
 	uintptr_t ProcessEvent = 0x4D;
 	uintptr_t Fire = 0x285D0DC;
-	uintptr_t Malloc = 0xC378BD;
-	uintptr_t Free = 0xC3790D;
+	uintptr_t Malloc = 0xC4663D; // fresh dump
+	uintptr_t Free = 0xC4668D; // fresh dump
 }
 
 namespace Offsets
