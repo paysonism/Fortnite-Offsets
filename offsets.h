@@ -1,18 +1,18 @@
 namespace Addresses
 {
-	uintptr_t GWorld = 0x12BA7050; // (UWorld) // fresh dump
-	uintptr_t GObjects = 0x12B99C10;
-	uintptr_t GNames = 0x12D85B40; // fresh dump
-	uintptr_t FName = 0x12894800;
-	uintptr_t StaticFindObject = 0x146D58C; // fresh dump
-        uintptr_t GetBoneMatrix = 0x1EB8938; // fresh dump
+	uintptr_t GWorld = 0x1262B07E; // (UWorld) // fresh dump
+	uintptr_t GObjects = 0x12954990;
+	uintptr_t GNames = 0x12D85B40;
+	uintptr_t FName = 0x12B49140; // fresh dump
+	uintptr_t StaticFindObject = 0x146D58C;
+        uintptr_t GetBoneMatrix = 0x1EB8938;
 	uintptr_t LineOfSightTo = 0x627FB84;
 	uintptr_t Viewpoint = 0x10F90A10;
 	uintptr_t DrawTransition = 0x71;
 	uintptr_t ProcessEvent = 0x4D;
 	uintptr_t Fire = 0x285D0DC;
-	uintptr_t Malloc = 0xC4663D; // fresh dump
-	uintptr_t Free = 0xC4668D; // fresh dump
+	uintptr_t Malloc = 0xC4663D;
+	uintptr_t Free = 0xC4668D;
 }
 
 namespace Offsets
