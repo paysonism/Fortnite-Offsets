@@ -1,10 +1,10 @@
 namespace Addresses
 {
-	uintptr_t GWorld = 0x1262B07E; // (UWorld) // fresh dump
+	uintptr_t GWorld = 0x129E1DD8; // (UWorld) // fresh dump
 	uintptr_t GObjects = 0x12954990;
-	uintptr_t GNames = 0x12D85B40;
-	uintptr_t FName = 0x12B49140; // fresh dump
-	uintptr_t StaticFindObject = 0x146D58C;
+	uintptr_t GNames = 0x12BA9140;
+	uintptr_t FName = unkown; // dumping soon
+	uintptr_t StaticFindObject = 0x1DE185C; // fresh dump
         uintptr_t GetBoneMatrix = 0x1EB8938;
 	uintptr_t LineOfSightTo = 0x627FB84;
 	uintptr_t Viewpoint = 0x10F90A10;
