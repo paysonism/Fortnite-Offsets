@@ -1,9 +1,9 @@
 namespace Addresses
 {
-	uintptr_t GWorld = 0x129DEDD8; // (UWorld) // fresh dump
+	uintptr_t GWorld = 0x11558538; // (UWorld) // fresh dump
 	uintptr_t GObjects = 0x12954990;
 	uintptr_t GNames = 0x12BA9140;
-	uintptr_t FName = unkown; // dumping soon
+	uintptr_t FName = 0x117284C0; // fresh dump
 	uintptr_t StaticFindObject = 0x1DE185C;
         uintptr_t GetBoneMatrix = 0x1EB8938;
 	uintptr_t LineOfSightTo = 0x627FB84;
@@ -20,7 +20,7 @@ namespace Offsets
 	uintptr_t LocalPawn = 0x338;
 	uintptr_t PlayerController = 0x30;
 	uintptr_t LocalPlayers = 0x38;
-	uintptr_t PlayerState = 0x2b0;
+	uintptr_t PlayerState = 0x2B0;
 	uintptr_t GameState = 0x160;
 	uintptr_t GameInstance = 0x1D8;
 	uintptr_t PlayerArray = 0x2A8;
@@ -47,14 +47,14 @@ namespace Offsets
         uintptr_t Velocity = 0x168;
         uintptr_t DefaultFOV = 0x170;
         uintptr_t CurrentWeapons = 0xA68;
-        uintptr_t bIsReloadingWeapon = 0x388;
+        uintptr_t bIsReloadingWeapon = 0x398; // fresh dump
         uintptr_t bIsEquippingWeapon = 0x350; // payson was here
 	uintptr_t bIsChargingWeapon = 0x369;
-	uintptr_t WeaponData = 0x500;
-        uintptr_t AmmoCount = 0xEBC;
+	uintptr_t WeaponData = 0x510; // fresh dump
+        uintptr_t AmmoCount = 0xEEC; // fresh dump
         uintptr_t bIsTargeting = 0x581;
         uintptr_t GunName = 0x98;
-        uintptr_t Tier = 0xEB;
+        uintptr_t Tier = 0x9A; // fresh dump
         uintptr_t bIsCrouched = 0x45C;
 	uintptr_t bIsDying = 0x758;
 	uintptr_t bIsHiddenForDeath = 0x758;
@@ -66,10 +66,11 @@ namespace Offsets
 	uintptr_t bWeaponHolstered = 0x939;
 	uintptr_t bIsDBNO = 0x93A;
 	uintptr_t LastRevivedFromDBNOTime = 0x4C30;
-	uintptr_t bIsJumping = 0xA18;
+	uintptr_t bIsJumping = 0xA60; // fresh dump
         uintptr_t bIsABot = 0x29A;
 	uintptr_t bIsReloadingWeapon = 0x388;
 	uintptr_t GlobalAnimRateScale = 0xA18;
+	uintptr_t CustomTimeDilation = 0x68; // fresh dump
 }
 
 namepsace VTables 
