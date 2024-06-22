@@ -32,7 +32,7 @@ namespace Offsets
 	uintptr_t ActorCount = 0xA8;
 	uintptr_t TIndex = 0x1211;
 	uintptr_t BoneArray = 0x5B8;
-	uintptr_t BoneCache = 0x5E8;
+	uintptr_t BoneCache = 0x600; // fresh dump
 	uintptr_t C2W = 0x1c0;
 	uintptr_t Actor = 0xA0; // discord.gg/saturniv
 	uintptr_t ActorMesh = 0x318;
