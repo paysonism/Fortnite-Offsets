@@ -1,6 +1,6 @@
 namespace Addresses
 {
-	uintptr_t GWorld = 0x11558538; // (UWorld) // fresh dump
+	uintptr_t GWorld = 0x117105C8; // (UWorld) // fresh dump
 	uintptr_t GObjects = 0x12954990;
 	uintptr_t GNames = 0x12BA9140;
 	uintptr_t FName = 0x117284C0; // fresh dump
