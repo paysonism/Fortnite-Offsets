@@ -9,7 +9,7 @@ namespace Addresses
 	uintptr_t LineOfSightTo = 0x627FB84;
 	uintptr_t Viewpoint = 0x10F90A10;
 	uintptr_t DrawTransition = 0x71;
-	uintptr_t ProcessEvent = 0x4D;
+	uintptr_t ProcessEvent = 0x78;
 	uintptr_t Fire = 0x285D0DC;
 	uintptr_t Malloc = 0xC4663D;
 	uintptr_t Free = 0xC4668D;
