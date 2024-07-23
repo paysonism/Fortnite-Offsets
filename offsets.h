@@ -1,9 +1,9 @@
 namespace Addresses
 {
-	uintptr_t GWorld = 0x117105C8; // (UWorld) // fresh dump
+	uintptr_t GWorld = 0x118011A8; // (UWorld) // fresh dump
 	uintptr_t GObjects = 0x12954990;
 	uintptr_t GNames = 0x12BA9140;
-	uintptr_t FName = 0x117284C0; // fresh dump
+	uintptr_t FName = 0x117284C0;
 	uintptr_t StaticFindObject = 0x1DE185C;
         uintptr_t GetBoneMatrix = 0x1EB8938;
 	uintptr_t LineOfSightTo = 0x627FB84;
@@ -32,7 +32,7 @@ namespace Offsets
 	uintptr_t ActorCount = 0xA8;
 	uintptr_t TIndex = 0x1211;
 	uintptr_t BoneArray = 0x5B8;
-	uintptr_t BoneCache = 0x600; // fresh dump
+	uintptr_t BoneCache = 0x600;
 	uintptr_t C2W = 0x1c0;
 	uintptr_t Actor = 0xA0; // discord.gg/saturniv
 	uintptr_t ActorMesh = 0x318;
@@ -47,11 +47,11 @@ namespace Offsets
         uintptr_t Velocity = 0x168;
         uintptr_t DefaultFOV = 0x170;
         uintptr_t CurrentWeapons = 0xA68;
-        uintptr_t bIsReloadingWeapon = 0x398; // fresh dump
+        uintptr_t bIsReloadingWeapon = 0x398;
         uintptr_t bIsEquippingWeapon = 0x350; // payson was here
 	uintptr_t bIsChargingWeapon = 0x369;
-	uintptr_t WeaponData = 0x510; // fresh dump
-        uintptr_t AmmoCount = 0xEEC; // fresh dump
+	uintptr_t WeaponData = 0x510;
+        uintptr_t AmmoCount = 0xEEC;
         uintptr_t bIsTargeting = 0x581;
         uintptr_t GunName = 0x98;
         uintptr_t Tier = 0x9A; // fresh dump
@@ -70,7 +70,7 @@ namespace Offsets
         uintptr_t bIsABot = 0x29A;
 	uintptr_t bIsReloadingWeapon = 0x388;
 	uintptr_t GlobalAnimRateScale = 0xA18;
-	uintptr_t CustomTimeDilation = 0x68; // fresh dump
+	uintptr_t CustomTimeDilation = 0x68;
 }
 
 namepsace VTables 
