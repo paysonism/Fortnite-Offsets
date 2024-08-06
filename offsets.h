@@ -1,11 +1,11 @@
 namespace Addresses
 {
 	uintptr_t GWorld = 0x1178F4B8; // (UWorld) // fresh dump
-	uintptr_t GObjects = 0x117E9D10; // fresh dump
-	uintptr_t GNames = 0x119E05C0; // fresh dump
+	uintptr_t GObjects = 0x117E9D10; 
+	uintptr_t GNames = 0x119E05C0;
 	uintptr_t FName = 0x117284C0;
 	uintptr_t StaticFindObject = 0x1DE185C;
-   uintptr_t GetBoneMatrix = 0x1E4E8E6; // fresh dump
+   	uintptr_t GetBoneMatrix = 0x1E4E8E6;
 	uintptr_t LineOfSightTo = 0x627FB84;
 	uintptr_t Viewpoint = 0x10F90A10;
 	uintptr_t DrawTransition = 0x71;
@@ -54,7 +54,7 @@ namespace Offsets
         uintptr_t AmmoCount = 0xEEC;
         uintptr_t bIsTargeting = 0x581;
         uintptr_t GunName = 0x98;
-        uintptr_t Tier = 0x9A; // fresh dump
+        uintptr_t Tier = 0x9A;
         uintptr_t bIsCrouched = 0x45C;
 	uintptr_t bIsDying = 0x758;
 	uintptr_t bIsHiddenForDeath = 0x758;
@@ -66,14 +66,14 @@ namespace Offsets
 	uintptr_t bWeaponHolstered = 0x939;
 	uintptr_t bIsDBNO = 0x93A;
 	uintptr_t LastRevivedFromDBNOTime = 0x4C30;
-	uintptr_t bIsJumping = 0xA60; // fresh dump
+	uintptr_t bIsJumping = 0xA60;
         uintptr_t bIsABot = 0x29A;
 	uintptr_t bIsReloadingWeapon = 0x388;
 	uintptr_t GlobalAnimRateScale = 0xA18;
 	uintptr_t CustomTimeDilation = 0x68;
 }
 
-namepsace VTables 
+namepsace VTables // no idea if these are updated lol
 {
 	int DrawTitleSafeArea = 0x388 / 0x8;
 	int ProcessEvent = 0x268 / 0x8;
