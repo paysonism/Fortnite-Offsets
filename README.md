@@ -12,7 +12,7 @@ Latest Patch: ``v30.40``
 
 [Latest Offsets](https://github.com/paysonism/Fortnite-Offsets/blob/main/offsets.h)
 
-[Latest SDK](https://github.com/paysonism/Fortnite-Offsets/blob/main/FortniteClient-Win64-Shipping-v30.01.rar)
+[Latest SDK](https://github.com/WriteGuardedMemory/fortnite-sdk/blob/main/Fortnite-Release-30.30.7z) (NOT MINE!)
 
 [Latest W2S](https://github.com/paysonism/Fortnite-Offsets/blob/main/ProjectWorldToScreen.h)
 
