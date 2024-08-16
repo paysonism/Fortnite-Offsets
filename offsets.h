@@ -1,6 +1,6 @@
 namespace Addresses
 {
-	uintptr_t GWorld = 0x1178F4B8; // (UWorld) // fresh dump
+	uintptr_t GWorld = 0x11ECD148; // (UWorld) // fresh dump
 	uintptr_t GObjects = 0x117E9D10; 
 	uintptr_t GNames = 0x119E05C0;
 	uintptr_t FName = 0x117284C0;
@@ -30,12 +30,12 @@ namespace Offsets
 	uintptr_t CachedActor = 0x308;
 	uintptr_t RootComponent = 0x198;
 	uintptr_t ActorCount = 0xA8;
-	uintptr_t TIndex = 0x1211;
-	uintptr_t BoneArray = 0x5B8;
+	uintptr_t TIndex = 0x11D1; // fresh dump
+	uintptr_t BoneArray = 0x570; // fresh dump
 	uintptr_t BoneCache = 0x600;
 	uintptr_t C2W = 0x1c0;
 	uintptr_t Actor = 0xA0; // discord.gg/saturniv
-	uintptr_t ActorMesh = 0x318;
+	uintptr_t ActorMesh = 0x310; // fresh dump
 	uintptr_t CurrentActor(AActor) = 0xA8;
 	uintptr_t PersistentLevel = 0x30;
 	uintptr_t RelativeLocation = 0x120;
