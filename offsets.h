@@ -1,8 +1,8 @@
 namespace Addresses
 {
 	uintptr_t GWorld = 0x11ECD148; // (UWorld) // fresh dump
-	uintptr_t GObjects = 0x117E9D10; 
-	uintptr_t GNames = 0x119E05C0;
+	uintptr_t GObjects = 0x11EA4EE0; // fresh dump
+	uintptr_t GNames = 0x120A7A40; // fresh dump
 	uintptr_t FName = 0x117284C0;
 	uintptr_t StaticFindObject = 0x1DE185C;
    	uintptr_t GetBoneMatrix = 0x1E4E8E6;
@@ -42,8 +42,8 @@ namespace Offsets
 	uintptr_t DisplayName = 0x90;
 	uintptr_t ComponetToWorld = 0x1c0;
 	uintptr_t PawnPrivate = 0x308;
-        uintptr_t Last_Render_Time = 0x2E8;
-        uintptr_t Last_Render_Time_On_Screen = 0x2F0;
+        uintptr_t LastRenderTimeOnScreen = 0x2E0; // fresh dump
+        uintptr_t LastSubmitTime = 0x2E8; // fresh dump
         uintptr_t Velocity = 0x168;
         uintptr_t DefaultFOV = 0x170;
         uintptr_t CurrentWeapons = 0xA68;
