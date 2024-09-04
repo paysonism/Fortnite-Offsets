@@ -1,6 +1,8 @@
 namespace Addresses
 {
-	uintptr_t GWorld = 0x11ECD148; // (UWorld) // fresh dump
+	uintptr_t GWorld = 0x11FD3D78; // (UWorld) // fresh dump
+uintptr_t PersistentLevel = 0x30
+uintptr_t OwningWorld = 0xc0
 	uintptr_t VAText = 0x6F41C00; // CHANGE 25 TO 16 IN UR FOR STATEMENT
 	uintptr_t GObjects = 0x11EA4EE0; // fresh dump
 	uintptr_t GNames = 0x120A7A40; // fresh dump
