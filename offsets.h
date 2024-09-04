@@ -1,7 +1,7 @@
 namespace Addresses
 {
 	uintptr_t GWorld = 0x11ECD148; // (UWorld) // fresh dump
-	uintptr_t VAText = 0x6F41C00; // U NEED TO UPDATE THIS IN YOUR VATEXT/UWORLD DECRYPTION
+	uintptr_t VAText = 0x6F41C00; // CHANGE 25 TO 16 IN UR FOR STATEMENT
 	uintptr_t GObjects = 0x11EA4EE0; // fresh dump
 	uintptr_t GNames = 0x120A7A40; // fresh dump
 	uintptr_t FName = 0x117284C0;
