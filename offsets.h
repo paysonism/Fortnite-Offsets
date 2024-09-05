@@ -1,15 +1,15 @@
 namespace Addresses
 {
 	uintptr_t GWorld = 0x11FD3D78; // (UWorld) // fresh dump
-uintptr_t PersistentLevel = 0x30
-uintptr_t OwningWorld = 0xc0
-	uintptr_t VAText = 0x6F41C00; // CHANGE 25 TO 16 IN UR FOR STATEMENT
-	uintptr_t GObjects = 0x11EA4EE0; // fresh dump
-	uintptr_t GNames = 0x120A7A40; // fresh dump
+        uintptr_t PersistentLevel = 0x30
+        uintptr_t OwningWorld = 0xc0
+	uintptr_t GObjects = 0x11EA4EE0; 
+	uintptr_t GNames = 0x120A7A40;
 	uintptr_t FName = 0x117284C0;
 	uintptr_t StaticFindObject = 0x1DE185C;
    	uintptr_t GetBoneMatrix = 0x1E4E8E6;
-	uintptr_t LineOfSightTo = 0x627FB84;
+ 	uintptr_t LineOfSightTo = 0x627FB84;
+        uintptr_t PlayerName = 0xA98;
 	uintptr_t Viewpoint = 0x10F90A10;
 	uintptr_t DrawTransition = 0x71;
 	uintptr_t ProcessEvent = 0x4D;
@@ -33,40 +33,40 @@ namespace Offsets
 	uintptr_t CachedActor = 0x308;
 	uintptr_t RootComponent = 0x198;
 	uintptr_t ActorCount = 0xA8;
-	uintptr_t TIndex = 0x11D1; // fresh dump
-	uintptr_t BoneArray = 0x570; // fresh dump
-	uintptr_t BoneCache = 0x600;
+	uintptr_t TeamIndex = 0x1201; // fresh dump
+	uintptr_t BoneArray = 0x570; 
+	uintptr_t BoneCache = 0x5B8;// fresh dump
 	uintptr_t C2W = 0x1c0;
 	uintptr_t Actor = 0xA0; // discord.gg/saturniv
-	uintptr_t ActorMesh = 0x310; // fresh dump
-	uintptr_t CurrentActor(AActor) = 0xA8;
-	uintptr_t PersistentLevel = 0x30;
-	uintptr_t RelativeLocation = 0x120;
-	uintptr_t DisplayName = 0x90;
-	uintptr_t ComponetToWorld = 0x1c0;
-	uintptr_t PawnPrivate = 0x308;
-        uintptr_t LastRenderTimeOnScreen = 0x2E0; // fresh dump
-        uintptr_t LastSubmitTime = 0x2E8; // fresh dump
-        uintptr_t Velocity = 0x168;
-        uintptr_t DefaultFOV = 0x170;
-        uintptr_t CurrentWeapons = 0xA68;
-        uintptr_t bIsReloadingWeapon = 0x398;
+	uintptr_t ActorMesh = 0x310; // discord.gg/saturniv
+	uintptr_t CurrentActor(AActor) = 0xA8;// discord.gg/saturniv
+	uintptr_t PersistentLevel = 0x30;// discord.gg/saturniv
+	uintptr_t RelativeLocation = 0x120;// discord.gg/saturniv
+	uintptr_t DisplayName = 0x90;// discord.gg/saturniv
+	uintptr_t ComponetToWorld = 0x1c0;// discord.gg/saturniv
+	uintptr_t PawnPrivate = 0x308;// discord.gg/saturniv
+        uintptr_t LastRenderTimeOnScreen = 0x2E0; // discord.gg/saturniv
+        uintptr_t LastSubmitTime = 0x2E8; // discord.gg/saturniv
+        uintptr_t Velocity = 0x168;// discord.gg/saturniv
+        uintptr_t DefaultFOV = 0x2a4;// discord.gg/saturniv
+        uintptr_t CurrentWeapons = 0x9d8;// discord.gg/saturniv
+        uintptr_t bIsReloadingWeapon = 0x399;// discord.gg/saturniv
         uintptr_t bIsEquippingWeapon = 0x350; // payson was here
-	uintptr_t bIsChargingWeapon = 0x369;
-	uintptr_t WeaponData = 0x510;
-        uintptr_t AmmoCount = 0xEEC;
-        uintptr_t bIsTargeting = 0x581;
-        uintptr_t GunName = 0x98;
-        uintptr_t Tier = 0x9A;
-        uintptr_t bIsCrouched = 0x45C;
-	uintptr_t bIsDying = 0x758;
-	uintptr_t bIsHiddenForDeath = 0x758;
-	uintptr_t bIsKnockedback = 0x758;
+	uintptr_t bIsChargingWeapon = 0x369;// discord.gg/saturniv
+	uintptr_t WeaponData = 0x510;// discord.gg/saturniv
+        uintptr_t AmmoCount = 0xef4;// discord.gg/saturniv
+        uintptr_t bIsTargeting = 0x581;// discord.gg/saturniv
+        uintptr_t GunName = 0x98;// discord.gg/saturniv
+        uintptr_t Tier = 0x9A;// discord.gg/saturniv
+        uintptr_t bIsCrouched = 0x45C;// discord.gg/saturniv
+	uintptr_t bIsDying = 0x758;// discord.gg/saturniv
+	uintptr_t bIsHiddenForDeath = 0x758;// discord.gg/saturniv
+	uintptr_t bIsKnockedback = 0x758;// discord.gg/saturniv
 	uintptr_t bIsStaggered = 0x759; // discord.gg/saturniv
-        uintptr_t bIsInvulnerable = 0x75A;
-	uintptr_t bSpotted = 0x75A;
-	uintptr_t bIsSliding = 0x75B;
-	uintptr_t bWeaponHolstered = 0x939;
+        uintptr_t bIsInvulnerable = 0x75A;// discord.gg/saturniv
+	uintptr_t bSpotted = 0x75A;// discord.gg/saturniv
+	uintptr_t bIsSliding = 0x75B;// discord.gg/saturniv
+	uintptr_t bWeaponHolstered = 0x939;// discord.gg/saturniv
 	uintptr_t bIsDBNO = 0x93A;
 	uintptr_t LastRevivedFromDBNOTime = 0x4C30;
 	uintptr_t bIsJumping = 0xA60;
@@ -76,17 +76,7 @@ namespace Offsets
 	uintptr_t CustomTimeDilation = 0x68;
 }
 
-namepsace VTables // no idea if these are updated lol
+namepsace VTables
 {
-	int DrawTitleSafeArea = 0x388 / 0x8;
-	int ProcessEvent = 0x268 / 0x8;
-	int GetMaterial = 0x2D0 / 0x8;
-	int GetPlayerViewPoint = 0x7F8 / 0x8;
-	int GetCameraViewPoint = 0x2C8 / 0x8;
-	int GetViewPoint = 0x2C8 / 0x8;
-	int IsAllowedToRender = 0x118 / 0x8;
-	int FireSingle = 0x888 / 0x8;
-	int TryToFire = 0x548 / 0x8;
-	int GetDamageStartLocation = 0x7C8 / 0x8;
-	int GetFiringRate = 0x9E0 / 0x8;
+	int DrawTitleSafeArea = 80;
 }
