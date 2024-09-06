@@ -15,6 +15,7 @@ namespace Addresses
 	uintptr_t ProcessEvent = 0x4D;
 	uintptr_t Fire = 0x285D0DC;
 	uintptr_t Malloc = 0xC4663D;
+        uintptr_t  platform = 0x3F0;
 	uintptr_t Free = 0xC4668D;
 }
 
