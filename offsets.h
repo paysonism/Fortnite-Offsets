@@ -1,10 +1,11 @@
 namespace Addresses
 {
-	uintptr_t GWorld = 0x11FD3D78; // (UWorld) // fresh dump
+	uintptr_t GWorld = 0x1215C178; // (UWorld) // fresh dump
         uintptr_t PersistentLevel = 0x30
         uintptr_t OwningWorld = 0xc0
-	uintptr_t GObjects = 0x11EA4EE0; 
-	uintptr_t GNames = 0x120A7A40;
+  uintptr_t HabaneroComponent = 0x9E8;// fresh dump
+	uintptr_t GObjects = 0x12133D70;  // fresh dump
+	uintptr_t GNames = 0x1233C1C0;// fresh dump
 	uintptr_t FName = 0x117284C0;
 	uintptr_t StaticFindObject = 0x1DE185C;
    	uintptr_t GetBoneMatrix = 0x1E4E8E6;
