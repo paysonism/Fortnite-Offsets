@@ -4,14 +4,14 @@ namespace Addresses
         uintptr_t PersistentLevel = 0x30
         uintptr_t OwningWorld = 0xc0
   uintptr_t HabaneroComponent = 0x9E8;// fresh dump
-	uintptr_t GObjects = 0x12133D70;  // fresh dump
-	uintptr_t GNames = 0x1233C1C0;// fresh dump
-	uintptr_t FName = 0x117284C0;
+	uintptr_t GObjects = 0x122D8000;  // fresh dump
+	uintptr_t GNames = 0x124DE7C0;// fresh dump
+	uintptr_t FName = 0x124DE7C0 + 8;
 	uintptr_t StaticFindObject = 0x1DE185C;
    	uintptr_t GetBoneMatrix = 0x1E4E8E6;
  	uintptr_t LineOfSightTo = 0x627FB84;
-        uintptr_t ProjectileSpeed = 0x1E40;
-        uintptr_t ProjectileGravity = 0x1E44;
+        uintptr_t ProjectileSpeed = 0x1F30;
+        uintptr_t ProjectileGravity = 0x1F34;
         uintptr_t PlayerName = 0xAA8;
 	uintptr_t Viewpoint = 0x10F90A10;
 	uintptr_t DrawTransition = 0x71;
@@ -186,5 +186,5 @@ namespace Offsets
 
 namepsace VTables
 {
-	int DrawTitleSafeArea = 80;
+	int ProcessEvent = 0x4F;
 }
