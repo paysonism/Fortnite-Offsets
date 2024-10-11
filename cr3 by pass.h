@@ -3,7 +3,7 @@ void cr3_loop()
 {
 	for (;;)
 	{
-		mem::CR3();
+		mem::fetch_cr3();
 		std::this_thread::sleep_for(std::chrono::milliseconds(100));
 	}
 }
