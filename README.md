@@ -25,3 +25,8 @@ Latest Patch: ``v31.40``
 [Saturn IV](https://discord.gg/saturniv) - My discord with FREE undetected products and cheats
 
 Contact me on [Telegram](https://t.me/payson1337) or [Discord](https://discord.com/users/1214355385457188926)
+
+
+
+# credits for some stuff 
+- Stern
