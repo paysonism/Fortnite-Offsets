@@ -37,7 +37,6 @@ namespace Offsets
 	uintptr_t CachedActor = 0x308;
 	uintptr_t RootComponent = 0x198;
 	uintptr_t ActorCount = 0xA8;
-	uintptr_t TeamIndex = 0x1201; // fresh dump
 	uintptr_t BoneArray = 0x570; 
 	uintptr_t BoneCache = 0x5B8;// fresh dump
 	uintptr_t C2W = 0x1c0;
@@ -57,7 +56,7 @@ namespace Offsets
         uintptr_t bIsReloadingWeapon = 0x399;// discord.gg/saturniv
         uintptr_t bIsEquippingWeapon = 0x350; // payson was here
 	uintptr_t bIsChargingWeapon = 0x369;// discord.gg/saturniv
-	uintptr_t WeaponData = 0x510;// discord.gg/saturniv
+	uintptr_t WeaponData = 0x520;// discord.gg/saturniv
         uintptr_t AmmoCount = 0xef4;// discord.gg/saturniv
         uintptr_t bIsTargeting = 0x581;// discord.gg/saturniv
         uintptr_t GunName = 0x98;// discord.gg/saturniv
