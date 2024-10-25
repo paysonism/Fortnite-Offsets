@@ -1,4 +1,3 @@
-
 // make sure your uworld is the same as the repo
 class FName
 {
@@ -9,7 +8,7 @@ public:
     {
         const int NAME_SIZE = 2048;
 
-        auto NamePoolChunk = DotMem::Read<uint64_t>(va_text + (0x124AE500 + 8 * (ComparisonIndex >> 16) + 16)) + 2 * ((unsigned short)ComparisonIndex);
+        auto NamePoolChunk = DotMem::Read<uint64_t>(va_text + (0x123FAFC0 + 8 * (ComparisonIndex >> 16) + 16)) + 2 * ((unsigned short)ComparisonIndex);
         auto Pool = DotMem::Read<uint16_t>(NamePoolChunk);
 
         if (Pool < 64)
@@ -30,23 +29,28 @@ public:
 private:
     static void DecryptFName(char *buffer, int length)
     {
-        int v4;     // edx
-        char *v5;   // rcx
-        __int64 v6; // r8
-        char v7;    // al
+        int v0;          // ebx
+        char *v1;        // rdi
+        int v2;          // ecx
+        int v3;          // edx
+        int v4;          // eax
+        unsigned int v5; // edx
+        char result;     // al
 
-        v4 = 0x11;
+        v2 = 0;
+        v3 = 28;
         if (length)
         {
-            v5 = buffer;
-            v6 = length;
+            v0 = length;
+            v1 = buffer;
             do
             {
-                v7 = v4 + ~*v5;
-                v4 += 0x1F0B;
-                *v5++ = v7;
-                --v6;
-            } while (v6);
+                v4 = v2++;
+                v5 = (v4 | 0xB000) + v3;
+                result = v5 ^ ~*v1;
+                v3 = v5 >> 2;
+                *v1++ = result;
+            } while (v2 < v0);
         }
     }
 };
