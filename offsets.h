@@ -1,6 +1,6 @@
 namespace Addresses
 {
-	uintptr_t GWorld = 0x1221B738; // (UWorld) // fresh dump
+	uintptr_t GWorld = 0x12DA3A98; // (UWorld) // fresh dump
         uintptr_t PersistentLevel = 0x30
         uintptr_t OwningWorld = 0xc0
   uintptr_t HabaneroComponent = 0x9E8;// fresh dump
