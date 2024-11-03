@@ -37,11 +37,11 @@ namespace Offsets
 	uintptr_t CachedActor = 0x308;
 	uintptr_t RootComponent = 0x198;
 	uintptr_t ActorCount = 0xA8;
-	uintptr_t BoneArray = 0x570; 
-	uintptr_t BoneCache = 0x5B8;// fresh dump
+	uintptr_t BoneArray = 0x580; 
+	uintptr_t BoneCache = 0x590;// fresh dump
 	uintptr_t C2W = 0x1c0;
 	uintptr_t Actor = 0xA0; // discord.gg/saturniv
-	uintptr_t ActorMesh = 0x310; // discord.gg/saturniv
+	uintptr_t ActorMesh = 0x328; // discord.gg/saturniv
 	uintptr_t CurrentActor(AActor) = 0xA8;// discord.gg/saturniv
 	uintptr_t PersistentLevel = 0x30;// discord.gg/saturniv
 	uintptr_t RelativeLocation = 0x120;// discord.gg/saturniv
