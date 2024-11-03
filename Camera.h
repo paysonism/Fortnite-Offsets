@@ -6,8 +6,8 @@ namespace camera
 
 	static auto UpdateCamera() -> void
 	{
-		auto location_pointer = read<uintptr_t>(pointer->uworld + 0x110);
-		auto rotation_pointer = read<uintptr_t>(pointer->uworld + 0x120);
+		auto location_pointer = read<uintptr_t>(pointer->uworld + 0x130);
+		auto rotation_pointer = read<uintptr_t>(pointer->uworld + 0x140);
 
 		struct FNRotation
 		{
@@ -26,5 +26,5 @@ namespace camera
 		camera::rotation.y = ((atan2(tpmrotation.a * -1, tpmrotation.b) * (180.0 / M_PI)) * -1) * -1;
 		camera::rotation.z = 0;
 		camera::location = read<FVector>(location_pointer);
-		camera::fov = read<float>(pointer->player_controller + 0x394) * 90.f;
+		camera::fov = read<float>(pointer->player_controller + 0x4AC) * 90.f;
   }
