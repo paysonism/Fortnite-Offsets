@@ -1,11 +1,11 @@
 namespace Addresses
 {
 	uintptr_t GWorld = 0x12DA3A98; // (UWorld) // fresh dump
-        uintptr_t PersistentLevel = 0x30
+        uintptr_t PersistentLevel = 0x30 + 10 = 0x40
         uintptr_t OwningWorld = 0xc0
   uintptr_t HabaneroComponent = 0x9E8;// fresh dump
-	uintptr_t GObjects = 0x121F3380;  // fresh dump
-	uintptr_t GNames = 0x123FAFC0;// fresh dump
+	uintptr_t GObjects = 0x12E4DF88;  // fresh dump
+	uintptr_t GNames = 0x12F88800;// fresh dump
 	uintptr_t FName = 0x124DE7C0 + 8;
 	uintptr_t StaticFindObject = 0x1DE185C;
    	uintptr_t GetBoneMatrix = 0x1E4E8E6;
@@ -24,7 +24,7 @@ namespace Addresses
 
 namespace Offsets
 {
-	uintptr_t LocalPawn = 0x338;
+	uintptr_t LocalPawn = 0x350;
 	uintptr_t PlayerController = 0x30;
 	uintptr_t LocalPlayers = 0x38;
 	uintptr_t PlayerState = 0x2B0;
@@ -47,7 +47,7 @@ namespace Offsets
 	uintptr_t RelativeLocation = 0x120;// discord.gg/saturniv
 	uintptr_t DisplayName = 0x90;// discord.gg/saturniv
 	uintptr_t ComponetToWorld = 0x1c0;// discord.gg/saturniv
-	uintptr_t PawnPrivate = 0x308;// discord.gg/saturniv
+	uintptr_t PawnPrivate = 0x320;// discord.gg/saturniv
         uintptr_t LastRenderTimeOnScreen = 0x2E0; // discord.gg/saturniv
         uintptr_t LastSubmitTime = 0x2E8; // discord.gg/saturniv
         uintptr_t Velocity = 0x168;// discord.gg/saturniv
