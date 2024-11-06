@@ -1,11 +1,11 @@
 namespace Addresses
 {
-	uintptr_t GWorld = 0x12DA3A98; // (UWorld) // fresh dump
-        uintptr_t PersistentLevel = 0x30 + 10 = 0x40
-        uintptr_t OwningWorld = 0xc0
+	uintptr_t GWorld = 0x12D17A08; // (UWorld) // fresh dump
+        uintptr_t PersistentLevel = 0x40;
+        uintptr_t OwningWorld = 0xc0;
   uintptr_t HabaneroComponent = 0x9E8;// fresh dump
 	uintptr_t GObjects = 0x12E4DF88;  // fresh dump
-	uintptr_t GNames = 0x12F88800;// fresh dump
+	uintptr_t GNames = 0x12EFC740;// fresh dump
 	uintptr_t FName = 0x124DE7C0 + 8;
 	uintptr_t StaticFindObject = 0x1DE185C;
    	uintptr_t GetBoneMatrix = 0x1E4E8E6;
@@ -27,9 +27,9 @@ namespace Offsets
 	uintptr_t LocalPawn = 0x350;
 	uintptr_t PlayerController = 0x30;
 	uintptr_t LocalPlayers = 0x38;
-	uintptr_t PlayerState = 0x2B0;
-	uintptr_t GameState = 0x160;
-	uintptr_t GameInstance = 0x1D8;
+	uintptr_t PlayerState = 0x2b0;
+	uintptr_t GameState = 0x178;
+	uintptr_t GameInstance = 0x1F0;
 	uintptr_t PlayerArray = 0x2A8;
 	uintptr_t TeamIndex = 0x1201;
 	uintptr_t RootC = 0x198;
