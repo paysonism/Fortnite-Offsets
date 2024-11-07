@@ -56,7 +56,7 @@ namespace Offsets
         uintptr_t bIsReloadingWeapon = 0x399;// discord.gg/saturniv
         uintptr_t bIsEquippingWeapon = 0x350; // payson was here
 	uintptr_t bIsChargingWeapon = 0x369;// discord.gg/saturniv
-	uintptr_t WeaponData = 0x520;// discord.gg/saturniv
+	uintptr_t WeaponData = 0x568;// discord.gg/saturniv
         uintptr_t AmmoCount = 0xef4;// discord.gg/saturniv
         uintptr_t bIsTargeting = 0x581;// discord.gg/saturniv
         uintptr_t GunName = 0x98;// discord.gg/saturniv
