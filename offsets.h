@@ -52,7 +52,7 @@ namespace Offsets
         uintptr_t LastSubmitTime = 0x2E8; // discord.gg/saturniv
         uintptr_t Velocity = 0x168;// discord.gg/saturniv
         uintptr_t DefaultFOV = 0x2a4;// discord.gg/saturniv
-        uintptr_t CurrentWeapons = 0x9d8;// discord.gg/saturniv
+        uintptr_t CurrentWeapons = 0x9f8;// discord.gg/saturniv
         uintptr_t bIsReloadingWeapon = 0x399;// discord.gg/saturniv
         uintptr_t bIsEquippingWeapon = 0x350; // payson was here
 	uintptr_t bIsChargingWeapon = 0x369;// discord.gg/saturniv
