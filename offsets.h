@@ -43,7 +43,7 @@ namespace Offsets
 	uintptr_t Actor = 0xA0; // discord.gg/saturniv
 	uintptr_t ActorMesh = 0x328; // discord.gg/saturniv
 	uintptr_t CurrentActor(AActor) = 0xA8;// discord.gg/saturniv
-	uintptr_t PersistentLevel = 0x30;// discord.gg/saturniv
+	uintptr_t PersistentLevel = 0x38;// discord.gg/saturniv
 	uintptr_t RelativeLocation = 0x120;// discord.gg/saturniv
 	uintptr_t DisplayName = 0x90;// discord.gg/saturniv
 	uintptr_t ComponetToWorld = 0x1c0;// discord.gg/saturniv
