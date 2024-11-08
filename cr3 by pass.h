@@ -1,4 +1,4 @@
-
+#include <thread> // if u dont include this this_thread will be a error
 void cr3_loop()
 {
 	for (;;)
