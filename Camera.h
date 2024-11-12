@@ -26,5 +26,5 @@ namespace camera
 		camera::rotation.y = ((atan2(tpmrotation.a * -1, tpmrotation.b) * (180.0 / M_PI)) * -1) * -1;
 		camera::rotation.z = 0;
 		camera::location = read<FVector>(location_pointer);
-		camera::fov = read<float>(pointer->player_controller + 0x4AC) * 90.f; // some srcs use 0x4AC and some 0x3AC just test
+		camera::fov = read<float>(pointer->player_controller + 0x3AC) * 90.f; // some srcs use 0x4AC and some 0x3AC just test
   }
