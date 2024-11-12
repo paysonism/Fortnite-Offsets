@@ -32,10 +32,10 @@ namespace Offsets
 	uintptr_t GameInstance = 0x1F0;
 	uintptr_t PlayerArray = 0x2A8;
 	uintptr_t TeamIndex = 0x1201;
-	uintptr_t RootC = 0x198;
+	uintptr_t RootC = 0x1b0;
 	uintptr_t CameraManager = 0x348;
 	uintptr_t CachedActor = 0x308;
-	uintptr_t RootComponent = 0x198;
+	uintptr_t RootComponent = 0x1b0;
 	uintptr_t ActorCount = 0xA8;
 	uintptr_t BoneArray = 0x580; 
 	uintptr_t BoneCache = 0x590;// fresh dump
