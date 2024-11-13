@@ -6,8 +6,8 @@ namespace camera
 
 	static auto UpdateCamera() -> void
 	{
-		auto location_pointer = read<uintptr_t>(pointer->uworld + 0x120);
-		auto rotation_pointer = read<uintptr_t>(pointer->uworld + 0x130);
+		auto location_pointer = read<uintptr_t>(pointer->uworld + 0x128);
+		auto rotation_pointer = read<uintptr_t>(pointer->uworld + 0x138);
 
 		struct FNRotation
 		{
