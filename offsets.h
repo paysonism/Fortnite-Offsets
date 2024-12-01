@@ -28,8 +28,8 @@ namespace Offsets
 	uintptr_t PlayerController = 0x30;
 	uintptr_t LocalPlayers = 0x38;
 	uintptr_t PlayerState = 0x2b0;
-	uintptr_t GameState = 0x178;
-	uintptr_t GameInstance = 0x1F0;
+	uintptr_t GameState = 0x188;
+	uintptr_t GameInstance = 0x200;
 	uintptr_t PlayerArray = 0x2A8;
 	uintptr_t TeamIndex = 0x1201;
 	uintptr_t RootC = 0x1b0;
