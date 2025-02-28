@@ -19,7 +19,7 @@
 #define LAST_SUBMIT_TIME_ON_SCREEN 0x2F0
 #define VELOCITY 0x180
 #define CURRENT_WEAPON 0xa80
-#define WEAPON_DATA 0x6a0
+#define WEAPON_DATA 0x570
 #define DISPLAY_NAME 0x40
 ProjectileSpeed: 0x1f10, 0x1ad8, 0x1e60 (find the best for you ¯\_(ツ)_/¯)
 ProjectileGravity: 0x1f14
