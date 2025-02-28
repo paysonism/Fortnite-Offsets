@@ -1,6 +1,6 @@
 #pragma once
-#define UWORLD 0x164015B8
-#define GAME_INSTANCE 0x1F8
+#define UWORLD 0x169641B8
+#define GAME_INSTANCE 0x218
 #define LOCAL_PLAYERS 0x38
 #define PLAYER_CONTROLLER 0x30
 #define LOCAL_PAWN 0x350
@@ -9,7 +9,7 @@
 #define RELATIVE_LOCATION 0x138
 #define PLAYER_STATE 0x2C8
 #define TEAM_INDEX 0x1261
-#define GAME_STATE 0x180
+#define GAME_STATE 0x1a0
 #define PLAYER_ARRAY 0x2C0
 #define MESH 0x328
 #define COMPONENT_TO_WORLD 0x1E0
@@ -21,3 +21,5 @@
 #define CURRENT_WEAPON 0xa80
 #define WEAPON_DATA 0x6a0
 #define DISPLAY_NAME 0x40
+ProjectileSpeed: 0x1f10, 0x1ad8, 0x1e60 (find the best for you ¯\_(ツ)_/¯)
+ProjectileGravity: 0x1f14
