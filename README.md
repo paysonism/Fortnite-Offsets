@@ -29,6 +29,6 @@ Contact me on [Telegram](https://t.me/payson1337) or [Discord](https://discord.c
 
 
 # Credits
-- Payson
-- Stern
 - Andreu
+- Stern
+- Payson
