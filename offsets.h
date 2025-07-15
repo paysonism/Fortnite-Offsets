@@ -1,5 +1,5 @@
 #pragma once
-#define UWORLD 0x169641B8
+#define UWORLD 0x14E2C5F8 // updated
 #define GAME_INSTANCE 0x218
 #define LOCAL_PLAYERS 0x38
 #define PLAYER_CONTROLLER 0x30
