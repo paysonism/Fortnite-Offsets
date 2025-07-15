@@ -1,7 +1,7 @@
 ftransform GetBoneIndex(uint64_t mesh, int index)
 {
-	uint64_t bonearray = read<uint64_t>(mesh + 0x4a8);
-	if (!bonearray) bonearray = read<uint64_t>(mesh + 0x4a8 + 0x10);
+	uint64_t bonearray = read<uint64_t>(mesh + 0x5E8);
+	if (!bonearray) bonearray = read<uint64_t>(mesh + 0x5E8 + 0x10);
 	return read<ftransform>(bonearray + (index * 0x30));
 }
 
