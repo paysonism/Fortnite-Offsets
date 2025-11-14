@@ -1,3 +1,5 @@
+<div align="center">
+
 # Fortnite Offsets
 
 [![Repo Views](https://komarev.com/ghpvc/?username=niggerfart&label=Views&color=0e75b6&style=flat)](https://github.com/paysonism/Fortnite-Offsets)
@@ -23,19 +25,19 @@ you guys every single update! Check out some of my other projects aswell!
 ## Current Info
 
 - **Current Patch**: `v38.10`
-- **Repository Status**: ✅ Active maintenance
+- **Repository Status**: Active maintenance
 
 ## Contact Me
 
-- 💬 **Discord**: [Contact me directly](https://discord.com/users/1214355385457188926)
-- 📢 **New Discord Server**: Coming Soon!
+- **Discord User Profile**: [@payson_.](https://discord.com/users/1214355385457188926)
+- **Discord Server**: Coming Soon!
 
 ## Support the Project
 
 If you find these offsets helpful, please consider:
-- ⭐ **Starring this repository** - it helps others discover the project
-- 🔄 **Sharing with friends** who might find it useful
-- 📝 **Contributing** improvements or suggestions
+- **Starring this repository** - it helps others discover the project
+- **Sharing with friends** who might find it useful
+- **Contributing** improvements or suggestions
 
 ## Disclaimer
 
@@ -46,3 +48,4 @@ This repository is for educational and research purposes only. Please ensure you
 **Made with ❤️ by [Payson](https://github.com/paysonism)**
 
 *This project is maintained independently and is not affiliated with Epic Games or Fortnite.*
+</div>
