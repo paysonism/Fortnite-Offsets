@@ -15,7 +15,7 @@ you guys every single update! Check out some of my other projects aswell!
 
 | Resource | Link |
 |----------|------|
-| 🔧 **Latest SDK** | [OffsetClub](https://offsetclub.xyz) \| [Alternative](https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb) |
+| 🔧 **Latest SDK** | [OffsetClub](https://offsetclub.xyz) \| [DumpSpace](https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb) |
 | 📄 **Offsets** | [offsets.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/offsets.h) |
 | 🌍 **World to Screen** | [ProjectWorldToScreen.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/ProjectWorldToScreen.h) |
 | 🔢 **Matrix** | [Matrix.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/Matrix.h) |
