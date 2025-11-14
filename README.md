@@ -2,7 +2,7 @@
 
 # Fortnite Offsets
 
-[![Repo Views](https://komarev.com/ghpvc/?username=niggerfart&label=Views&color=0e75b6&style=flat)](https://github.com/paysonism/Fortnite-Offsets)
+[![Repo Views](<img src="https://komarev.com/ghpvc/?username=p-niggerfart&label=Repo%20views&color=0e75b6&style=flat" alt="Repo Views" /> )](https://github.com/paysonism/Fortnite-Offsets)
 [![GitHub Stars](https://img.shields.io/github/stars/paysonism/Fortnite-Offsets?style=flat&color=yellow)](https://github.com/paysonism/Fortnite-Offsets/stargazers)
 [![Current Patch](https://img.shields.io/badge/Patch-v38.10-brightgreen)](https://github.com/paysonism/Fortnite-Offsets)
 
