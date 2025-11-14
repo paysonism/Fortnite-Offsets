@@ -6,7 +6,7 @@
 [![GitHub Stars](https://img.shields.io/github/stars/paysonism/Fortnite-Offsets?style=flat&color=yellow)](https://github.com/paysonism/Fortnite-Offsets/stargazers)
 [![Current Patch](https://img.shields.io/badge/Patch-v38.10-brightgreen)](https://github.com/paysonism/Fortnite-Offsets)
 
-`The latest Fortnite offsets, available hours within game updates`
+**`The latest Fortnite offsets, available hours within game updates`**
 
 Welcome to the most up-to-date Fortnite offsets repository! I maintain these offsets regularly to ensure they're always current with the latest game version. Please star the repo as I work hard to get these for 
 you guys every single update! Check out some of my other projects aswell!
