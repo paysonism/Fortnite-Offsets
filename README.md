@@ -8,7 +8,7 @@ These are the latest fortnite offsets. I usually update these within a few hours
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=p-niggerfart&label=Repo%20views&color=0e75b6&style=flat" alt="Repo Views" /> </p>
 
-Latest Patch: ``v36.20``
+Current Patch: ``v38.10``
 
 # Table of Contents
 
