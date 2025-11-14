@@ -1,3 +1,5 @@
+// Current Patch: v38.10
+
 namespace offsets {
     uintptr_t UWorld = 0x173bdd18; // updated: 0x16a439c0 -> 0x173bdd18
     uintptr_t GNames = 0x167B6600;

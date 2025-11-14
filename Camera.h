@@ -1,32 +1,46 @@
-Camera get_view_point() 
-{
-    Camera view_point{};
-	uintptr_t location_pointer = read<uintptr_t>(cache::uworld + 0x160);//updated
-	uintptr_t rotation_pointer = read<uintptr_t>(cache::uworld + 0x170);
-    FNRot fnrot{};
-    fnrot.a = read<double>(rotation_pointer);
-    fnrot.b = read<double>(rotation_pointer + 0x20);
-    fnrot.c = read<double>(rotation_pointer + 0x1D0);
-    view_point.location = read<Vector3>(location_pointer);
-    view_point.rotation.x = asin(fnrot.c) * (180.0 / M_PI);
-    view_point.rotation.y = ((atan2(fnrot.a * -1, fnrot.b) * (180.0 / M_PI)) * -1) * -1;
-    auto fov_radians = read<float>(cache::player_controller + 0x3AC) * 2; // USE 3AC IF U USE PLAYER_CONTROLLER U NIGGER
-    view_point.fov * 180.0f / std::numbers::pi;
-    return view_point;
+// Current Patch: v38.10
+
+struct CameraDescription {
+	Vector3 Location;
+	Vector3 Rotation;
+	float FieldOfView;
+};
+
+Camera GetViewAngles() {
+	CameraDescription Camera;
+	auto LocationPointer = kernel->read_t<uintptr_t>(cache::UWorld + offsets::CameraLocation);
+	auto RotationPointer = kernel->read_t<uintptr_t>(cache::UWorld + offsets::CameraRotation);
+
+	struct Rotation {
+		double A;
+		char Pad0008[24];
+		double B;
+		char Pad0028[424];
+		double C;
+	};
+	Rotation Rotation;
+	Rotation = kernel->read_t<Rotation>(RotationPointer);
+
+	Camera.Location = kernel->read_t<Vector3>(LocationPointer);
+	Camera.Rotation.x = asin(Rotation.C) * (180.0 / std::numbers::pi);
+	Camera.Rotation.y = ((atan2(Rotation.A * -1, Rotation.B) * (180.0 / std::numbers::pi)) * -1) * -1;
+	Camera.FieldOfView = kernel->read_t<float>(cache::PlayerController + offsets::CameraFOV) * 90.f;
+
+	return { Camera.Location, Camera.Rotation, Camera.FieldOfView };
 }
 
-Camera get_view_point()
+Camera GetViewPoint() 
 {
-	Camera view_point{};
-	uintptr_t location_pointer = read<uintptr_t>(cache::uworld + 0x160); //
-	uintptr_t rotation_pointer = read<uintptr_t>(cache::uworld + 0x170); //
-	FNRot fnrot{};
-	fnrot.a = read<double>(rotation_pointer);
-	fnrot.b = read<double>(rotation_pointer + 0x20);
-	fnrot.c = read<double>(rotation_pointer + 0x1D0);
-	view_point.location = read<Vector3>(location_pointer);
-	view_point.rotation.x = asin(fnrot.c) * (180.0 / M_PI);
-	view_point.rotation.y = ((atan2(fnrot.a * -1, fnrot.b) * (180.0 / M_PI)) * -1) * -1;
-	view_point.fov = read<float>(cache::local_player + 0x4AC); //USE 0x4AC WHEN LOCAL_PLAYER U FUCKING BLACK NIGGA
-	return view_point;
+    CameraPositionS ViewPoint{};
+    uintptr_t LocationPointer = read<uintptr_t>(cache::UWorld + 0x180);
+    uintptr_t RotationPointer = read<uintptr_t>(cache::UWorld + 0x190);
+    FNRot FnRot{};
+    FnRot.A = read<double>(RotationPointer);
+    FnRot.B = read<double>(RotationPointer + 0x20);
+    FnRot.C = read<double>(RotationPointer + offsets::GameState);
+    ViewPoint.Location = read<Vector3>(LocationPointer);
+    ViewPoint.Rotation.x = asin(FnRot.C) * (180.0 / M_PI);
+    ViewPoint.Rotation.y = ((atan2(FnRot.A * -1, FnRot.B) * (180.0 / M_PI)) * -1) * -1;
+    ViewPoint.Fov = read<float>(cache::PlayerController + 0x3B4) * 90.0f;
+    return ViewPoint;
 }

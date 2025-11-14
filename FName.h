@@ -1,4 +1,5 @@
-// make sure your uworld is the same as the repo
+// Current Patch: v38.10
+
 class FName
 {
 public:
@@ -8,49 +9,49 @@ public:
     {
         const int NAME_SIZE = 2048;
 
-        auto NamePoolChunk = DotMem::Read<uint64_t>(va_text + (0x123FAFC0 + 8 * (ComparisonIndex >> 16) + 16)) + 2 * ((unsigned short)ComparisonIndex);
-        auto Pool = DotMem::Read<uint16_t>(NamePoolChunk);
+        auto NamePoolChunk = kernel->read_t<uint64_t>(VaText + (0x123FAFC0 + 8 * (ComparisonIndex >> 16) + 16)) + 2 * ((unsigned short)ComparisonIndex);
+        auto Pool = kernel->read_t<uint16_t>(NamePoolChunk);
 
         if (Pool < 64)
         {
-            auto Index = DotMem::Read<int>(NamePoolChunk + 2);
-            NamePoolChunk = DotMem::Read<uint64_t>(va_text + (0x124AE500 + 8 * (Index >> 16) + 16)) + 2 * ((unsigned short)Index);
-            Pool = DotMem::Read<uint16_t>(NamePoolChunk);
+            auto Index = kernel->read_t<int>(NamePoolChunk + 2);
+            NamePoolChunk = kernel->read_t<uint64_t>(VaText + (0x124AE500 + 8 * (Index >> 16) + 16)) + 2 * ((unsigned short)Index);
+            Pool = kernel->read_t<uint16_t>(NamePoolChunk);
         }
 
         auto NameLength = min(Pool >> 6, NAME_SIZE);
         char NameBuffer[NAME_SIZE + 1] = {0};
-        Driver::ReadPhysical(PVOID(NamePoolChunk + 2), NameBuffer, NameLength);
+        kernel->read_physical(PVOID(NamePoolChunk + 2), NameBuffer, NameLength);
 
         DecryptFName(NameBuffer, NameLength);
         return std::string(NameBuffer);
     }
 
 private:
-    static void DecryptFName(char *buffer, int length)
+    static void DecryptFName(char *Buffer, int Length)
     {
-        int v0;          // ebx
-        char *v1;        // rdi
-        int v2;          // ecx
-        int v3;          // edx
-        int v4;          // eax
-        unsigned int v5; // edx
-        char result;     // al
+        int V0;
+        char *V1;
+        int V2;
+        int V3;
+        int V4;
+        unsigned int V5;
+        char Result;
 
-        v2 = 0;
-        v3 = 28;
-        if (length)
+        V2 = 0;
+        V3 = 28;
+        if (Length)
         {
-            v0 = length;
-            v1 = buffer;
+            V0 = Length;
+            V1 = Buffer;
             do
             {
-                v4 = v2++;
-                v5 = (v4 | 0xB000) + v3;
-                result = v5 ^ ~*v1;
-                v3 = v5 >> 2;
-                *v1++ = result;
-            } while (v2 < v0);
+                V4 = V2++;
+                V5 = (V4 | 0xB000) + V3;
+                Result = V5 ^ ~*V1;
+                V3 = V5 >> 2;
+                *V1++ = Result;
+            } while (V2 < V0);
         }
     }
 };
