@@ -14,7 +14,7 @@ Welcome to the most up-to-date Fortnite offsets repository! I maintain these off
 
 | Resource | Link |
 |----------|------|
-| **Latest SDK** | [OffsetClub](https://offsetclub.xyz) \| [DumpSpace](https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb) |
+| **Latest SDK** | [Neptune SDK](https://fnsdk.getneptune.tech) \| [DumpSpace](https://dumpspace.spuckwaffel.com/Games/?hash=6b77eceb) |
 | **Offsets** | [offsets.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/offsets.h) |
 | **World to Screen** | [ProjectWorldToScreen.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/ProjectWorldToScreen.h) |
 | **Matrix** | [Matrix.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/Matrix.h) |
