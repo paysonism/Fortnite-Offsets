@@ -45,7 +45,7 @@ namespace offsets {
     uintptr_t RelativeLocation = 0x140; // needs testing
     uintptr_t RelativeScale3D = 0x170;
     uintptr_t ComponentVelocity = 0x188; // needs testing
-    uintptr_t AdditionalAimOffset = 0x2D20; // needs testing
+    uintptr_t AdditionalAimOffset = 0x2BA8; // updated: 0x2D20 -> 0x2BA8
     uintptr_t LastRenderTime = 0x32c;
     
     uintptr_t CameraLocation = 0x178; // updated: 0x180 -> 0x178
