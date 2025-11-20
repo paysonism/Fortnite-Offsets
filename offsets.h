@@ -1,3 +1,8 @@
+#pragma once
+#include <cstdint>
+#include <unordered_map>
+#include <fstream>
+
 // Current Patch: v38.11
 
 namespace offsets {
