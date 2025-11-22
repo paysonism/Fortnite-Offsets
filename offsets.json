@@ -1,0 +1,79 @@
+{
+  "patch": "v38.11",
+  "offsets": {
+    "UWorld": "0x175448B8",
+    "GNames": "0x167B6600",
+
+    "LocalPlayers": "0x38",
+    "PlayerController": "0x30",
+    "PlayerCameraManager": "0x360",
+    "AcknowledgedPawn": "0x358",
+    "PlayerState": "0x2D0",
+    "TeamIndex": "0x11A9",
+    "bIsDying": "0x728",
+    "bIsDBNO": "0x841",
+    "bIsABot": "0x2BA",
+
+    "Platform": "0x440",
+    "TargetedFortPawn": "0x1820",
+    "KillScore": "0x11A8",
+    "PlayerName": "0xA00",
+    "ranked_progress": "0xD8",
+    "PlayerAim": "0x2BC0",
+
+    "OwningGameInstance": "0x248",
+    "GameState": "0x1D0",
+    "PlayerArray": "0x2C8",
+    "WorldSettings": "0x2B8",
+    "worldgravityz": "0x330",
+    "WorldToMeters": "0x320",
+    "worldTick": "0x198",
+
+    "RootComponent": "0x1B0",
+    "PawnPrivate": "0x328",
+    "AActor": "0x38",
+    "PersistentLevel": "0x38",
+    "Levels": "0x1E8",
+    "SuperField": "0x40",
+    "StaticFindObject": "0x83F8E",
+
+    "Mesh": "0x330",
+    "BoneArray": "0x5E8",
+    "bonecache": "0x5F8",
+    "bonestide": "0x60",
+    "ComponentToWorld": "0x1E0",
+    "RelativeLocation": "0x140",
+    "RelativeScale3D": "0x170",
+    "ComponentVelocity": "0x188",
+    "AdditionalAimOffset": "0x2BA8",
+    "LastRenderTime": "0x32C",
+
+    "CameraLocation": "0x178",
+    "CameraRotation": "0x188",
+    "CameraFOV": "0x3B4",
+
+    "CurrentVehicle": "0x2C18",
+
+    "CurrentWeapon": "0x990",
+    "WeaponData": "0x598",
+    "AmmoCount": "0x144C",
+    "ReloadAnimation": "0x19E8",
+    "ItemName": "0x40",
+
+    "ProjectileSpeed": "0x22A4",
+    "ProjectileGravity": "0x22A8",
+    "MaxTargetingAimAdjustPerSecond": "0x2338",
+    "ServerWorldTimeSecondsDelta": "0x2E8",
+
+    "PrimaryPickupItemEntry": "0x3A8",
+    "ItemDefinition": "0x10",
+    "ItemType": "0xA8",
+    "ItemRarity": "0xAA",
+    "Tier": "0xA2",
+    "Rarity": "0xAA",
+    "bAlreadySearched": "0xD52",
+
+    "HabaneroComponent": "0x940",
+    "OverlappingBuildings": "0x1D48"
+  }
+}
