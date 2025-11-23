@@ -29,7 +29,7 @@ Welcome to the most up-to-date Fortnite offsets repository! I maintain these off
 ## Contact Me
 
 **Discord User Profile**: [@payson_.](https://discord.com/users/1214355385457188926)
-**Discord Server**: Coming Soon!
+**Discord Server**: [Neptune](https://discord.gg/getneptune)
 
 ## Support the Project
 
