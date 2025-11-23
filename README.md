@@ -1,6 +1,6 @@
 <div align="center">
 
-# Fortnite Offsets [v38.11]
+# Fortnite Offsets (v38.11)
 
 [![Repo Views](https://komarev.com/ghpvc/?username=p-niggerfart&label=Repo%20views&color=0e75b6&style=flat)](https://github.com/paysonism/Fortnite-Offsets)
 [![GitHub Stars](https://img.shields.io/github/stars/paysonism/Fortnite-Offsets?style=flat&color=yellow)](https://github.com/paysonism/Fortnite-Offsets/stargazers)
