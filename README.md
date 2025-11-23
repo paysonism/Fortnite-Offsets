@@ -4,7 +4,7 @@
 
 [![Repo Views](https://komarev.com/ghpvc/?username=p-niggerfart&label=Repo%20views&color=0e75b6&style=flat)](https://github.com/paysonism/Fortnite-Offsets)
 [![GitHub Stars](https://img.shields.io/github/stars/paysonism/Fortnite-Offsets?style=flat&color=yellow)](https://github.com/paysonism/Fortnite-Offsets/stargazers)
-[![Current Patch](https://img.shields.io/badge/Patch-v38.10-brightgreen)](https://github.com/paysonism/Fortnite-Offsets)
+[![Current Patch](https://img.shields.io/badge/Patch-v38.11-brightgreen)](https://github.com/paysonism/Fortnite-Offsets)
 
 **`The latest Fortnite offsets, available hours within game updates`**
 
