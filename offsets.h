@@ -23,7 +23,7 @@ namespace offsets {
     uintptr_t TargetedFortPawn = 0x1820; // updated: 0x1900 -> 0x1820 (from offsets_data.hpp)
     uintptr_t KillScore = 0x11A8; // NOT updated
     uintptr_t PlayerName = 0xA00; // (CachedPreviousWorldPlayerId)
-    uintptr_t ranked_progress = 0xD8;
+    uintptr_t RankedProgress = 0xD8;
     uintptr_t PlayerAim = 0x2BC0;
 
     uintptr_t OwningGameInstance = 0x248;
