@@ -1,4 +1,4 @@
-// Current Patch: v38.10
+// Current Patch: v38.11
 
 FTransform GetBoneIndex(uint64_t Mesh, int Index)
 {
