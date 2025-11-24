@@ -1,4 +1,4 @@
-// Current Patch: v38.10
+// Current Patch: Working on v38.11+
 
 struct FPlane : Vector3 {
 	double W;
