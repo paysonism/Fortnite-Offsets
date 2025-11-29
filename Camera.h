@@ -32,8 +32,8 @@ Camera GetViewAngles() {
 Camera GetViewPoint() 
 {
     CameraPositionS ViewPoint{};
-    uintptr_t LocationPointer = read<uintptr_t>(cache::UWorld + 0x180);
-    uintptr_t RotationPointer = read<uintptr_t>(cache::UWorld + 0x190);
+    uintptr_t LocationPointer = read<uintptr_t>(cache::UWorld + offsets::CameraLocation);
+    uintptr_t RotationPointer = read<uintptr_t>(cache::UWorld + offsets::CameraRotation); // CameraLocation + 0x10
     FNRot FnRot{};
     FnRot.A = read<double>(RotationPointer);
     FnRot.B = read<double>(RotationPointer + 0x20);
@@ -41,6 +41,6 @@ Camera GetViewPoint()
     ViewPoint.Location = read<Vector3>(LocationPointer);
     ViewPoint.Rotation.x = asin(FnRot.C) * (180.0 / M_PI);
     ViewPoint.Rotation.y = ((atan2(FnRot.A * -1, FnRot.B) * (180.0 / M_PI)) * -1) * -1;
-    ViewPoint.Fov = read<float>(cache::PlayerController + 0x3B4) * 90.0f;
+    ViewPoint.Fov = read<float>(cache::PlayerController + offsets::CameraFOV) * 90.0f;
     return ViewPoint;
 }
