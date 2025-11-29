@@ -30,7 +30,7 @@ namespace offsets {
     uintptr_t GameState = 0x1D0;
     uintptr_t PlayerArray = 0x2C8;
     uintptr_t WorldSettings = 0x2B8;
-    uintptr_t worldgravityz = 0x330;
+    uintptr_t WorldGravityZ = 0x330;
     uintptr_t WorldToMeters = 0x320;
     uintptr_t WorldTick = 0x198; // Seconds
     
