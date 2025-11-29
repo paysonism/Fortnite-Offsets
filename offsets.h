@@ -82,4 +82,4 @@ namespace offsets {
     uintptr_t OverlappingBuildings = 0x1D48;
 };
 
-// https://github.com/paysonism/Fortnite-Offsets
+// Offsets From: https://github.com/paysonism/Fortnite-Offsets
