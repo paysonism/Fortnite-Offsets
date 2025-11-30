@@ -6,7 +6,7 @@
 // Current Patch: v39.00
 
 namespace offsets {
-    uintptr_t UWorld = 0x17279220; // updated: 0x175448B8 -> 0x17279220
+    uintptr_t UWorld = 0x1727DC38; // updated: 0x175448B8 -> 0x1727DC38
     uintptr_t GNames = 0x1711DC80; // updated: 0x167B6600 -> 0x1711DC80
     uintptr_t GObjects = 0x171FB7E4;
     uintptr_t GObjectsCount = 0x171FB7E4;
@@ -68,8 +68,8 @@ namespace offsets {
     uintptr_t ReloadAnimation = 0x19E8;
     uintptr_t ItemName = 0x40;
 
-    uintptr_t ProjectileSpeed = 0x22A4;
-    uintptr_t ProjectileGravity = 0x22A8;
+    uintptr_t ProjectileSpeed = 0x212C;
+    uintptr_t ProjectileGravity = 0x2130;
     uintptr_t MaxTargetingAimAdjustPerSecond = 0x2338;
     uintptr_t ServerWorldTimeSecondsDelta = 0x2E8;
 
