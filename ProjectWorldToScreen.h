@@ -1,4 +1,4 @@
-// Current Patch: Works on v38.11+
+// Current Patch: Working
 
 Vector2 ProjectWorldToScreen(Vector3 WorldLocation) {
 	VCamera = GetViewAngles();

@@ -1,4 +1,4 @@
-// Current Patch: Works on v38.11+
+// Current Patch: Working
 
 bool MemoryMove(Vector3 NewPos)
 {
