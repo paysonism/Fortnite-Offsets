@@ -23,9 +23,9 @@ namespace offsets {
 
     uintptr_t Platform = 0x440;
     uintptr_t TargetedFortPawn = 0x1820;
-    uintptr_t KillScore = 0x11A8; // NOT updated
-    uintptr_t PlayerName = 0xA00; // (CachedPreviousWorldPlayerId)
-    uintptr_t RankedProgress = 0xD8;
+    uintptr_t KillScore = 0x11E0;
+    uintptr_t PlayerName = 0x9F8; // (CachedPreviousWorldPlayerId)
+    uintptr_t RankedProgress = 0x0D8;
     uintptr_t PlayerAimOffset = 0x2BE8; // updated: 0x2BC0 -> 0x2BE8
 
     uintptr_t OwningGameInstance = 0x248;
@@ -45,7 +45,7 @@ namespace offsets {
     uintptr_t StaticFindObject = 0x83F8E;
 
     uintptr_t Mesh = 0x330;
-    uintptr_t BoneArray = 0x5F8; // updated: 0x5E8 -> 0x5F8
+    uintptr_t BoneArray = 0x5F0; // updated: 0x5E8 -> 0x5F0
     uintptr_t BoneCache = 0x5F8;
     uintptr_t BonesTide = 0x60;
     uintptr_t ComponentToWorld = 0x1E0;
@@ -60,9 +60,9 @@ namespace offsets {
     uintptr_t CameraRotation = 0x188; // (CameraLocation + 0x10)
     uintptr_t CameraFOV = 0x3B4;
 
-    uintptr_t CurrentVehicle = 0x2C18; // (CurrentVehicle)
+    uintptr_t CurrentVehicle = 0x2B78; // updated: 0x2C18 -> 0x2B78
 
-    uintptr_t CurrentWeapon = 0x990; // (CurrentWeapon)
+    uintptr_t CurrentWeapon = 0x990;
     uintptr_t WeaponData = 0x5D8; // updated: 0x598 -> 0x5D8
     uintptr_t AmmoCount = 0x144C;
     uintptr_t ReloadAnimation = 0x19E8;
@@ -81,7 +81,7 @@ namespace offsets {
     uintptr_t Rarity = 0xAA;
     uintptr_t bAlreadySearched = 0xD52;
     
-    uintptr_t HabaneroComponent = 0x940;
+    uintptr_t HabaneroComponent = 0x938;
     uintptr_t OverlappingBuildings = 0x1D48;
 };
 
