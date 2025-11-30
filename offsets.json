@@ -1,7 +1,7 @@
 {
   "patch": "v39.00",
   "offsets": {
-    "UWorld": "0x17279220",
+    "UWorld": "0x1727DC38",
     "GNames": "0x1711DC80",
     "GObjects": "0x171FB7E4",
     "GObjectsCount": "0x171FB7E4",
@@ -18,9 +18,9 @@
 
     "Platform": "0x440",
     "TargetedFortPawn": "0x1820",
-    "KillScore": "0x11A8",
-    "PlayerName": "0xA00",
-    "RankedProgress": "0xD8",
+    "KillScore": "0x11E0",
+    "PlayerName": "0x9F8",
+    "RankedProgress": "0x0D8",
     "PlayerAimOffset": "0x2BE8",
 
     "OwningGameInstance": "0x248",
@@ -40,7 +40,7 @@
     "StaticFindObject": "0x83F8E",
 
     "Mesh": "0x330",
-    "BoneArray": "0x5F8",
+    "BoneArray": "0x5F0",
     "BoneCache": "0x5F8",
     "BonesTide": "0x60",
     "ComponentToWorld": "0x1E0",
@@ -55,7 +55,7 @@
     "CameraRotation": "0x188",
     "CameraFOV": "0x3B4",
 
-    "CurrentVehicle": "0x2C18",
+    "CurrentVehicle": "0x2B78",
 
     "CurrentWeapon": "0x990",
     "WeaponData": "0x5D8",
@@ -63,8 +63,8 @@
     "ReloadAnimation": "0x19E8",
     "ItemName": "0x40",
 
-    "ProjectileSpeed": "0x22A4",
-    "ProjectileGravity": "0x22A8",
+    "ProjectileSpeed": "0x212C",
+    "ProjectileGravity": "0x2130",
     "MaxTargetingAimAdjustPerSecond": "0x2338",
     "ServerWorldTimeSecondsDelta": "0x2E8",
 
@@ -76,7 +76,7 @@
     "Rarity": "0xAA",
     "bAlreadySearched": "0xD52",
 
-    "HabaneroComponent": "0x940",
+    "HabaneroComponent": "0x938",
     "OverlappingBuildings": "0x1D48"
   }
 }
