@@ -1,7 +1,7 @@
-// Current Patch: v39.00
+// Current Patch: v39.00 - 2
 
 inline uintptr_t decryptUWorld(uintptr_t encryptedAddress) noexcept {
-    return std::rotl(encryptedAddress, 32) ^ 0x8F1D3223E733EA8A;
+    return decrypted = std::rotl(encrypted, 55) - 0x676DBEABULL;
 }
 
 uintptr_t encryptedUWorld = kernel->read_t<uintptr_t>(BaseAddress + offsets::UWorld);

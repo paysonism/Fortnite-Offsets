@@ -1,19 +1,60 @@
-// Current Patch: v39.00
+// Current Patch: v39.00 - 2
 
-FTransform GetBoneIndex(uint64_t Mesh, int Index)
-{
-	uint64_t BoneArray = kernel->read_t<uint64_t>(Mesh + offsets::BoneArray);
-	if (!BoneArray) BoneArray = kernel->read_t<uint64_t>(Mesh + offsets::BoneArray + 0x10);
-	return kernel->read_t<FTransform>(BoneArray + (Index * offsets::PlayerController));
+void InvalidateBoneCache() {
+	g_currentFrame++;
+	auto now = std::chrono::steady_clock::now();
+	for (auto it = g_boneCache.begin(); it != g_boneCache.end();) {
+		auto elapsed = std::chrono::duration_cast<std::chrono::milliseconds>(
+			now - it->second.timestamp).count();
+		if (elapsed > 16) { // older than 1 frame
+			it = g_boneCache.erase(it);
+		} else {
+			++it;
+		}
+	}
 }
 
-Vector3 GetBoneWithRotation(DWORD_PTR Mesh, int Id) {
+inline auto GetBoneLocation(uintptr_t skeletal_mesh, int bone_index) -> Vector3 {
+	uintptr_t bone_array = kernel->read_t<uintptr_t>(skeletal_mesh + offsets::BoneArray);
 
-	int32_t ActiveTransforms = kernel->read_t<int32_t>(Mesh + (offsets::BoneArray + 0x48)) * 0x10;
-	auto BoneArray = kernel->read_t<TArray<FTransform>>((uintptr_t)Mesh + offsets::BoneArray + ActiveTransforms);
-	auto BoneTransform = kernel->read_t<FTransform>((uintptr_t)BoneArray.Data + (Id * 0x60));
-	FTransform ComponentToWorld = kernel->read_t<FTransform>((uintptr_t)Mesh + offsets::ComponentToWorld);
+	if (bone_array == NULL)
+		bone_array = kernel->read_t<uintptr_t>(skeletal_mesh + offsets::BoneArray + 0x10);
 
-	D3DMATRIX Matrix = MatrixMultiplication(BoneTransform.ToMatrixWithScale().ToD3DMATRIX(), ComponentToWorld.ToMatrixWithScale().ToD3DMATRIX());
-	return Vector3(Matrix._41, Matrix._42, Matrix._43);
+	FTransform bone = kernel->read_t<FTransform>(bone_array + (bone_index * 0x60));
+
+	FTransform component_to_world;
+	auto cacheIt = g_boneCache.find(skeletal_mesh);
+	if (cacheIt != g_boneCache.end()) {
+		component_to_world = cacheIt->second.componentToWorld;
+	} else {
+		component_to_world = kernel->read_t<FTransform>(skeletal_mesh + offsets::ComponentToWorld);
+		BoneTransformCache cacheEntry;
+		cacheEntry.mesh = skeletal_mesh;
+		cacheEntry.componentToWorld = component_to_world;
+		cacheEntry.timestamp = std::chrono::steady_clock::now();
+		g_boneCache[skeletal_mesh] = cacheEntry;
+	}
+
+	D3DMATRIX matrix = matrix_multiplication(bone.to_matrix_with_scale(), component_to_world.to_matrix_with_scale());
+
+	return Vector3(matrix._41, matrix._42, matrix._43);
+}
+
+
+inline Vector3 GetBoneLocationCached(uintptr_t mesh, int boneIndex) {
+    if (!mesh) return {};
+
+    auto& entry = g_perBoneCache[mesh];
+    if (entry.mesh != mesh || entry.generation != g_perBoneCacheGeneration) {
+        entry.mesh = mesh;
+        entry.generation = g_perBoneCacheGeneration;
+        entry.bones.clear();
+    }
+
+    if (auto it = entry.bones.find(boneIndex); it != entry.bones.end())
+        return it->second;
+
+    Vector3 v = GetBoneLocation(mesh, boneIndex);
+    entry.bones.emplace(boneIndex, v);
+    return v;
 }

@@ -3,13 +3,13 @@
 #include <unordered_map>
 #include <fstream>
 
-// Current Patch: v39.00
+// Current Patch: v39.00 - 2
 
 namespace offsets {
-    uintptr_t UWorld = 0x1727DC38; // updated: 0x175448B8 -> 0x1727DC38
-    uintptr_t GNames = 0x1711DC80; // updated: 0x167B6600 -> 0x1711DC80
-    uintptr_t GObjects = 0x171FB7E4;
-    uintptr_t GObjectsCount = 0x171FB7E4;
+    uintptr_t UWorld = 0x172C8CB8; // updated: 0x1727DC38 -> 0x172C8CB8
+    uintptr_t GNames = 0x17168D00; // updated: 0x1711DC80 -> 0x17168D00
+    uintptr_t GObjects = 0x172467F0;
+    uintptr_t GObjectsCount = 0x17246804;
 
     uintptr_t LocalPlayers = 0x38;
     uintptr_t PlayerController = 0x30;
