@@ -1,10 +1,12 @@
 {
-  "patch": "v39.00",
+  "patch": "v39.10",
   "offsets": {
-    "UWorld": "0x172C8CB8",
-    "GNames": "0x17168D00",
-    "GObjects": "0x172467F0",
-    "GObjectsCount": "0x17246804",
+    "UWorld": "0x176B9A78",
+    "GNames": "0x175746C0",
+    "GObjects": "0x176515C8",
+    "GObjectsCount": "0x176515C0",
+    "ProcessEvent": "0x83A74",
+    "ProcessEventIndex": "0x78",
 
     "LocalPlayers": "0x38",
     "PlayerController": "0x30",

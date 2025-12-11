@@ -1,7 +1,9 @@
+// Current Patch: v39.10
+
 uint32_t GetObjectsCount()
 {
-    const uintptr_t GObjectsCountEncryptedRVA = 0x17246804;
-    const uint32_t XorKey = 0x4B6BBC73;
+    const uintptr_t GObjectsCountEncryptedRVA = offsets::GObjectsCount;
+    const uint32_t XorKey = 0xBC0BA8E;
 
     const uint32_t encryptedCount = read<uint32_t>(BaseAddress + GObjectsCountEncryptedRVA);
 
@@ -12,8 +14,8 @@ uint64_t GetObjectByIndex(uint32_t index)
 {
     if (!BaseAddress) return 0;
 
-    const uintptr_t GObjectsEncryptedRVA = 0x172467F0;
-    const uint64_t GObjectsArrayKey = 0x826A6103;
+    const uintptr_t GObjectsEncryptedRVA = offsets::GObjects;
+    const uint64_t GObjectsArrayKey = 0xFFFFFFFF91478091ULL;
     const uint64_t encrypted_gobjects = read<uint64_t>(BaseAddress + GObjectsEncryptedRVA);
     const uintptr_t gObjectsChunkTable = RotateLeft64(encrypted_gobjects, 47) - GObjectsArrayKey;
 
@@ -27,7 +29,7 @@ uint64_t GetObjectByIndex(uint32_t index)
     const uint64_t item_raw_value = read<uint64_t>(item_address);
     const uint32_t encrypted_lower_part = read<uint32_t>(item_address + 8);
 
-    const uint32_t lower_decrypted = (encrypted_lower_part ^ 0xA059631B);
+    const uint32_t lower_decrypted = (encrypted_lower_part ^ 0x8AB29D8ELL);
     const uint64_t upper_part = item_raw_value & 0x3FFF00000000LL;
     const uint64_t reconstructed_value = (uint64_t)lower_decrypted | upper_part;
 

@@ -3,13 +3,15 @@
 #include <unordered_map>
 #include <fstream>
 
-// Current Patch: v39.00 - 2
+// Current Patch: v39.10
 
 namespace offsets {
-    uintptr_t UWorld = 0x172C8CB8; // updated: 0x1727DC38 -> 0x172C8CB8
-    uintptr_t GNames = 0x17168D00; // updated: 0x1711DC80 -> 0x17168D00
-    uintptr_t GObjects = 0x172467F0;
-    uintptr_t GObjectsCount = 0x17246804;
+    uintptr_t UWorld = 0x176B9A78; // updated: 0x172C8CB8 -> 0x176B9A78
+    uintptr_t GNames = 0x175746C0; // updated: 0x17168D00 -> 0x175746C0
+    uintptr_t GObjects = 0x176515C8; // updated: 0x172467F0 -> 0x176515C8
+    uintptr_t GObjectsCount = 0x176515C0; // updated: 0x17246804 -> 0x176515C0
+    uintptr_t ProcessEvent = 0x83A74;
+    uintotr_t ProcessEventIndex = 0x78;
 
     uintptr_t LocalPlayers = 0x38;
     uintptr_t PlayerController = 0x30;
@@ -80,9 +82,7 @@ namespace offsets {
     uintptr_t Tier = 0xA2;
     uintptr_t Rarity = 0xAA;
     uintptr_t bAlreadySearched = 0xD52;
-    
     uintptr_t HabaneroComponent = 0x938;
-    uintptr_t OverlappingBuildings = 0x1D48;
 };
 
 // Offsets From: https://github.com/paysonism/Fortnite-Offsets

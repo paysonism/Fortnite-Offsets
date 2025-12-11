@@ -1,12 +1,12 @@
-// Current Patch: v39.00 - 2
+// Current Patch: v39.10
 
 constexpr uint64_t GNamesOffset = 0x17168D00;
 constexpr uint64_t GNamesChunkOffset = 0x5F2; // 1522
 
 int32_t DecryptIndex(int32_t index) {
     if (index == 0) return 0;
-    uint32_t value = (index - 1) ^ 0x7CEC2953;
-    if (value == 0xFFFFFFFF) return 0;
+    uint32_t value = (index - 1) ^ 0x3CCEE46E;
+    if (value == 0xFFFFFFFF) return 0xC3311B92;
     return value + 1;
 }
  
@@ -15,9 +15,9 @@ void DecryptFName(char* buffer, int32_t length) {
     std::vector<uint8_t> temp(buffer, buffer + length);
     uint32_t len = (uint32_t)length;
 
-    uint8_t xor_key = (uint8_t)((49 * len + 94) & 0xFF);
+    uint8_t xor_key = (uint8_t)((225 * len + 98) & 0xFF);
 
-    uint16_t magic = (uint16_t)(24764 - 5583 * len);
+    uint16_t magic = (uint16_t)(19425 * len + 17232);
 
     for (uint32_t i = 0; i < len; ++i) {
         buffer[i] = xor_key ^ temp[(magic + i) % len];

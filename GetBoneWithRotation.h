@@ -1,4 +1,4 @@
-// Current Patch: v39.00 - 2
+// Current Patch: Working
 
 void InvalidateBoneCache() {
 	g_currentFrame++;
