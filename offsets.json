@@ -24,7 +24,7 @@
     "RankedProgress": "0x0D8",
     "PlayerAimOffset": "0x2BE8",
 
-    "OwningGameInstance": "0x248",
+    "OwningGameInstance": "0x240",
     "GameState": "0x1D0",
     "PlayerArray": "0x2C8",
     "WorldSettings": "0x2B8",
