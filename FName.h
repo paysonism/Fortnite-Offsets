@@ -1,6 +1,6 @@
 // Current Patch: v39.10
 
-constexpr uint64_t GNamesOffset = 0x17168D00;
+constexpr uint64_t GNamesOffset = offsets::GNames;
 constexpr uint64_t GNamesChunkOffset = 0x5F2; // 1522
 
 int32_t DecryptIndex(int32_t index) {

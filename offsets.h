@@ -7,9 +7,9 @@
 
 namespace offsets {
 
-    uintptr_t UWorld        = 0x176B9A78; // updated: 0x172C8CB8 -> 0x176B9A78
-    uintptr_t GNames        = 0x175746C0; // updated: 0x17168D00 -> 0x175746C0
-    uintptr_t GObjects      = 0x176515C8; // updated: 0x172467F0 -> 0x176515C8
+    uintptr_t UWorld = 0x176B9A78; // updated: 0x172C8CB8 -> 0x176B9A78
+    uintptr_t GNames = 0x175746C0; // updated: 0x17168D00 -> 0x175746C0
+    uintptr_t GObjects = 0x176515C8; // updated: 0x172467F0 -> 0x176515C8
     uintptr_t GObjectsCount = 0x176515C0; // updated: 0x17246804 -> 0x176515C0
 
     uintptr_t ProcessEvent = 0x83A74;
