@@ -1,10 +1,10 @@
 <div align="center">
 
-# Fortnite Offsets (v39.00 - Build 2)
+# Fortnite Offsets (v39.10)
 
 [![Repo Views](https://komarev.com/ghpvc/?username=p-niggerfart&label=Repo%20views&color=0e75b6&style=flat)](https://github.com/paysonism/Fortnite-Offsets)
 [![GitHub Stars](https://img.shields.io/github/stars/paysonism/Fortnite-Offsets?style=flat&color=yellow)](https://github.com/paysonism/Fortnite-Offsets/stargazers)
-[![Current Patch](https://img.shields.io/badge/Patch-v39.00%20B2-brightgreen)](https://github.com/paysonism/Fortnite-Offsets)
+[![Current Patch](https://img.shields.io/badge/Patch-v39.10-brightgreen)](https://github.com/paysonism/Fortnite-Offsets)
 
 **`The latest Fortnite offsets, available hours within game updates`**
 
@@ -23,7 +23,7 @@ Welcome to the most up-to-date Fortnite offsets repository! I maintain these off
 
 ## Current Info
 
-**Current Patch**: `++Fortnite+Release-39.00-CL-48444883-Windows - Build 2`
+**Current Patch**: `++Fortnite+Release-39.10-CL-48971054-Windows - Build 2`
 **Repository Status**: Active maintenance
 
 ## Contact Me
