@@ -6,16 +6,18 @@
 // Current Patch: v39.10
 
 namespace offsets {
-    uintptr_t UWorld = 0x176B9A78; // updated: 0x172C8CB8 -> 0x176B9A78
-    uintptr_t GNames = 0x175746C0; // updated: 0x17168D00 -> 0x175746C0
-    uintptr_t GObjects = 0x176515C8; // updated: 0x172467F0 -> 0x176515C8
+
+    uintptr_t UWorld        = 0x176B9A78; // updated: 0x172C8CB8 -> 0x176B9A78
+    uintptr_t GNames        = 0x175746C0; // updated: 0x17168D00 -> 0x175746C0
+    uintptr_t GObjects      = 0x176515C8; // updated: 0x172467F0 -> 0x176515C8
     uintptr_t GObjectsCount = 0x176515C0; // updated: 0x17246804 -> 0x176515C0
+
     uintptr_t ProcessEvent = 0x83A74;
-    uintotr_t ProcessEventIndex = 0x78;
+    uintptr_t ProcessEventIndex = 0x78;
 
     uintptr_t LocalPlayers = 0x38;
     uintptr_t PlayerController = 0x30;
-    uintptr_t PlayerCameraManager = 0x360;
+    uintptr_t PlayerCameraManager = 0x368; // updated: 0x360 -> 0x368
     uintptr_t AcknowledgedPawn = 0x358;
     uintptr_t PlayerState = 0x2D0;
     uintptr_t TeamIndex = 0x11A9;
@@ -23,12 +25,12 @@ namespace offsets {
     uintptr_t bIsDBNO = 0x841;
     uintptr_t bIsABot = 0x2BA;
 
-    uintptr_t Platform = 0x440;
-    uintptr_t TargetedFortPawn = 0x1820;
+    uintptr_t Platform = 0x1B8; // updated: 0x440 -> 0x1B8
+    uintptr_t TargetedFortPawn = 0x730; // updated: 0x1820 -> 0x730
     uintptr_t KillScore = 0x11E0;
-    uintptr_t PlayerName = 0x9F8; // (CachedPreviousWorldPlayerId)
+    uintptr_t PlayerName = 0x9F8;
     uintptr_t RankedProgress = 0x0D8;
-    uintptr_t PlayerAimOffset = 0x2BE8; // updated: 0x2BC0 -> 0x2BE8
+    uintptr_t PlayerAimOffset = 0x2BE8;
 
     uintptr_t OwningGameInstance = 0x248;
     uintptr_t GameState = 0x1D0;
@@ -36,42 +38,44 @@ namespace offsets {
     uintptr_t WorldSettings = 0x2B8;
     uintptr_t WorldGravityZ = 0x330;
     uintptr_t WorldToMeters = 0x320;
-    uintptr_t WorldTick = 0x198; // Seconds
-    
+    uintptr_t WorldTick = 0x198;
+
     uintptr_t RootComponent = 0x1B0;
     uintptr_t PawnPrivate = 0x328;
     uintptr_t AActor = 0x38;
-    uintptr_t PersistentLevel = 0x38;
+
+    uintptr_t PersistentLevel = 0x40; // updated: 0x38 -> 0x40
     uintptr_t Levels = 0x1E8;
     uintptr_t SuperField = 0x40;
     uintptr_t StaticFindObject = 0x83F8E;
 
     uintptr_t Mesh = 0x330;
-    uintptr_t BoneArray = 0x5F0; // updated: 0x5E8 -> 0x5F0
+    uintptr_t BoneArray = 0x5F0;
     uintptr_t BoneCache = 0x5F8;
     uintptr_t BonesTide = 0x60;
-    uintptr_t ComponentToWorld = 0x1E0;
+
+    uintptr_t ComponentToWorld = 0x1A0; // updated: 0x1E0 -> 0x1A0
     uintptr_t RelativeLocation = 0x140;
     uintptr_t RelativeScale3D = 0x170;
     uintptr_t ComponentVelocity = 0x188;
-    uintptr_t AdditionalAimOffset = 0x2BB8; // updated: 0x2BA8 -> 0x2BB8
+    uintptr_t AdditionalAimOffset = 0x2BB8;
     uintptr_t LastRenderTime = 0x32C;
     uintptr_t LocationUnderReticle = 0x2A68;
-    
-    uintptr_t CameraLocation = 0x178;
-    uintptr_t CameraRotation = 0x188; // (CameraLocation + 0x10)
+
+    uintptr_t CameraLocation = 0x170; // updated: 0x178 -> 0x170
+    uintptr_t CameraRotation = 0x180; // updated: 0x188 -> 0x180
     uintptr_t CameraFOV = 0x3B4;
 
-    uintptr_t CurrentVehicle = 0x2B78; // updated: 0x2C18 -> 0x2B78
+    uintptr_t CurrentVehicle = 0x2B78;
 
-    uintptr_t CurrentWeapon = 0x990;
-    uintptr_t WeaponData = 0x5D8; // updated: 0x598 -> 0x5D8
-    uintptr_t AmmoCount = 0x144C;
-    uintptr_t ReloadAnimation = 0x19E8;
+    uintptr_t CurrentWeapon = 0x3DE; // updated: 0x990 -> 0x3DE
+    uintptr_t WeaponData = 0x5D8;
+    uintptr_t AmmoCount = 0x5B8; // updated: 0x144C -> 0x5B8
+    uintptr_t ReloadAnimation = 0x788; // updated: 0x19E8 -> 0x788
     uintptr_t ItemName = 0x40;
 
-    uintptr_t ProjectileSpeed = 0x212C;
-    uintptr_t ProjectileGravity = 0x2130;
+    uintptr_t ProjectileSpeed = 0x2750; // updated: 0x212C -> 0x2750
+    uintptr_t ProjectileGravity = 0x2754; // updated: 0x2130 -> 0x2754
     uintptr_t MaxTargetingAimAdjustPerSecond = 0x2338;
     uintptr_t ServerWorldTimeSecondsDelta = 0x2E8;
 
@@ -82,7 +86,7 @@ namespace offsets {
     uintptr_t Tier = 0xA2;
     uintptr_t Rarity = 0xAA;
     uintptr_t bAlreadySearched = 0xD52;
-    uintptr_t HabaneroComponent = 0x938;
+    uintptr_t HabaneroComponent = 0x3AC; // updated: 0x938 -> 0x3AC
 };
 
-// Offsets From: https://github.com/paysonism/Fortnite-Offsets
+// Offsets from https://github.com/paysonism/Fortnite-Offsets

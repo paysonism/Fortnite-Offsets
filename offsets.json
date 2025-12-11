@@ -1,5 +1,4 @@
 {
-  "patch": "v39.10",
   "offsets": {
     "UWorld": "0x176B9A78",
     "GNames": "0x175746C0",
@@ -10,7 +9,7 @@
 
     "LocalPlayers": "0x38",
     "PlayerController": "0x30",
-    "PlayerCameraManager": "0x360",
+    "PlayerCameraManager": "0x368",
     "AcknowledgedPawn": "0x358",
     "PlayerState": "0x2D0",
     "TeamIndex": "0x11A9",
@@ -18,8 +17,8 @@
     "bIsDBNO": "0x841",
     "bIsABot": "0x2BA",
 
-    "Platform": "0x440",
-    "TargetedFortPawn": "0x1820",
+    "Platform": "0x1B8",
+    "TargetedFortPawn": "0x730",
     "KillScore": "0x11E0",
     "PlayerName": "0x9F8",
     "RankedProgress": "0x0D8",
@@ -36,7 +35,7 @@
     "RootComponent": "0x1B0",
     "PawnPrivate": "0x328",
     "AActor": "0x38",
-    "PersistentLevel": "0x38",
+    "PersistentLevel": "0x40",
     "Levels": "0x1E8",
     "SuperField": "0x40",
     "StaticFindObject": "0x83F8E",
@@ -45,7 +44,7 @@
     "BoneArray": "0x5F0",
     "BoneCache": "0x5F8",
     "BonesTide": "0x60",
-    "ComponentToWorld": "0x1E0",
+    "ComponentToWorld": "0x1A0",
     "RelativeLocation": "0x140",
     "RelativeScale3D": "0x170",
     "ComponentVelocity": "0x188",
@@ -53,20 +52,20 @@
     "LastRenderTime": "0x32C",
     "LocationUnderReticle": "0x2A68",
 
-    "CameraLocation": "0x178",
-    "CameraRotation": "0x188",
+    "CameraLocation": "0x170",
+    "CameraRotation": "0x180",
     "CameraFOV": "0x3B4",
 
     "CurrentVehicle": "0x2B78",
 
-    "CurrentWeapon": "0x990",
+    "CurrentWeapon": "0x3DE",
     "WeaponData": "0x5D8",
-    "AmmoCount": "0x144C",
-    "ReloadAnimation": "0x19E8",
+    "AmmoCount": "0x5B8",
+    "ReloadAnimation": "0x788",
     "ItemName": "0x40",
 
-    "ProjectileSpeed": "0x212C",
-    "ProjectileGravity": "0x2130",
+    "ProjectileSpeed": "0x2750",
+    "ProjectileGravity": "0x2754",
     "MaxTargetingAimAdjustPerSecond": "0x2338",
     "ServerWorldTimeSecondsDelta": "0x2E8",
 
@@ -77,8 +76,6 @@
     "Tier": "0xA2",
     "Rarity": "0xAA",
     "bAlreadySearched": "0xD52",
-
-    "HabaneroComponent": "0x938",
-    "OverlappingBuildings": "0x1D48"
+    "HabaneroComponent": "0x3AC"
   }
 }
