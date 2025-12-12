@@ -34,7 +34,7 @@ namespace offsets {
     uintptr_t RankedProgress = 0xD8;
     uintptr_t PlayerAimOffset = 0x2BE8;
 
-    uintptr_t OwningGameInstance = 0x248;
+    uintptr_t OwningGameInstance = 0x240; // updated: 0x248 -> 0x240
     uintptr_t GameState = 0x1D0;
     uintptr_t PlayerArray = 0x2C8;
     uintptr_t WorldSettings = 0x2B8;
