@@ -1,6 +1,7 @@
 {
   "offsets": {
     "UWorld": "0x176B9A78",
+    "UWorldXorKey": "0xFFFFFFFFDC445031ULL",
     "GNames": "0x175746C0",
     "GObjects": "0x176515C8",
     "GObjectsCount": "0x176515C0",
