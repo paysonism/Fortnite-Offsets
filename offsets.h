@@ -11,6 +11,7 @@ namespace offsets {
     uintptr_t GNames = 0x175746C0; // updated: 0x17168D00 -> 0x175746C0
     uintptr_t GObjects = 0x176515C8; // updated: 0x172467F0 -> 0x176515C8
     uintptr_t GObjectsCount = 0x176515C0; // updated: 0x17246804 -> 0x176515C0
+    uintptr_t StaticFindObject = 0x64618E; // updated: 0x83F8E -> 0x64628E
 
     uintptr_t ProcessEvent = 0x83A74;
     uintptr_t ProcessEventIndex = 0x78;
@@ -25,11 +26,11 @@ namespace offsets {
     uintptr_t bIsDBNO = 0x841;
     uintptr_t bIsABot = 0x2BA;
 
-    uintptr_t Platform = 0x1B8; // updated: 0x440 -> 0x1B8
-    uintptr_t TargetedFortPawn = 0x730; // updated: 0x1820 -> 0x730
-    uintptr_t KillScore = 0x11E0;
-    uintptr_t PlayerName = 0x9F8;
-    uintptr_t RankedProgress = 0x0D8;
+    uintptr_t Platform = 0x400;
+    uintptr_t TargetedFortPawn = 0x1830; // updated: 0x1820 -> 0x1830
+    uintptr_t KillScore = 0x11C0;
+    uintptr_t PlayerName = 0xA00;
+    uintptr_t RankedProgress = 0xD8;
     uintptr_t PlayerAimOffset = 0x2BE8;
 
     uintptr_t OwningGameInstance = 0x248;
@@ -68,25 +69,22 @@ namespace offsets {
 
     uintptr_t CurrentVehicle = 0x2B78;
 
-    uintptr_t CurrentWeapon = 0x3DE; // updated: 0x990 -> 0x3DE
-    uintptr_t WeaponData = 0x5D8;
-    uintptr_t AmmoCount = 0x5B8; // updated: 0x144C -> 0x5B8
-    uintptr_t ReloadAnimation = 0x788; // updated: 0x19E8 -> 0x788
+    uintptr_t CurrentWeapon = 0x990;
+    uintptr_t WeaponData = 0x5C0; // updated: 0x5D8 -> 0x5C0
+    uintptr_t AmmoCount = 0x1464; // updated: 0x144C -> 0x1464
+    uintptr_t ReloadAnimation = 0x1940; // updated: 0x19E8 -> 0x1940
     uintptr_t ItemName = 0x40;
 
     uintptr_t ProjectileSpeed = 0x2750; // updated: 0x212C -> 0x2750
     uintptr_t ProjectileGravity = 0x2754; // updated: 0x2130 -> 0x2754
-    uintptr_t MaxTargetingAimAdjustPerSecond = 0x2338;
-    uintptr_t ServerWorldTimeSecondsDelta = 0x2E8;
+    uintptr_t MaxTargetingAimAdjustPerSecond = 0x2338; // needs testing
+    uintptr_t ServerWorldTimeSecondsDelta = 0x2E8; // needs testing
 
-    uintptr_t PrimaryPickupItemEntry = 0x3A8;
-    uintptr_t ItemDefinition = 0x10;
-    uintptr_t ItemType = 0xA8;
-    uintptr_t ItemRarity = 0xAA;
-    uintptr_t Tier = 0xA2;
-    uintptr_t Rarity = 0xAA;
+    uintptr_t PrimaryPickupItemEntry = 0x3A8; // needs testing
+    uintptr_t ItemTier = 0xA2; // needs testing
+    uintptr_t ItemRarity = 0xAA; // needs testing
     uintptr_t bAlreadySearched = 0xD52;
-    uintptr_t HabaneroComponent = 0x3AC; // updated: 0x938 -> 0x3AC
+    uintptr_t HabaneroComponent = 0x940; // updated: 0x938 -> 0x940
 };
 
 // Offsets from https://github.com/paysonism/Fortnite-Offsets

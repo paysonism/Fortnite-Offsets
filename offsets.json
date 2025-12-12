@@ -4,6 +4,8 @@
     "GNames": "0x175746C0",
     "GObjects": "0x176515C8",
     "GObjectsCount": "0x176515C0",
+    "StaticFindObject": "0x83F8E",
+
     "ProcessEvent": "0x83A74",
     "ProcessEventIndex": "0x78",
 
@@ -17,15 +19,15 @@
     "bIsDBNO": "0x841",
     "bIsABot": "0x2BA",
 
-    "Platform": "0x1B8",
-    "TargetedFortPawn": "0x730",
-    "KillScore": "0x11E0",
-    "PlayerName": "0x9F8",
-    "RankedProgress": "0x0D8",
+    "Platform": "0x400",
+    "TargetedFortPawn": "0x1830",
+    "KillScore": "0x11C0",
+    "PlayerName": "0xA00",
+    "RankedProgress": "0xD8",
     "PlayerAimOffset": "0x2BE8",
 
-    "OwningGameInstance": "0x240",
-    "GameState": "0x1C8",
+    "OwningGameInstance": "0x248",
+    "GameState": "0x1D0",
     "PlayerArray": "0x2C8",
     "WorldSettings": "0x2B8",
     "WorldGravityZ": "0x330",
@@ -38,7 +40,6 @@
     "PersistentLevel": "0x40",
     "Levels": "0x1E8",
     "SuperField": "0x40",
-    "StaticFindObject": "0x83F8E",
 
     "Mesh": "0x330",
     "BoneArray": "0x5F0",
@@ -58,10 +59,10 @@
 
     "CurrentVehicle": "0x2B78",
 
-    "CurrentWeapon": "0x3DE",
-    "WeaponData": "0x5D8",
-    "AmmoCount": "0x5B8",
-    "ReloadAnimation": "0x788",
+    "CurrentWeapon": "0x990",
+    "WeaponData": "0x5C0",
+    "AmmoCount": "0x1464",
+    "ReloadAnimation": "0x1940",
     "ItemName": "0x40",
 
     "ProjectileSpeed": "0x2750",
@@ -70,12 +71,9 @@
     "ServerWorldTimeSecondsDelta": "0x2E8",
 
     "PrimaryPickupItemEntry": "0x3A8",
-    "ItemDefinition": "0x10",
-    "ItemType": "0xA8",
+    "ItemTier": "0xA2",
     "ItemRarity": "0xAA",
-    "Tier": "0xA2",
-    "Rarity": "0xAA",
     "bAlreadySearched": "0xD52",
-    "HabaneroComponent": "0x3AC"
+    "HabaneroComponent": "0x940"
   }
 }
