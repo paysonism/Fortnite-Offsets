@@ -23,7 +23,7 @@ namespace offsets {
     uintptr_t PlayerController = 0x30;
     uintptr_t PlayerCameraManager = 0x368; // updated: 0x360 -> 0x368
     uintptr_t AcknowledgedPawn = 0x358; // SDK
-    uintptr_t PlayerState = 0x2B8; // updated: 0x2D0 -> 0x2B8 : SDK
+    uintptr_t PlayerState = 0x2D0; // SDK
     uintptr_t TeamIndex = 0x11A9;
     uintptr_t bIsDying = 0x728;
     uintptr_t bIsDBNO = 0x841;
