@@ -68,6 +68,7 @@ namespace offsets {
 
     uintptr_t ComponentToWorld = 0x1E0;
     uintptr_t RelativeLocation = 0x140;
+    uintptr_t RelativeRotation = 0x158;
     uintptr_t RelativeScale3D = 0x170;
     uintptr_t ComponentVelocity = 0x188;
     uintptr_t AdditionalAimOffset = 0x2BC8;
