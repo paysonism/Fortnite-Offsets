@@ -16,7 +16,7 @@
     "PlayerController": "0x30",
     "PlayerCameraManager": "0x368",
     "AcknowledgedPawn": "0x358",
-    "PlayerState": "0x2B8",
+    "PlayerState": "0x2D0",
     "TeamIndex": "0x11A9",
     "bIsDying": "0x728",
     "bIsDBNO": "0x841",
