@@ -22,7 +22,7 @@ Welcome to the most up-to-date Fortnite offsets repository! I maintain these off
 | **Camera** | [Camera.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/Camera.h) |
 | **FName Decryption** | [FName.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/FName.h) |
 | **GObjects Decryption** | [GObjects.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/GObjects.h) |
-| **UWorld Decryption** | [UWorld.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/UWorld.h) |
+| **UWorld Decryption** | [UWorld.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/UWorld%20Decryption.h) |
 
 ## Current Info
 
