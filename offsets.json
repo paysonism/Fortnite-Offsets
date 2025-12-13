@@ -46,7 +46,7 @@
 
     "Mesh": "0x330",
     "BoneArray": "0x5F0",
-    "BoneCache": "0x5F8",
+    "BoneCache": "0x600",
     "BonesTide": "0x60",
 
     "ComponentToWorld": "0x1A0",
