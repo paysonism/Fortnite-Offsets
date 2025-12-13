@@ -54,7 +54,7 @@ namespace offsets {
 
     uintptr_t Mesh = 0x330; // SDK
     uintptr_t BoneArray = 0x5F0;
-    uintptr_t BoneCache = 0x5F8;
+    uintptr_t BoneCache = 0x600;
     uintptr_t BonesTide = 0x60;
 
     uintptr_t ComponentToWorld = 0x1A0; // updated: 0x1E0 -> 0x1A0 : SDK
