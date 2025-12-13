@@ -26,7 +26,7 @@ Welcome to the most up-to-date Fortnite offsets repository! I maintain these off
 
 ## Current Info
 
-**Current Patch**: `++Fortnite+Release-39.10-CL-48971054-Windows - Build 2`
+**Current Patch**: `++Fortnite+Release-39.10-CL-48971054-Windows`
 **Repository Status**: Active maintenance
 
 ## Contact Me
