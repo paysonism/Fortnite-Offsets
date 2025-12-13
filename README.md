@@ -21,8 +21,8 @@ Welcome to the most up-to-date Fortnite offsets repository! I maintain these off
 | **GetBone** | [GetBoneWithRotation.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/GetBoneWithRotation.h) |
 | **Camera** | [Camera.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/Camera.h) |
 | **FName Decryption** | [FName.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/FName.h) |
-| **GObjects Decryption** | [FName.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/GObjects.h) |
-| **UWorld Decryption** | [FName.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/UWorld.h) |
+| **GObjects Decryption** | [GObjects.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/GObjects.h) |
+| **UWorld Decryption** | [UWorld.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/UWorld.h) |
 
 ## Current Info
 
