@@ -18,8 +18,11 @@ Welcome to the most up-to-date Fortnite offsets repository! I maintain these off
 | **Offsets** | [offsets.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/offsets.h) \| [offsets.json](https://github.com/paysonism/Fortnite-Offsets/blob/main/offsets.json) |
 | **World to Screen** | [ProjectWorldToScreen.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/ProjectWorldToScreen.h) |
 | **Matrix** | [Matrix.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/Matrix.h) |
-| **Bone Functions** | [GetBoneWithRotation.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/GetBoneWithRotation.h) |
+| **GetBone** | [GetBoneWithRotation.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/GetBoneWithRotation.h) |
 | **Camera** | [Camera.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/Camera.h) |
+| **FName Decryption** | [FName.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/FName.h) |
+| **GObjects Decryption** | [FName.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/GObjects.h) |
+| **UWorld Decryption** | [FName.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/UWorld.h) |
 
 ## Current Info
 

@@ -1,4 +1,6 @@
-    void update_camera( uintptr_t view_state ) {
+// Current Patch: Unknown
+
+void update_camera( uintptr_t view_state ) {
         auto projection = g_memory->read<fmatrix>( view_state + 0x940 );
 
         m_camera.rotation.pitch = asin( projection.z_plane.w ) * 180.0f / std::numbers::pi;
