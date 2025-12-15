@@ -70,8 +70,8 @@
     "LWProjectile_ActivateRemovedTimestamp": "0x29F8",
     "ItemName": "0x40",
 
-    "ProjectileSpeed": "0x2750",
-    "ProjectileGravity": "0x2754",
+    "ProjectileSpeed": "0x26E4",
+    "ProjectileGravity": "0x26E8",
     "MaxTargetingAimAdjustPerSecond": "0x2338",
     "ServerWorldTimeSecondsDelta": "0x2E8",
 
