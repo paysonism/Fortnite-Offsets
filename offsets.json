@@ -64,22 +64,22 @@
     "CurrentVehicle": "0x2C48",
 
     "CurrentWeapon": "0x990",
-    "WeaponData": "0x5C0",
-    "AmmoCount": "0x1464",
+    "WeaponData": "0x5D8",
+    "AmmoCount": "0x150C",
     "ReloadAnimation": "0x1928",
     "LWProjectile_ActivateRemovedTimestamp": "0x29F8",
-    "ItemName": "0x40",
 
-    "ProjectileSpeed": "0x26E4",
-    "ProjectileGravity": "0x26E8",
+    "ProjectileSpeed": "0x24F4",
+    "ProjectileGravity": "0x24F8",
     "MaxTargetingAimAdjustPerSecond": "0x2338",
     "ServerWorldTimeSecondsDelta": "0x2E8",
 
     "PrimaryPickupItemEntry": "0x3A8",
     "ItemDefinition": "0x10",
+    "ItemName": "0x40",
     "ItemType": "0xA8",
-    "ItemRarity": "0xAA",
     "Tier": "0xA2",
+    "ItemRarity": "0xAA",
     "Rarity": "0xAA",
     "bAlreadySearched": "0xD52",
 
