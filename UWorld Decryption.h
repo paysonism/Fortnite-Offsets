@@ -1,8 +1,7 @@
 // Current Patch: v39.10
 
 inline uint64_t DecryptUWorld(uint64_t encrypted) {
-    uint64_t decrypted = encrypted ^ 0xFFFFFFFFDC445031ULL;
-    return decrypted;
+    return std::rotr(~encrypted, 51) ^ offsets::UWorldXorKey;
 }
 
 uintptr_t encryptedUWorld = kernel->read_t<uintptr_t>(BaseAddress + offsets::UWorld);
