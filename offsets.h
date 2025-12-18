@@ -3,19 +3,19 @@
 #include <unordered_map>
 #include <fstream>
 
-// Current Patch: v39.10
+// Current Patch: v39.11 (HALF UPDATED RN WAIT FOR FULL DUMP!!!)
 
 namespace offsets {
 
     // ===== Globals =====
-    uintptr_t UWorld = 0x176B9A78;
-    uintptr_t UWorldXorKey = 0xFFFFFFFFDC445031ULL;
-    uintptr_t GNames = 0x175746C0;
-    uintptr_t GObjects = 0x176515C8;
-    uintptr_t GObjectsXorKey = 0xBC0BA8E;
-    uintptr_t GObjectsArrayXorKey = 0xFFFFFFFF91478091ULL;
-    uintptr_t GObjectsCount = 0x176515C0;
-    uintptr_t StaticFindObject = 0x64618E;
+    uintptr_t UWorld = 0x176869E8; // updated: 0x176B9A78 -> 0x176869E8
+    uintptr_t UWorldXorKey = 0xBF4617A5ULL; // updated: 0xFFFFFFFFDC445031ULL -> 0xBF4617A5ULL
+    uintptr_t GNames = 0x175746C0; // not updated
+    uintptr_t GObjects = 0x176515C8; // not updated
+    uintptr_t GObjectsXorKey = 0xBC0BA8E; // not updated
+    uintptr_t GObjectsArrayXorKey = 0xFFFFFFFF91478091ULL; // not updated
+    uintptr_t GObjectsCount = 0x176515C0; // not updated
+    uintptr_t StaticFindObject = 0x64618E; // not updated
 
     uintptr_t ProcessEvent = 0x83A74;
     uintptr_t ProcessEventIndex = 0x78;
@@ -41,16 +41,16 @@ namespace offsets {
     uintptr_t PlayerAimOffset = 0x2BF8;
 
     // ===== World =====
-    uintptr_t OwningGameInstance = 0x240;
-    uintptr_t GameState = 0x1C8;
+    uintptr_t OwningGameInstance = 0x250; // updated: 0x240 -> 0x250
+    uintptr_t GameState = 0x1D8; // updated: 0x1C8 -> 0x1D8
     uintptr_t PlayerArray = 0x2C8;
     uintptr_t WorldSettings = 0x2B8;
     uintptr_t WorldGravityZ = 0x330;
     uintptr_t WorldToMeters = 0x320;
     uintptr_t WorldTick = 0x198;
 
-    uintptr_t PersistentLevel = 0x38;
-    uintptr_t Levels = 0x1E0;
+    uintptr_t PersistentLevel = 0x40; // updated: 0x38 -> 0x40
+    uintptr_t Levels = 0x1F0; // updated: 0x1E0 -> 0x1F0
 
     // ===== Actor / Pawn =====
     uintptr_t AActor = 0x38;
@@ -62,7 +62,7 @@ namespace offsets {
     // ===== Mesh / Components =====
     uintptr_t Mesh = 0x330;
     uintptr_t BoneArray = 0x5F0;
-    uintptr_t BoneCache = 0x600;
+    uintptr_t BoneCache = 0x600; // use 0x5F8 as a fallback if 0x600 doesnt work
     uintptr_t MeshDeformerInstances = 0x5C0;
     uintptr_t BonesTide = 0x60;
 
@@ -85,9 +85,9 @@ namespace offsets {
 
     // ===== Weapons =====
     uintptr_t CurrentWeapon = 0x990;
-    uintptr_t WeaponData = 0x5C0;
+    uintptr_t WeaponData = 0x5D8; // not tested could be 0x5C0
     uintptr_t WeaponOffsetCorrection = 0x2C28;
-    uintptr_t AmmoCount = 0x1464;
+    uintptr_t AmmoCount = 0x150C; // not tested could be 0x1464
     uintptr_t ReloadAnimation = 0x1928;
     uintptr_t LWProjectile_ActivateRemovedTimestamp = 0x29F8;
 
