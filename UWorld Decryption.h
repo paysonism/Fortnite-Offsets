@@ -1,4 +1,4 @@
-// Current Patch: v39.10
+// Current Patch: v39.11
 
 inline uint64_t DecryptUWorld(uint64_t encrypted) {
     return std::rotr(~encrypted, 51) ^ offsets::UWorldXorKey;
