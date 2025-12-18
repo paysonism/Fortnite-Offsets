@@ -57,8 +57,8 @@
     "LastRenderTime": "0x32C",
     "LocationUnderReticle": "0x2A78",
 
-    "CameraLocation": "0x170",
-    "CameraRotation": "0x180",
+    "CameraLocation": "0x180",
+    "CameraRotation": "0x190",
     "CameraFOV": "0x3B4",
 
     "CurrentVehicle": "0x2C48",
