@@ -10,7 +10,7 @@ namespace offsets {
     // ===== Globals =====
     uintptr_t UWorld = 0x175C9368; // updated: 0x176869E8 -> 0x175C9368
     uintptr_t UWorldXorKey = 603662288ULL; // updated: 0xBF4617A5ULL -> 0x603662288ULL
-    uintptr_t GNames = 0x17531600; // updated: 0x175746C0 -> 0x17531600
+    uintptr_t GNames = 0x17541600; // updated: 0x175746C0 -> 0x17531600
     uintptr_t GEngine = 0x175CAC68;
     uintptr_t GObjects = 0x17560EC0; // updated: 0x176515C8 -> 0x17560EC0
     uintptr_t GObjectsXorKey = 0x12576490; // updated: 0xBC0BA8E -> 0x12576490
