@@ -48,7 +48,7 @@
     "BoneCache": "0x5F8",
     "MeshDeformerInstances": "0x5C0",
     "BonesTide": "0x60",
-    "ComponentToWorld": "0x1A0",
+    "ComponentToWorld": "0x1E0",
     "RelativeLocation": "0x140",
     "RelativeRotation": "0x158",
     "RelativeScale3D": "0x170",
