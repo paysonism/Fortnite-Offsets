@@ -1,4 +1,4 @@
-// Current Patch: v39.10
+// Current Patch: v39.11
 
 struct CameraDescription {
 	Vector3 Location;
