@@ -86,7 +86,7 @@ namespace offsets {
 
     // ===== Weapons =====
     uintptr_t CurrentWeapon = 0x990;
-    uintptr_t WeaponData = 0x5D8; // updated: 0x5C0 -> 0x5D8
+    uintptr_t WeaponData = 0x2BA; // updated: 0x5D8 -> 0x2BA
     uintptr_t WeaponOffsetCorrection = 0x2C28;
     uintptr_t AmmoCount = 0x150C; // updated: 0x1464 -> 0x150C
     uintptr_t ReloadAnimation = 0x1948; // updated: 0x1928 -> 0x1948
