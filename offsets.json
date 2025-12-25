@@ -54,7 +54,7 @@
     "RelativeScale3D": "0x170",
     "ComponentVelocity": "0x188",
     "AdditionalAimOffset": "0x2BC8",
-    "LastRenderTime": "0x198",
+    "LastRenderTime": "0x32C",
     "LocationUnderReticle": "0x2A78",
 
     "CameraLocation": "0x178",

@@ -73,7 +73,7 @@ namespace offsets {
     uintptr_t RelativeScale3D = 0x170;
     uintptr_t ComponentVelocity = 0x188;
     uintptr_t AdditionalAimOffset = 0x2BC8;
-    uintptr_t LastRenderTime = 0x198;
+    uintptr_t LastRenderTime = 0x32C;
     uintptr_t LocationUnderReticle = 0x2A78;
 
     // ===== Camera =====
