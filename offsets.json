@@ -47,7 +47,6 @@
     "BoneArray": "0x5F0",
     "BoneCache": "0x5F8",
     "MeshDeformerInstances": "0x5C0",
-    "BonesTide": "0x60",
     "ComponentToWorld": "0x1E0",
     "RelativeLocation": "0x140",
     "RelativeRotation": "0x158",
@@ -69,8 +68,8 @@
     "ReloadAnimation": "0x1948",
     "LWProjectile_ActivateRemovedTimestamp": "0x29C8",
 
-    "ProjectileSpeed": "0x24F4",
-    "ProjectileGravity": "0x24F8",
+    "ProjectileSpeed": "0x2720",
+    "ProjectileGravity": "0x2724",
     "MaxTargetingAimAdjustPerSecond": "0x23E8",
     "ServerWorldTimeSecondsDelta": "0x2E8",
 

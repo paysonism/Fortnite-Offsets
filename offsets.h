@@ -65,7 +65,6 @@ namespace offsets {
     uintptr_t BoneArray = 0x5F0;
     uintptr_t BoneCache = 0x5F8; // updated: 0x600 -> 0x5F8
     uintptr_t MeshDeformerInstances = 0x5C0;
-    uintptr_t BonesTide = 0x60;
 
     uintptr_t ComponentToWorld = 0x1E0;
     uintptr_t RelativeLocation = 0x140;
@@ -92,8 +91,8 @@ namespace offsets {
     uintptr_t ReloadAnimation = 0x1948; // updated: 0x1928 -> 0x1948
     uintptr_t LWProjectile_ActivateRemovedTimestamp = 0x29C8; // updated: 0x29F8 -> 0x29C8
 
-    uintptr_t ProjectileSpeed = 0x24F4; // updated: 0x26E4 -> 0x24F4
-    uintptr_t ProjectileGravity = 0x24F8; // updated: 0x26E8 -> 0x24F8
+    uintptr_t ProjectileSpeed = 0x2720; // updated: 0x24F4 -> 0x2720
+    uintptr_t ProjectileGravity = 0x2724; // updated: 0x24F8 -> 0x2724
     uintptr_t MaxTargetingAimAdjustPerSecond = 0x23E8; // updated: 0x2338 -> 0x23E8
     uintptr_t ServerWorldTimeSecondsDelta = 0x2E8;
 
