@@ -2,43 +2,39 @@
 
 uint32_t GetObjectCount()
 {
-    const uintptr_t GObjectsCountEncryptedRVA = 0x17560ED4;
-    const uintptr_t xorKey = 0xF555A5AF;
- 
- 
-    const uint32_t encryptedCount = Read<uint32_t>(Memory.ModuleBase + GObjectsCountEncryptedRVA);
-    
-    
-    const uint32_t xored = encryptedCount ^ xorKey;
-    return xored;
+    constexpr uintptr_t ObjectCountEncryptedRva = 0x17560ED4;
+    constexpr uintptr_t XorKey = 0xF555A5AF;
+
+    const uint32_t EncryptedCount = Read<uint32_t>(Memory.ModuleBase + ObjectCountEncryptedRva);
+    const uint32_t DecryptedCount = EncryptedCount ^ XorKey;
+
+    return DecryptedCount;
 }
- 
- 
-uint64_t GetUObjectFromID(uint32_t index)
+
+uint64_t GetObjectFromId(uint32_t Index)
 {
-    if (!Memory.ModuleBase) return 0;
- 
-    const uintptr_t GObjectsEncryptedRVA = 0x17560EC0;
-    const uintptr_t xorKeys = 0x12576490;
- 
-    const uint64_t encrypted_gobjects = Read<uint64_t>(Memory.ModuleBase + GObjectsEncryptedRVA);
-    const uintptr_t gObjectsChunkTable = __ROL8__(GObjectsEncryptedRVA, 48) - xorKeys;
- 
-    const int32_t chunk_index = index >> 16;
-    const uintptr_t chunk_address = Read<uintptr_t>(gObjectsChunkTable + (chunk_index * 8LL));
- 
-    const int32_t index_in_chunk = index & 0xFFFF;
-    const uintptr_t item_address = chunk_address + (index_in_chunk * 24);
- 
-    const uint64_t item_raw_value = Read<uint64_t>(item_address);
-    const uint32_t encrypted_lower_part = Read<uint32_t>(item_address + 8);
- 
-    const uintptr_t xorKey = 0x45AA24DFLL;
-    const uint32_t lower_decrypted = encrypted_lower_part ^ xorKey;
- 
-    const uint64_t upper_part = item_raw_value & 0x3FFF00000000LL;
- 
-    const uint64_t reconstructed_value = (uint64_t)lower_decrypted | upper_part;
- 
-    return reconstructed_value * 8;
+    if (!Memory.ModuleBase)
+        return 0;
+
+    constexpr uintptr_t ObjectsEncryptedRva = 0x17560EC0;
+    constexpr uintptr_t ObjectsXorKey = 0x12576490;
+    constexpr uintptr_t ItemXorKey = 0x45AA24DFLL;
+
+    const uint64_t EncryptedObjects = Read<uint64_t>(Memory.ModuleBase + ObjectsEncryptedRva);
+    const uintptr_t ChunkTable = __ROL8__(EncryptedObjects, 48) - ObjectsXorKey;
+
+    const int32_t ChunkIndex = Index >> 16;
+    const uintptr_t ChunkAddress = Read<uintptr_t>(ChunkTable + (ChunkIndex * 8LL));
+
+    const int32_t IndexInChunk = Index & 0xFFFF;
+    const uintptr_t ItemAddress = ChunkAddress + (IndexInChunk * 24);
+
+    const uint64_t ItemRawValue = Read<uint64_t>(ItemAddress);
+    const uint32_t EncryptedLowerPart = Read<uint32_t>(ItemAddress + 8);
+
+    const uint32_t DecryptedLowerPart = EncryptedLowerPart ^ ItemXorKey;
+    const uint64_t UpperPart = ItemRawValue & 0x3FFF00000000LL;
+    const uint64_t ReconstructedValue = static_cast<uint64_t>(DecryptedLowerPart) | UpperPart;
+
+    return ReconstructedValue * 8;
 }
