@@ -63,8 +63,8 @@
     "CurrentVehicle": "0x2C48",
 
     "CurrentWeapon": "0x990",
-    "WeaponData": "0x2BA",
-    "AmmoCount": "0x150C",
+    "WeaponData": "0x698",
+    "AmmoCount": "0x154C",
     "ReloadAnimation": "0x1948",
     "LWProjectile_ActivateRemovedTimestamp": "0x29C8",
 
