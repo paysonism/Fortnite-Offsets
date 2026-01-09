@@ -33,12 +33,11 @@ namespace offsets {
     uintptr_t Platform = 0x440;
     uintptr_t TargetedFortPawn = 0x1830; // updated: 0x1840 -> 0x1830
     uintptr_t KillScore = 0x11C8; // updated: 0x11C0 -> 0x11C8
-    uintptr_t RebootCount = 0x188C;
-    uintptr_t PlayerName = 0xA00;
+    uintptr_t RebootCount = 0x1894; // updated: 0x188C -> 0x1894
+    uintptr_t PlayerName = 0xA00; // (in SDK -> CachedPreviousWorldPlayerId)
     uintptr_t PlayerNamePrivate = 0x348; // added
-    uintptr_t CachedPreviousWorldPlayerId = 0x9F8;
     uintptr_t RankedProgress = 0xD8;
-    uintptr_t PlayerAimOffset = 0x2BF8;
+    uintptr_t PlayerAimOffset = 0x2BD0; // updated: 0x2BF8 -> 0x2BD0
 
     // ===== World =====
     uintptr_t OwningGameInstance = 0x240; // updated: 0x250 -> 0x240
@@ -70,7 +69,7 @@ namespace offsets {
     uintptr_t RelativeRotation = 0x158;
     uintptr_t RelativeScale3D = 0x170;
     uintptr_t ComponentVelocity = 0x188;
-    uintptr_t AdditionalAimOffset = 0x2BC8;
+    uintptr_t AdditionalAimOffset = 0x2BA0; // updated: 0x2BC8 -> 0x2BA0
     uintptr_t LastRenderTime = 0x328; // updated: 0x324 -> 0x328
     uintptr_t LocationUnderReticle = 0x2A50; // updated: 0x2A78 -> 0x2A50
 
@@ -80,19 +79,19 @@ namespace offsets {
     uintptr_t CameraFOV = 0x3B4;
 
     // ===== Vehicles =====
-    uintptr_t CurrentVehicle = 0x2C48;
+    uintptr_t CurrentVehicle = 0x2C58; // updated: 0x2C48 -> 0x2C58
 
     // ===== Weapons =====
     uintptr_t CurrentWeapon = 0x990;
     uintptr_t WeaponData = 0x688; // updated: 0x698 -> 0x688
-    uintptr_t WeaponOffsetCorrection = 0x2C28;
-    uintptr_t AmmoCount = 0x154C;
-    uintptr_t ReloadAnimation = 0x1948;
-    uintptr_t LWProjectile_ActivateRemovedTimestamp = 0x29C8;
+    uintptr_t WeaponOffsetCorrection = 0x2C00; // updated: 0x2C28 -> 0x2C00
+    uintptr_t AmmoCount = 0x11CC; // updated: 0x154C -> 0x11CC
+    uintptr_t ReloadAnimation = 0x1608; // updated: 0x1948 -> 0x1608
+    uintptr_t LWProjectile_ActivateRemovedTimestamp = 0x2968; // updated: 0x29C8 -> 0x2968
 
     uintptr_t ProjectileSpeed = 0x29DC; // updated: 0x2720 -> 0x29DC
     uintptr_t ProjectileGravity = 0x29E0; // updated: 0x2724 -> 0x29E0
-    uintptr_t MaxTargetingAimAdjustPerSecond = 0x23E8;
+    uintptr_t MaxTargetingAimAdjustPerSecond = 0x23D0; // updated: 0x23E8 -> 0x23D0
     uintptr_t ServerWorldTimeSecondsDelta = 0x2E8;
 
     // ===== Items / Loot =====
