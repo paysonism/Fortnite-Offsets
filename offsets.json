@@ -15,17 +15,16 @@
     "bIsDying": "0x728",
     "bIsDBNO": "0x841",
     "bIsABot": "0x2BA",
-    "WeaponOffsetCorrection": "0x2C28",
+    "WeaponOffsetCorrection": "0x2C00",
 
     "Platform": "0x440",
     "TargetedFortPawn": "0x1830",
     "KillScore": "0x11C8",
-    "RebootCount": "0x188C",
+    "RebootCount": "0x1894",
     "PlayerName": "0xA00",
     "PlayerNamePrivate": "0x348",
-    "CachedPreviousWorldPlayerId": "0x9F8",
     "RankedProgress": "0xD8",
-    "PlayerAimOffset": "0x2BF8",
+    "PlayerAimOffset": "0x2BD0",
 
     "OwningGameInstance": "0x240",
     "GameState": "0x1C8",
@@ -53,7 +52,7 @@
     "RelativeRotation": "0x158",
     "RelativeScale3D": "0x170",
     "ComponentVelocity": "0x188",
-    "AdditionalAimOffset": "0x2BC8",
+    "AdditionalAimOffset": "0x2BA0",
     "LastRenderTime": "0x328",
     "LocationUnderReticle": "0x2A50",
 
@@ -61,17 +60,17 @@
     "CameraRotation": "0x188",
     "CameraFOV": "0x3B4",
 
-    "CurrentVehicle": "0x2C48",
+    "CurrentVehicle": "0x2C58",
 
     "CurrentWeapon": "0x990",
     "WeaponData": "0x688",
-    "AmmoCount": "0x154C",
-    "ReloadAnimation": "0x1948",
-    "LWProjectile_ActivateRemovedTimestamp": "0x29C8",
+    "AmmoCount": "0x11CC",
+    "ReloadAnimation": "0x1608",
+    "LWProjectile_ActivateRemovedTimestamp": "0x2968",
 
     "ProjectileSpeed": "0x29DC",
     "ProjectileGravity": "0x29E0",
-    "MaxTargetingAimAdjustPerSecond": "0x23E8",
+    "MaxTargetingAimAdjustPerSecond": "0x23D0",
     "ServerWorldTimeSecondsDelta": "0x2E8",
 
     "PrimaryPickupItemEntry": "0x3A8",
