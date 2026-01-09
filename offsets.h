@@ -34,7 +34,7 @@ namespace offsets {
     uintptr_t TargetedFortPawn = 0x1830; // updated: 0x1840 -> 0x1830
     uintptr_t KillScore = 0x11C8; // updated: 0x11C0 -> 0x11C8
     uintptr_t RebootCount = 0x1894; // updated: 0x188C -> 0x1894
-    uintptr_t PlayerName = 0xA00; // (in SDK -> CachedPreviousWorldPlayerId)
+    uintptr_t PlayerName = 0xA08; // updated: 0xA00 -> 0xA08
     uintptr_t PlayerNamePrivate = 0x348; // added
     uintptr_t RankedProgress = 0xD8;
     uintptr_t PlayerAimOffset = 0x2BD0; // updated: 0x2BF8 -> 0x2BD0

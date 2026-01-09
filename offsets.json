@@ -21,7 +21,7 @@
     "TargetedFortPawn": "0x1830",
     "KillScore": "0x11C8",
     "RebootCount": "0x1894",
-    "PlayerName": "0xA00",
+    "PlayerName": "0xA08",
     "PlayerNamePrivate": "0x348",
     "RankedProgress": "0xD8",
     "PlayerAimOffset": "0x2BD0",
