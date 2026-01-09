@@ -37,7 +37,7 @@
     "RootComponent": "0x1B0",
     "MoveIgnoreActors": "0x348",
     "PawnPrivate": "0x328",
-    "AActor": "0x38",
+    "AActor": "0x208",
     "PersistentLevel": "0x40",
     "Levels": "0x1E0",
     "SuperField": "0x40",

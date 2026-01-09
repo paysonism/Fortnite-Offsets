@@ -52,7 +52,7 @@ namespace offsets {
     uintptr_t Levels = 0x1E0; // updated: 0x1F0 -> 0x1E0
 
     // ===== Actor / Pawn =====
-    uintptr_t AActor = 0x38;
+    uintptr_t AActor = 0x208; // updated: 0x38 -> 0x208
     uintptr_t RootComponent = 0x1B0;
     uintptr_t PawnPrivate = 0x328;
     uintptr_t MoveIgnoreActors = 0x348;
