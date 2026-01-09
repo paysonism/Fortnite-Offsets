@@ -1,9 +1,9 @@
 {
   "offsets": {
-    "UWorld": "0x175C9368",
-    "UWorldXorKey": "603662288",
-    "GNames": "0x17541600",
-    "GObjects": "0x17560EC0",
+    "UWorld": "0x17B96228",
+    "UWorldXorKey": "0x240000000",
+    "GNames": "0x17A50D00",
+    "GObjects": "0x17B2DC58",
     "GObjectsCount": "0x17560ED4",
 
     "LocalPlayers": "0x38",
@@ -11,23 +11,24 @@
     "PlayerCameraManager": "0x368",
     "AcknowledgedPawn": "0x358",
     "PlayerState": "0x2D0",
-    "TeamIndex": "0x11A9",
+    "TeamIndex": "0x11B1",
     "bIsDying": "0x728",
     "bIsDBNO": "0x841",
     "bIsABot": "0x2BA",
     "WeaponOffsetCorrection": "0x2C28",
 
     "Platform": "0x440",
-    "TargetedFortPawn": "0x1840",
-    "KillScore": "0x11C0",
+    "TargetedFortPawn": "0x1830",
+    "KillScore": "0x11C8",
     "RebootCount": "0x188C",
     "PlayerName": "0xA00",
+    "PlayerNamePrivate": "0x348",
     "CachedPreviousWorldPlayerId": "0x9F8",
     "RankedProgress": "0xD8",
     "PlayerAimOffset": "0x2BF8",
 
-    "OwningGameInstance": "0x250",
-    "GameState": "0x1D8",
+    "OwningGameInstance": "0x240",
+    "GameState": "0x1C8",
     "PlayerArray": "0x2C8",
     "WorldSettings": "0x2B8",
     "WorldGravityZ": "0x330",
@@ -39,7 +40,7 @@
     "PawnPrivate": "0x328",
     "AActor": "0x38",
     "PersistentLevel": "0x40",
-    "Levels": "0x1F0",
+    "Levels": "0x1E0",
     "SuperField": "0x40",
     "StaticFindObject": "0x5E4332",
 
@@ -53,8 +54,8 @@
     "RelativeScale3D": "0x170",
     "ComponentVelocity": "0x188",
     "AdditionalAimOffset": "0x2BC8",
-    "LastRenderTime": "0x324",
-    "LocationUnderReticle": "0x2A78",
+    "LastRenderTime": "0x328",
+    "LocationUnderReticle": "0x2A50",
 
     "CameraLocation": "0x178",
     "CameraRotation": "0x188",
@@ -63,13 +64,13 @@
     "CurrentVehicle": "0x2C48",
 
     "CurrentWeapon": "0x990",
-    "WeaponData": "0x698",
+    "WeaponData": "0x688",
     "AmmoCount": "0x154C",
     "ReloadAnimation": "0x1948",
     "LWProjectile_ActivateRemovedTimestamp": "0x29C8",
 
-    "ProjectileSpeed": "0x2720",
-    "ProjectileGravity": "0x2724",
+    "ProjectileSpeed": "0x29DC",
+    "ProjectileGravity": "0x29E0",
     "MaxTargetingAimAdjustPerSecond": "0x23E8",
     "ServerWorldTimeSecondsDelta": "0x2E8",
 
@@ -82,6 +83,6 @@
     "Rarity": "0xAA",
     "bAlreadySearched": "0xD52",
 
-    "HabaneroComponent": "0x940"
+    "HabaneroComponent": "0x948"
   }
 }
