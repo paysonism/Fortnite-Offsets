@@ -1,46 +1,31 @@
-// Current Patch: Working...
+// Current Patch: v39.20
 
-struct CameraDescription {
-	Vector3 Location;
-	Vector3 Rotation;
-	float FieldOfView;
-};
+auto GetViewState() -> uintptr_t
+    {
+        if (!ptrs::local_players)
+            return 0;
 
-Camera GetViewAngles() {
-	CameraDescription Camera;
-	auto LocationPointer = kernel->read_t<uintptr_t>(cache::UWorld + offsets::CameraLocation);
-	auto RotationPointer = kernel->read_t<uintptr_t>(cache::UWorld + offsets::CameraRotation);
+        TArray<uintptr_t> ViewState = memory_interface::read<TArray<uintptr_t>>(ptrs::local_players + 0xD0);
+        return ViewState.Get(1);
+    }
 
-	struct Rotation {
-		double A;
-		char Pad0008[24];
-		double B;
-		char Pad0028[424];
-		double C;
-	};
-	Rotation Rotation;
-	Rotation = kernel->read_t<Rotation>(RotationPointer);
+    Camera get_camera()
+    {
+        if (!ptrs::uworld || !ptrs::player_controller)
+            return {};
 
-	Camera.Location = kernel->read_t<Vector3>(LocationPointer);
-	Camera.Rotation.x = asin(Rotation.C) * (180.0 / std::numbers::pi);
-	Camera.Rotation.y = ((atan2(Rotation.A * -1, Rotation.B) * (180.0 / std::numbers::pi)) * -1) * -1;
-	Camera.FieldOfView = kernel->read_t<float>(cache::PlayerController + offsets::CameraFOV) * 90.f;
+        Camera view;
 
-	return { Camera.Location, Camera.Rotation, Camera.FieldOfView };
-}
+        auto mProjection = memory_interface::read<FMatrix>(GetViewState() + 0x940);
+        view.rotation.x = RadiansToDegrees(std::asin(mProjection.ZPlane.W));
+        view.rotation.y = RadiansToDegrees(std::atan2(mProjection.YPlane.W, mProjection.XPlane.W));
+        view.rotation.z = 0.0;
 
-Camera GetViewPoint() 
-{
-    CameraPositionS ViewPoint{};
-    uintptr_t LocationPointer = read<uintptr_t>(cache::UWorld + offsets::CameraLocation);
-    uintptr_t RotationPointer = read<uintptr_t>(cache::UWorld + offsets::CameraRotation); // CameraLocation + 0x10
-    FNRot FnRot{};
-    FnRot.A = read<double>(RotationPointer);
-    FnRot.B = read<double>(RotationPointer + 0x20);
-    FnRot.C = read<double>(RotationPointer + offsets::GameState);
-    ViewPoint.Location = read<Vector3>(LocationPointer);
-    ViewPoint.Rotation.x = asin(FnRot.C) * (180.0 / M_PI);
-    ViewPoint.Rotation.y = ((atan2(FnRot.A * -1, FnRot.B) * (180.0 / M_PI)) * -1) * -1;
-    ViewPoint.Fov = read<float>(cache::PlayerController + offsets::CameraFOV) * 90.0f;
-    return ViewPoint;
-}
+        view.location.x = mProjection.m[3][0];
+        view.location.y = mProjection.m[3][1];
+        view.location.z = mProjection.m[3][2];
+        float FieldOfView = atanf(1 / memory_interface::read<double>(GetViewState() + 0x740)) * 2;
+        view.fov = (FieldOfView) * (180.f / M_PI);
+
+        return view;
+    }
