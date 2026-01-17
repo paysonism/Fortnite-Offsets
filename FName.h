@@ -1,3 +1,5 @@
+// Current Patch: v39.20
+
 int32_t DecryptIndex(int32_t Index)
 {
     if (Index == 0)

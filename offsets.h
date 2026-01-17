@@ -1,4 +1,4 @@
-pragma once
+#pragma once
 #include <cstdint>
 #include <unordered_map>
 #include <fstream>
@@ -10,14 +10,15 @@ namespace offsets {
     // ===== Globals =====
     uintptr_t UWorld = 0x17B96228; // updated: 0x175C9368 -> 0x17B96228
     uintptr_t UWorldXorKey = 0x7B40E797ULL; // updated: 0x603662288ULL -> 0x7B40E797ULL
+    uintptr_t UWorldXorRotationCount = 50;
     uintptr_t GNames = 0x17A50D00; // updated: 0x17541600 -> 0x17A50D00
-    uintptr_t GEngine = 0x175CAC68;
+    uintptr_t GEngine = 0x17B97B28; // updated: 0x175CAC68 -> 0x17B97B28
     uintptr_t GObjects = 0x17B2DC58; // updated: 0x17560EC0 -> 0x17B2DC58
     uintptr_t GObjectsCount = 0x17560ED4;
-    uintptr_t StaticFindObject = 0x5E4332;
+    uintptr_t StaticFindObject = 0x71B76C; // updated: 0x5E4332 -> 0x71B76C
 
-    uintptr_t ProcessEvent = 0x949CA;
-    uintptr_t ProcessEventIndex = 0x98;
+    uintptr_t ProcessEvent = 0x63B7E; // updated: 0x949CA -> 0x63B7E
+    uintptr_t ProcessEventIndex = 71;
 
     // ===== Player / Controller =====
     uintptr_t LocalPlayers = 0x38;
@@ -35,7 +36,7 @@ namespace offsets {
     uintptr_t KillScore = 0x11C8; // updated: 0x11C0 -> 0x11C8
     uintptr_t RebootCount = 0x1894; // updated: 0x188C -> 0x1894
     uintptr_t PlayerName = 0xA08; // updated: 0xA00 -> 0xA08
-    uintptr_t PlayerNamePrivate = 0x348; // added
+    uintptr_t PlayerNamePrivate = 0x348;
     uintptr_t RankedProgress = 0xD8;
     uintptr_t PlayerAimOffset = 0x2BD0; // updated: 0x2BF8 -> 0x2BD0
 
@@ -46,7 +47,6 @@ namespace offsets {
     uintptr_t WorldSettings = 0x2B8;
     uintptr_t WorldGravityZ = 0x330;
     uintptr_t WorldToMeters = 0x320;
-    uintptr_t WorldTick = 0x198;
 
     uintptr_t PersistentLevel = 0x40;
     uintptr_t Levels = 0x1E0; // updated: 0x1F0 -> 0x1E0
@@ -96,11 +96,9 @@ namespace offsets {
 
     // ===== Items / Loot =====
     uintptr_t PrimaryPickupItemEntry = 0x3A8;
-    uintptr_t ItemName = 0x40;
+    uintptr_t ItemName = 0xB0; // 0x40 -> 0xB0
     uintptr_t ItemType = 0xA8;
-    uintptr_t ItemTier = 0xA2;
     uintptr_t ItemRarity = 0xAA;
-    uintptr_t Rarity = 0xAA;
     uintptr_t bAlreadySearched = 0xD52;
 
     // ===== Misc =====
@@ -108,3 +106,4 @@ namespace offsets {
 };
 
 // Offsets from https://github.com/paysonism/Fortnite-Offsets
+// Need more offsets? Browse the full SDK at https://fnsdk.getneptune.tech today!
