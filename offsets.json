@@ -1,8 +1,8 @@
 {
   "offsets": {
-    "UWorld": "0x17B96228",
-    "UWorldXorKey": "0x7B40E797",
-    "UWorldXorRotationCount": "50",
+    "UWorld": "0x178C37A8",
+    "UWorldXorKey": "0xFFFFFFFFD599D092",
+    "UWorldXorRotationCount": "0",
     "GNames": "0x17A50D00",
     "GEngine": "0x17B97B28",
     "GObjects": "0x17B2DC58",
@@ -14,7 +14,7 @@
 
     "LocalPlayers": "0x38",
     "PlayerController": "0x30",
-    "PlayerCameraManager": "0x368",
+    "PlayerCameraManager": "0x360",
     "AcknowledgedPawn": "0x358",
     "PlayerState": "0x2D0",
     "TeamIndex": "0x11B1",
@@ -31,8 +31,8 @@
     "RankedProgress": "0xD8",
     "PlayerAimOffset": "0x2BD0",
 
-    "OwningGameInstance": "0x240",
-    "GameState": "0x1C8",
+    "OwningGameInstance": "0x248",
+    "GameState": "0x1D0",
     "PlayerArray": "0x2C8",
     "WorldSettings": "0x2B8",
     "WorldGravityZ": "0x330",
@@ -49,7 +49,7 @@
 
     "Mesh": "0x330",
     "BoneArray": "0x5F0",
-    "BoneCache": "0x5F8",
+    "BoneCache": "0x608",
     "MeshDeformerInstances": "0x5C0",
 
     "ComponentToWorld": "0x1E0",
@@ -61,14 +61,14 @@
     "LastRenderTime": "0x328",
     "LocationUnderReticle": "0x2A50",
 
-    "CameraLocation": "0x178",
-    "CameraRotation": "0x188",
+    "CameraLocation": "0x180",
+    "CameraRotation": "0x190",
     "CameraFOV": "0x3B4",
 
     "CurrentVehicle": "0x2C58",
 
     "CurrentWeapon": "0x990",
-    "WeaponData": "0x688",
+    "WeaponData": "0x600",
     "WeaponOffsetCorrection": "0x2C00",
     "AmmoCount": "0x11CC",
     "ReloadAnimation": "0x1608",
