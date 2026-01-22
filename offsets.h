@@ -10,15 +10,20 @@ namespace offsets {
     // ===== Globals =====
     uintptr_t UWorld = 0x178C37A8; // updated: 0x17B96228 -> 0x178C37A8
     uintptr_t UWorldXorKey = 0xFFFFFFFFD599D092ULL; // updated: 0x7B40E797ULL -> 0xFFFFFFFFD599D092ULL
-    uintptr_t UWorldXorRotationCount = 0; // no rotation this update (exponential)
-    uintptr_t GNames = 0x17A50D00;
-    uintptr_t GEngine = 0x17B97B28;
-    uintptr_t GObjects = 0x17B2DC58;
-    uintptr_t GObjectsCount = 0x17560ED4;
-    uintptr_t StaticFindObject = 0x71B76C;
+    uintptr_t UWorldXorRotationCount = 0; // (simple exponent : no ror8 this update)
+    uintptr_t GNames = 0x1777E080; // updated: 0x17A50D00 -> 0x1777E080
+    uintptr_t GEngine = 0x178C50A8; // updated: 0x17B97B28 -> 0x178C50A8
+    uintptr_t GObjects = 0x1785AFB0; // updated: 0x17B2DC58 -> 0x1785AFB0
+    uintptr_t GObjectsCount = 0x1785AFB8; // updated: 0x17560ED4 -> 0x1785AFB8
+    uintptr_t GObjectsXorKey = 0xFFFFFFFFCCF54342ULL;
+    uintptr_t GObjectsCountXorKey = 0x75DB1A01;
+    uintptr_t StaticFindObject = 0x73AC13; // updated: 0x71B76C -> 0x73AC13
+    uintptr_t StaticLoadObject = 0x960153;
 
-    uintptr_t ProcessEvent = 0x63B7E;
+    uintptr_t ProcessEvent = 0x86FAA; // updated: 0x63B7E -> 0x86FAA
     uintptr_t ProcessEventIndex = 71;
+    uintptr_t DrawTransition = 0x513D88;
+    uintptr_t BoneMatrix = 0x55B004;
 
     // ===== Player / Controller =====
     uintptr_t LocalPlayers = 0x38;
@@ -26,6 +31,7 @@ namespace offsets {
     uintptr_t PlayerCameraManager = 0x360; // updated: 0x368 -> 0x360
     uintptr_t AcknowledgedPawn = 0x358;
     uintptr_t PlayerState = 0x2D0;
+    uintptr_t NetConnection = 0x528;
     uintptr_t TeamIndex = 0x11B1;
     uintptr_t bIsDying = 0x728;
     uintptr_t bIsDBNO = 0x841;
@@ -85,7 +91,8 @@ namespace offsets {
     uintptr_t CurrentWeapon = 0x990;
     uintptr_t WeaponData = 0x600; // updated: 0x688 -> 0x600
     uintptr_t WeaponOffsetCorrection = 0x2C00;
-    uintptr_t AmmoCount = 0x11CC;
+    uintptr_t AmmoCount = 0x147C; // updated: 0x11CC -> 0x147C
+    uintptr_t bIsReloadingWeapon = 0x3D1;
     uintptr_t ReloadAnimation = 0x1608;
     uintptr_t LWProjectile_ActivateRemovedTimestamp = 0x2968;
 
@@ -98,6 +105,7 @@ namespace offsets {
     uintptr_t PrimaryPickupItemEntry = 0x3A8;
     uintptr_t ItemName = 0xB0;
     uintptr_t ItemType = 0xA8;
+    uintptr_t PrimaryAssetOverride = 0xA9;
     uintptr_t ItemRarity = 0xAA;
     uintptr_t bAlreadySearched = 0xD52;
 
