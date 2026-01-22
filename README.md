@@ -1,10 +1,10 @@
 <div align="center">
 
-# Fortnite Offsets (v39.20)
+# Fortnite Offsets (v39.30)
 
 [![Repo Views](https://komarev.com/ghpvc/?username=p-niggerfart&label=Repo%20views&color=0e75b6&style=flat)](https://github.com/paysonism/Fortnite-Offsets)
 [![GitHub Stars](https://img.shields.io/github/stars/paysonism/Fortnite-Offsets?style=flat&color=yellow)](https://github.com/paysonism/Fortnite-Offsets/stargazers)
-[![Current Patch](https://img.shields.io/badge/Patch-v39.20-brightgreen)](https://github.com/paysonism/Fortnite-Offsets)
+[![Current Patch](https://img.shields.io/badge/Patch-v39.30-brightgreen)](https://github.com/paysonism/Fortnite-Offsets)
 
 **`The latest Fortnite offsets, available hours within game updates`**
 
@@ -14,7 +14,7 @@ Welcome to the most up-to-date Fortnite offsets repository! I maintain these off
 
 | Resource | Link |
 |----------|------|
-| **Latest SDK** | [Neptune SDK](https://fnsdk.getneptune.tech) |
+| **Latest SDK** | [Neptune SDK](https://fnsdk.paysonism.wtf) |
 | **Offsets** | [offsets.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/offsets.h) \| [offsets.json](https://github.com/paysonism/Fortnite-Offsets/blob/main/offsets.json) |
 | **World to Screen** | [ProjectWorldToScreen.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/ProjectWorldToScreen.h) |
 | **Matrix** | [Matrix.h](https://github.com/paysonism/Fortnite-Offsets/blob/main/Matrix.h) |
@@ -26,7 +26,7 @@ Welcome to the most up-to-date Fortnite offsets repository! I maintain these off
 
 ## Current Info
 
-**Current Patch**: `++Fortnite+Release-39.20-CL-49564179-Windows`
+**Current Patch**: `++Fortnite+Release-39.30-CL-49874243-Windows`
 **Repository Status**: In Operation
 
 ## Contact Me
