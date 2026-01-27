@@ -74,17 +74,20 @@
     "CurrentVehicle": "0x2C58",
 
     "CurrentWeapon": "0x990",
-    "WeaponData": "0x600",
+    "WeaponData": "0x5A0",
     "WeaponOffsetCorrection": "0x2C00",
-    "AmmoCount": "0x147C",
+    "AmmoCount": "0x14FC",
     "bIsReloadingWeapon": "0x3D1",
     "ReloadAnimation": "0x1608",
     "LWProjectile_ActivateRemovedTimestamp": "0x2968",
 
-    "ProjectileSpeed": "0x29DC",
-    "ProjectileGravity": "0x29E0",
+    "ProjectileSpeed": "0x24AC",
+    "ProjectileGravity": "0x24B0",
     "MaxTargetingAimAdjustPerSecond": "0x23D0",
     "ServerWorldTimeSecondsDelta": "0x2E8",
+
+    "LastFireTimeVerified": "0x142C",
+    "WeaponCoreAnimation": "0x1A58",
 
     "PrimaryPickupItemEntry": "0x3A8",
     "ItemName": "0xB0",

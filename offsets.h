@@ -89,17 +89,20 @@ namespace offsets {
 
     // ===== Weapons =====
     uintptr_t CurrentWeapon = 0x990;
-    uintptr_t WeaponData = 0x600; // updated: 0x688 -> 0x600
+    uintptr_t WeaponData = 0x5A0; // updated: 0x600 -> 0x5A0
     uintptr_t WeaponOffsetCorrection = 0x2C00;
-    uintptr_t AmmoCount = 0x147C; // updated: 0x11CC -> 0x147C
+    uintptr_t AmmoCount = 0x14FC; // updated: 0x147C -> 0x14FC
     uintptr_t bIsReloadingWeapon = 0x3D1;
     uintptr_t ReloadAnimation = 0x1608;
     uintptr_t LWProjectile_ActivateRemovedTimestamp = 0x2968;
 
-    uintptr_t ProjectileSpeed = 0x29DC;
-    uintptr_t ProjectileGravity = 0x29E0;
+    uintptr_t ProjectileSpeed = 0x24AC; // updated: 0x29DC -> 0x24AC
+    uintptr_t ProjectileGravity = 0x24B0; // updated: 0x29E0 -> 0x24B0
     uintptr_t MaxTargetingAimAdjustPerSecond = 0x23D0;
     uintptr_t ServerWorldTimeSecondsDelta = 0x2E8;
+
+    uintptr_t LastFireTimeVerified = 0x142C; // added
+    uintptr_t WeaponCoreAnimation = 0x1A58; // added
 
     // ===== Items / Loot =====
     uintptr_t PrimaryPickupItemEntry = 0x3A8;
