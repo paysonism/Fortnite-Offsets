@@ -67,7 +67,7 @@ namespace offsets {
     // ===== Mesh / Components =====
     uintptr_t Mesh = 0x330;
     uintptr_t BoneArray = 0x5F0;
-    uintptr_t BoneCache = 0x608; // updated: 0x5F8 -> 0x608
+    uintptr_t BoneCache = 0x600; // updated: 0x5F8 -> 0x600
     uintptr_t MeshDeformerInstances = 0x5C0;
 
     uintptr_t ComponentToWorld = 0x1E0;
