@@ -3,16 +3,16 @@
 #include <unordered_map>
 #include <fstream>
 
-// Current Patch: v39.30
+// Current Patch: v39.30 - Build 2
 
 namespace offsets {
 
     // ===== Globals =====
-    uintptr_t UWorld = 0x178C37A8; // updated: 0x17B96228 -> 0x178C37A8
-    uintptr_t UWorldXorKey = 0xFFFFFFFFD599D092ULL; // updated: 0x7B40E797ULL -> 0xFFFFFFFFD599D092ULL
+    uintptr_t UWorld = 0x178685D8; // updated: 0x178C37A8 -> 0x178685D8
+    uintptr_t UWorldXorKey = 0xFFFFFFFF30B9BBF9; // updated: 0xFFFFFFFFD599D092ULL -> 0xFFFFFFFF30B9BBF9
     uintptr_t UWorldXorRotationCount = 0; // (simple exponent : no ror8 this update)
     uintptr_t GNames = 0x1777E080; // updated: 0x17A50D00 -> 0x1777E080
-    uintptr_t GEngine = 0x178C50A8; // updated: 0x17B97B28 -> 0x178C50A8
+    uintptr_t GEngine = 0x17869ED8; // updated: 0x178C50A8 -> 0x17869ED8
     uintptr_t GObjects = 0x1785AFB0; // updated: 0x17B2DC58 -> 0x1785AFB0
     uintptr_t GObjectsCount = 0x1785AFB8; // updated: 0x17560ED4 -> 0x1785AFB8
     uintptr_t GObjectsXorKey = 0xFFFFFFFFCCF54342ULL;

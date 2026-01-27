@@ -1,10 +1,10 @@
 {
   "offsets": {
-    "UWorld": "0x178C37A8",
-    "UWorldXorKey": "0xFFFFFFFFD599D092",
+    "UWorld": "0x178685D8",
+    "UWorldXorKey": "0xFFFFFFFF30B9BBF9",
     "UWorldXorRotationCount": "0",
     "GNames": "0x1777E080",
-    "GEngine": "0x178C50A8",
+    "GEngine": "0x17869ED8",
     "GObjects": "0x1785AFB0",
     "GObjectsCount": "0x1785AFB8",
     "GObjectsXorKey": "0xFFFFFFFFCCF54342",
