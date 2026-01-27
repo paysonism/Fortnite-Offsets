@@ -80,8 +80,8 @@ namespace offsets {
     uintptr_t LocationUnderReticle = 0x2A50;
 
     // ===== Camera =====
-    uintptr_t CameraLocation = 0x180; // updated: 0x178 -> 0x180
-    uintptr_t CameraRotation = 0x190; // updated: 0x188 -> 0x190
+    uintptr_t CameraLocation = 0x170; // updated: 0x180 -> 0x170
+    uintptr_t CameraRotation = 0x180; // updated: 0x190 -> 0x180
     uintptr_t CameraFOV = 0x3B4;
 
     // ===== Vehicles =====
