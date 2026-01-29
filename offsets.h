@@ -18,12 +18,12 @@ namespace offsets {
     uintptr_t GObjectsXorKey = 0xFFFFFFFFCCF54342ULL;
     uintptr_t GObjectsCountXorKey = 0x75DB1A01;
     uintptr_t StaticFindObject = 0x73AC13; // updated: 0x71B76C -> 0x73AC13
-    uintptr_t StaticLoadObject = 0x960153;
+    uintptr_t StaticLoadObject = 0x960153; // updated: 0x96DC19 -> 0x960153
 
     uintptr_t ProcessEvent = 0x86FAA; // updated: 0x63B7E -> 0x86FAA
     uintptr_t ProcessEventIndex = 71;
-    uintptr_t DrawTransition = 0x513D88;
-    uintptr_t BoneMatrix = 0x55B004;
+    uintptr_t DrawTransition = 0x513D88; // updated: 0x5243F6 -> 0x513D88
+    uintptr_t BoneMatrix = 0x55B004; // updated: 0x56464C -> 0x55B004
 
     // ===== Player / Controller =====
     uintptr_t LocalPlayers = 0x38;
@@ -55,14 +55,13 @@ namespace offsets {
     uintptr_t WorldToMeters = 0x320;
 
     uintptr_t PersistentLevel = 0x40;
-    uintptr_t Levels = 0x1E0;
+    uintptr_t Levels = 0x1E8; // updated: 0x1E0 -> 0x1E8
 
     // ===== Actor / Pawn =====
     uintptr_t AActor = 0x208;
     uintptr_t RootComponent = 0x1B0;
     uintptr_t PawnPrivate = 0x328;
     uintptr_t MoveIgnoreActors = 0x348;
-    uintptr_t SuperField = 0x40;
 
     // ===== Mesh / Components =====
     uintptr_t Mesh = 0x330;
@@ -85,24 +84,24 @@ namespace offsets {
     uintptr_t CameraFOV = 0x3B4;
 
     // ===== Vehicles =====
-    uintptr_t CurrentVehicle = 0x2C58;
+    uintptr_t CurrentVehicle = 0x2C68; // updated: 0x2C58 -> 0x2C68
 
     // ===== Weapons =====
     uintptr_t CurrentWeapon = 0x990;
     uintptr_t WeaponData = 0x5A0; // updated: 0x600 -> 0x5A0
     uintptr_t WeaponOffsetCorrection = 0x2C00;
     uintptr_t AmmoCount = 0x14FC; // updated: 0x147C -> 0x14FC
-    uintptr_t bIsReloadingWeapon = 0x3D1;
-    uintptr_t ReloadAnimation = 0x1608;
-    uintptr_t LWProjectile_ActivateRemovedTimestamp = 0x2968;
+    uintptr_t bIsReloadingWeapon = 0x3D1; // updated: 0x3D1 -> 0x3A1
+    uintptr_t ReloadAnimation = 0x19C8; // updated: 0x1608 -> 0x19C8
+    uintptr_t LWProjectile_ActivateRemovedTimestamp = 0x29F8; // updated: 0x2968 -> 0x29F8
 
     uintptr_t ProjectileSpeed = 0x24AC; // updated: 0x29DC -> 0x24AC
     uintptr_t ProjectileGravity = 0x24B0; // updated: 0x29E0 -> 0x24B0
-    uintptr_t MaxTargetingAimAdjustPerSecond = 0x23D0;
+    uintptr_t MaxTargetingAimAdjustPerSecond = 0x2418; // updated: 0x23D0 -> 0x2418
     uintptr_t ServerWorldTimeSecondsDelta = 0x2E8;
 
-    uintptr_t LastFireTimeVerified = 0x142C; // added
-    uintptr_t WeaponCoreAnimation = 0x1A58; // added
+    uintptr_t LastFireTimeVerified = 0x1430; // updated: 0x142C -> 0x1430
+    uintptr_t WeaponCoreAnimation = 0x1A58;
 
     // ===== Items / Loot =====
     uintptr_t PrimaryPickupItemEntry = 0x3A8;

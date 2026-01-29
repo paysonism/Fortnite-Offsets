@@ -11,12 +11,10 @@
     "GObjectsCountXorKey": "0x75DB1A01",
     "StaticFindObject": "0x73AC13",
     "StaticLoadObject": "0x960153",
-
     "ProcessEvent": "0x86FAA",
     "ProcessEventIndex": "71",
     "DrawTransition": "0x513D88",
     "BoneMatrix": "0x55B004",
-
     "LocalPlayers": "0x38",
     "PlayerController": "0x30",
     "PlayerCameraManager": "0x360",
@@ -27,7 +25,6 @@
     "bIsDying": "0x728",
     "bIsDBNO": "0x841",
     "bIsABot": "0x2BA",
-
     "Platform": "0x440",
     "TargetedFortPawn": "0x1830",
     "KillScore": "0x11C8",
@@ -36,28 +33,22 @@
     "PlayerNamePrivate": "0x348",
     "RankedProgress": "0xD8",
     "PlayerAimOffset": "0x2BD0",
-
     "OwningGameInstance": "0x248",
     "GameState": "0x1D0",
     "PlayerArray": "0x2C8",
     "WorldSettings": "0x2B8",
     "WorldGravityZ": "0x330",
     "WorldToMeters": "0x320",
-
     "PersistentLevel": "0x40",
-    "Levels": "0x1E0",
-
+    "Levels": "0x1E8",
     "AActor": "0x208",
     "RootComponent": "0x1B0",
     "PawnPrivate": "0x328",
     "MoveIgnoreActors": "0x348",
-    "SuperField": "0x40",
-
     "Mesh": "0x330",
     "BoneArray": "0x5F0",
     "BoneCache": "0x600",
     "MeshDeformerInstances": "0x5C0",
-
     "ComponentToWorld": "0x1E0",
     "RelativeLocation": "0x140",
     "RelativeRotation": "0x158",
@@ -66,36 +57,29 @@
     "AdditionalAimOffset": "0x2BA0",
     "LastRenderTime": "0x328",
     "LocationUnderReticle": "0x2A50",
-
     "CameraLocation": "0x170",
     "CameraRotation": "0x180",
     "CameraFOV": "0x3B4",
-
-    "CurrentVehicle": "0x2C58",
-
+    "CurrentVehicle": "0x2C68",
     "CurrentWeapon": "0x990",
     "WeaponData": "0x5A0",
     "WeaponOffsetCorrection": "0x2C00",
     "AmmoCount": "0x14FC",
     "bIsReloadingWeapon": "0x3D1",
-    "ReloadAnimation": "0x1608",
-    "LWProjectile_ActivateRemovedTimestamp": "0x2968",
-
+    "ReloadAnimation": "0x19C8",
+    "LWProjectile_ActivateRemovedTimestamp": "0x29F8",
     "ProjectileSpeed": "0x24AC",
     "ProjectileGravity": "0x24B0",
-    "MaxTargetingAimAdjustPerSecond": "0x23D0",
+    "MaxTargetingAimAdjustPerSecond": "0x2418",
     "ServerWorldTimeSecondsDelta": "0x2E8",
-
-    "LastFireTimeVerified": "0x142C",
+    "LastFireTimeVerified": "0x1430",
     "WeaponCoreAnimation": "0x1A58",
-
     "PrimaryPickupItemEntry": "0x3A8",
     "ItemName": "0xB0",
     "ItemType": "0xA8",
     "PrimaryAssetOverride": "0xA9",
     "ItemRarity": "0xAA",
     "bAlreadySearched": "0xD52",
-
     "HabaneroComponent": "0x948"
   }
 }
