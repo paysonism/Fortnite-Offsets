@@ -15,10 +15,11 @@ void InvalidateBoneCache() {
 }
 
 inline auto GetBoneLocation(uintptr_t skeletal_mesh, int bone_index) -> Vector3 {
-	uintptr_t bone_array = kernel->read_t<uintptr_t>(skeletal_mesh + offsets::BoneArray);
+	int32_t active_transforms_count = kernel->read_t<int32_t>(skeletal_mesh + 0x5f0 + 0x48);
+	uintptr_t bone_array = kernel->read_t<uintptr_t>(skeletal_mesh + 0x5f0 + active_transforms_count * 0x10);
 
-	if (bone_array == NULL)
-		bone_array = kernel->read_t<uintptr_t>(skeletal_mesh + offsets::BoneArray + 0x10);
+	if (!bone_array)
+		return Vector3(0, 0, 0);
 
 	FTransform bone = kernel->read_t<FTransform>(bone_array + (bone_index * 0x60));
 
@@ -39,7 +40,6 @@ inline auto GetBoneLocation(uintptr_t skeletal_mesh, int bone_index) -> Vector3 
 
 	return Vector3(matrix._41, matrix._42, matrix._43);
 }
-
 
 inline Vector3 GetBoneLocationCached(uintptr_t mesh, int boneIndex) {
     if (!mesh) return {};

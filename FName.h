@@ -10,10 +10,11 @@ int32_t DecryptIndex(int32_t Index)
     uint32_t Value = (Index - 1) ^ IndexXorKey;
     Value = (Value << 18) | (Value >> 14);
     
-    if (Value == 0xFFFFFFFF)
-        return 0;
+    int32_t Result = 0x5C0B8A4D;
+    if (Value)
+        Result = Value;
     
-    return Value + 1;
+    return Result + 1;
 }
 
 std::string GetNameFromFName(int32_t Index)
@@ -22,7 +23,7 @@ std::string GetNameFromFName(int32_t Index)
     constexpr uint32_t ChunkOffset = 2;
     constexpr uint32_t RedirectMarker = 112u;
     constexpr uint32_t LengthXorKey = 0x70;
-    constexpr uint32_t MaxNameLength = 255;
+    constexpr uint32_t MaxNameLength = 1024;
     
     int32_t DecryptedIndex = DecryptIndex(Index);
     int32_t Retries = 0;
@@ -45,6 +46,9 @@ std::string GetNameFromFName(int32_t Index)
         const uint64_t EntryAddress = ChunkPointer + 2ull * NameEntryIndex;
         const uint16_t Header = Read<uint16_t>(EntryAddress);
         
+        if (static_cast<int16_t>(Header) < 0)
+            return "";
+        
         const uint16_t RawLength = Header & 0x3FF;
         
         if (RawLength == RedirectMarker)
@@ -64,23 +68,17 @@ std::string GetNameFromFName(int32_t Index)
         Driver::ReadPhysicalMemory(EntryAddress + 2, Buffer.data(), Length);
         
         // Decrypt buffer
-        std::vector<uint8_t> TempBuffer(Length);
-        for (uint16_t i = 0; i < Length; i++)
-        {
-            TempBuffer[i] = Buffer[i];
-        }
-        
+        std::string Result(Length, '\0');
         uint8_t Key = (uint8_t)(-31 * Length - 120);
         uint16_t BaseOffset = (uint16_t)(24319 - 6431 * Length);
         
         for (uint16_t i = 0; i < Length; i++)
         {
             uint32_t ReadIdx = (BaseOffset + i) % Length;
-            uint8_t Source = TempBuffer[ReadIdx];
-            uint8_t Xored = Source ^ Key;
-            Buffer[i] = (Xored << 5) | (Xored >> 3);
+            uint8_t Xored = Buffer[ReadIdx] ^ Key;
+            Result[i] = (Xored << 5) | (Xored >> 3);
         }
         
-        return std::string(Buffer.begin(), Buffer.end());
+        return Result;
     }
 }

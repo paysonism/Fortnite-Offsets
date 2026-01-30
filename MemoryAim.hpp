@@ -2,7 +2,7 @@
 
 bool MemoryMove(Vector3 NewPos)
 {
-    kernel->write_t<Vector3>(cache::PlayerController + offsets::PlayerAim, NewPos);
+    kernel->write_t<Vector3>(cache::PlayerController + offsets::PlayerAimOffset, NewPos);
     return true;
 }
 

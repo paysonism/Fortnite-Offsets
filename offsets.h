@@ -15,8 +15,6 @@ namespace offsets {
     uintptr_t GEngine = 0x17869ED8; // updated: 0x178C50A8 -> 0x17869ED8
     uintptr_t GObjects = 0x1785AFB0; // updated: 0x17B2DC58 -> 0x1785AFB0
     uintptr_t GObjectsCount = 0x1785AFB8; // updated: 0x17560ED4 -> 0x1785AFB8
-    uintptr_t GObjectsXorKey = 0xFFFFFFFFCCF54342ULL;
-    uintptr_t GObjectsCountXorKey = 0x75DB1A01;
     uintptr_t StaticFindObject = 0x73AC13; // updated: 0x71B76C -> 0x73AC13
     uintptr_t StaticLoadObject = 0x960153; // updated: 0x96DC19 -> 0x960153
 
