@@ -11,17 +11,18 @@ namespace offsets {
     uintptr_t UWorld = 0x178685D8; // updated: 0x178C37A8 -> 0x178685D8
     uintptr_t UWorldXorKey = 0xFFFFFFFF30B9BBF9; // updated: 0xFFFFFFFFD599D092ULL -> 0xFFFFFFFF30B9BBF9
     uintptr_t UWorldXorRotationCount = 0; // (simple exponent : no ror8 this update)
-    uintptr_t GNames = 0x1777E080; // updated: 0x17A50D00 -> 0x1777E080
+    uintptr_t GNames = 0x17722E80; // updated: 0x1777E080 -> 0x17722E80
     uintptr_t GEngine = 0x17869ED8; // updated: 0x178C50A8 -> 0x17869ED8
-    uintptr_t GObjects = 0x1785AFB0; // updated: 0x17B2DC58 -> 0x1785AFB0
-    uintptr_t GObjectsCount = 0x1785AFB8; // updated: 0x17560ED4 -> 0x1785AFB8
-    uintptr_t StaticFindObject = 0x73AC13; // updated: 0x71B76C -> 0x73AC13
-    uintptr_t StaticLoadObject = 0x960153; // updated: 0x96DC19 -> 0x960153
+    uintptr_t GObjects = 0x177FFDB0; // updated: 0x1785AFB0 -> 0x177FFDB0
+    uintptr_t GObjectsCount = 0x177FFDC0; // updated: 0x1785AFB8 -> 0x177FFDC0
+    uintptr_t StaticFindObject = 0x73AC13; // updated: 0x73AC13 -> 0x72B449
+    uintptr_t StaticLoadObject = 0x960153; // updated: 0x960153 -> 0x96DC19
 
-    uintptr_t ProcessEvent = 0x86FAA; // updated: 0x63B7E -> 0x86FAA
-    uintptr_t ProcessEventIndex = 71;
-    uintptr_t DrawTransition = 0x513D88; // updated: 0x5243F6 -> 0x513D88
-    uintptr_t BoneMatrix = 0x55B004; // updated: 0x56464C -> 0x55B004
+    uintptr_t ProcessEvent = 0x84B9A; // updated: 0x86FAA -> 0x84B9A
+    uintptr_t ProcessEventIndex = 0x178; // updated: 71 -> 0x178
+    uintptr_t DrawTransition = 0x5243F6; // updated: 0x513D88 -> 0x5243F6
+    uintptr_t DrawTransitionIndex = 111;
+    uintptr_t BoneMatrix = 0x56464C; // updated: 0x55B004 -> 0x56464C
 
     // ===== Player / Controller =====
     uintptr_t LocalPlayers = 0x38;
